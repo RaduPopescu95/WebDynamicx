@@ -79,6 +79,13 @@
       }
     }
   }
+  &:hover {
+    h4 {
+      &.title {
+        color: #ffffff;
+      }
+    }
+  }
   &:hover,
   &.active {
     &::before {

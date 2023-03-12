@@ -12,6 +12,7 @@ import {
   FiSmartphone,
   FiEdit,
   FiSettings,
+  FiTool,
 } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import Header from "../component/header/Header";
@@ -53,6 +54,12 @@ const ServiceList = [
     title: "Înregistrare domeniu și găzduire site",
     description:
       "Pentru ca un site sa apara online este necesar un nume de domeniu asociat site-ului si gazduirea acestuia pe un server. Numele site-ului si serverul pe care este gazduit trebuie alese cu grija, de aceea noi va oferim pe langa serviciul de creare site, consultanta in alegerea numelui si serviciile de inregistrare domeniu si gazduire site.",
+  },
+  {
+    icon: <FiTool />,
+    title: "Administrare și mentenanță aplicații web și mobile",
+    description:
+      "Datorită evoluției online-ului, discutăm despre strategii de asigurare a calității pe termen lung a aplicațiilor și nu despre o chestiune 'one time'. WebDynamicx vă asigură permanent buna funcționare a website-ului sau a aplicației mobile și totodată fructifică capacitatea aplicației de a produce profit pentru afacerea ta prin folosirea uneltelor potrivite.",
   },
 ];
 class Service extends Component {

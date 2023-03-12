@@ -9,6 +9,7 @@ import {
   FiSmartphone,
   FiEdit,
   FiSettings,
+  FiTool,
 } from "react-icons/fi";
 
 const ServiceList = [
@@ -48,6 +49,12 @@ const ServiceList = [
     description:
       "Pentru ca un site sa apara online este necesar un nume de domeniu asociat site-ului si gazduirea acestuia pe un server. Numele site-ului si serverul pe care este gazduit trebuie alese cu grija, de aceea noi va oferim pe langa serviciul de creare site, consultanta in alegerea numelui si serviciile de inregistrare domeniu si gazduire site.",
   },
+  {
+    icon: <FiTool />,
+    title: "Administrare și mentenanță aplicații web și mobile",
+    description:
+      "Datorită evoluției online-ului, discutăm despre strategii de asigurare a calității pe termen lung a aplicațiilor și nu despre o chestiune 'one time'. WebDynamicx vă asigură permanent buna funcționare a website-ului sau a aplicației mobile și totodată fructifică capacitatea aplicației de a produce profit pentru afacerea ta prin folosirea uneltelor potrivite.",
+  },
 ];
 
 class ServiceTwo extends Component {
@@ -69,7 +76,13 @@ class ServiceTwo extends Component {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-8 col-12 mt_md--50">
+          <div
+            className="col-lg-8 col-12 mt_md--50"
+            style={{
+              borderLeft: "1px solid #D3D3D3",
+              marginTop: 4,
+            }}
+          >
             <div className="row service-one-wrapper">
               {ServiceList.map((val, i) => (
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>

@@ -38,7 +38,9 @@ class MainDemo extends Component {
         {/* End About Area */}
 
         <div className="service-area ptb--80  bg_image bg_image--3">
-          <div className="container">{/* <ServiceTwo /> */}</div>
+          <div className="container">
+            <ServiceTwo />
+          </div>
         </div>
 
         {/* Start Portfolio Area */}

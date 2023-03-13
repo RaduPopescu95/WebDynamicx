@@ -7,7 +7,7 @@ class Header extends Component {
     super(props);
     this.menuTrigger = this.menuTrigger.bind(this);
     this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
-    //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
+    // this.subMetuTrigger = this.subMetuTrigger.bind(this);
     window.addEventListener("load", function () {
       console.log("All assets are loaded");
     });
@@ -21,7 +21,9 @@ class Header extends Component {
     document.querySelector(".header-wrapper").classList.remove("menu-open");
   }
 
-  render() {
+  menuListTrigger() {
+    // document.querySelector(".header-wrapper").classList.toggle("menu-open");
+
     var elements = document.querySelectorAll(".has-droupdown > a");
     for (var i in elements) {
       if (elements.hasOwnProperty(i)) {
@@ -33,6 +35,20 @@ class Header extends Component {
         };
       }
     }
+  }
+
+  render() {
+    // var elements = document.querySelectorAll(".has-droupdown > a");
+    // for (var i in elements) {
+    //   if (elements.hasOwnProperty(i)) {
+    //     elements[i].onclick = function () {
+    //       this.parentElement
+    //         .querySelector(".submenu")
+    //         .classList.toggle("active");
+    //       this.classList.toggle("open");
+    //     };
+    //   }
+    // }
     const { logo, color = "default-color", services } = this.props;
     let logoUrl;
 
@@ -67,7 +83,7 @@ class Header extends Component {
                 </li>
 
                 <li className="has-droupdown">
-                  <Link>Preturi</Link>
+                  <Link onClick={this.menuListTrigger}>Preturi</Link>
 
                   <ul className="submenu">
                     <li>

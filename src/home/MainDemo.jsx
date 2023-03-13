@@ -140,11 +140,11 @@ class MainDemo extends Component {
         {/* End Brand Area */}
 
         {/* Start Back To Top */}
-        <div className="backto-top">
-          <ScrollToTop showUnder={160}>
+        {/* <div className="backto-top">
+          <ScrollToTop showUnder={160} duration={1000}>
             <FiChevronUp />
           </ScrollToTop>
-        </div>
+        </div> */}
         {/* End Back To Top */}
 
         <Footer />

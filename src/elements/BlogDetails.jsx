@@ -212,11 +212,11 @@ class BlogDetails extends Component {
         {/* End Blog Details */}
 
         {/* Start Back To Top */}
-        <div className="backto-top">
+        {/* <div className="backto-top">
           <ScrollToTop showUnder={160}>
             <FiChevronUp />
           </ScrollToTop>
-        </div>
+        </div> */}
         {/* End Back To Top */}
 
         <Footer />

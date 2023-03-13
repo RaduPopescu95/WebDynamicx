@@ -31,7 +31,7 @@ function App() {
 
         {/* Element Layot */}
         <Route exact path="/service" element={<Service />} />
-        <Route exact path="/service-details" element={<ServiceDetails />} />
+        {/* <Route exact path="/service-details" element={<ServiceDetails />} /> */}
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/portfolio-details" element={<PortfolioDetails />} />

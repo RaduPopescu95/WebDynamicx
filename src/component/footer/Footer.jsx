@@ -8,9 +8,15 @@ import {
 import { Link } from "react-router-dom";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
+  {
+    Social: <FaFacebookF />,
+    link: "https://www.facebook.com/profile.php?id=100090988634219",
+  },
   // { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
+  {
+    Social: <FaInstagram />,
+    link: "https://www.instagram.com/webdynamicx/?next=%2F",
+  },
   // { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
 
@@ -51,9 +57,9 @@ class Footer extends Component {
                           <li>
                             <Link to="/about">Despre noi</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link to="/pricing-table">Preturi</Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link to="/contact">Contact</Link>
                           </li>

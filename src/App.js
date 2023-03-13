@@ -13,6 +13,11 @@ import PoliticaCookie from "./elements/PoliticaCookie";
 import PricingTable from "./blocks/PricingTable";
 import error404 from "./elements/error404";
 import CookieConsent, { Cookies } from "react-cookie-consent";
+import Error404 from "./elements/error404";
+import MagazinOnline from "./component/pricing/MagazinOnline";
+import WebsitePrezentare from "./component/pricing/WebsitePrezentare";
+import AplicatiiMobile from "./component/pricing/AplicatieMobila";
+import Mentenanta from "./component/pricing/Mentenanta";
 
 function App() {
   return (
@@ -40,9 +45,18 @@ function App() {
 
         {/* Blocks Elements  */}
         <Route exact path="/pricing-table" element={<PricingTable />} />
+        {/* Pricing Elements  */}
+        <Route exact path="/magazin-online" element={<MagazinOnline />} />
+        <Route
+          exact
+          path="/website-prezentare"
+          element={<WebsitePrezentare />}
+        />
+        <Route exact path="/aplicatie-mobila" element={<AplicatiiMobile />} />
+        <Route exact path="/mentenanta-administrare" element={<Mentenanta />} />
 
-        <Route path="/404" element={<error404 />} />
-        <Route element={<error404 />} />
+        <Route path="/404" element={<Error404 />} />
+        <Route path="/*" element={<Error404 />} />
         {/* </PageScrollTop> */}
       </Routes>
       <CookieConsent

@@ -4,7 +4,7 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/FooterTwo";
 
-class error404 extends Component {
+class Error404 extends Component {
   render() {
     return (
       <>
@@ -43,4 +43,4 @@ class error404 extends Component {
     );
   }
 }
-export default error404;
+export default Error404;

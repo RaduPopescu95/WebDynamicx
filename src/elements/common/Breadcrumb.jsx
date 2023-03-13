@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class Breadcrumb extends Component {
   render() {
-    const { title, parent } = this.props;
+    const { title, parent, direction } = this.props;
     return (
       <React.Fragment>
         <div
@@ -23,7 +23,9 @@ class Breadcrumb extends Component {
                   </h2> */}
                   <ul className="page-list">
                     <li className="breadcrumb-item">
-                      <Link to={`${process.env.PUBLIC_URL}`}>Home</Link>
+                      <p style={{ color: "white" }}>
+                        {direction ? direction : "Home"}
+                      </p>
                     </li>
                     {parent ? (
                       <li className="breadcrumb-item">{parent}</li>

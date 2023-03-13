@@ -55,12 +55,10 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
                 {/* exemplu droupdown */}
-                {/* <li className="has-droupdown">
-                  <Link to="/">Home</Link>
-                </li> */}
                 <li>
                   <Link to="/">Home</Link>
                 </li>
+
                 <li>
                   <Link to="/service">Servicii</Link>
                 </li>
@@ -68,8 +66,25 @@ class Header extends Component {
                   <Link to="/about">Despre noi</Link>
                 </li>
 
-                <li>
-                  <Link to="/pricing-table">Preturi</Link>
+                <li className="has-droupdown">
+                  <Link>Preturi</Link>
+
+                  <ul className="submenu">
+                    <li>
+                      <Link to="/website-prezentare">Website Prezentare</Link>
+                    </li>
+                    <li>
+                      <Link to="/magazin-online">Magazin Online</Link>
+                    </li>
+                    <li>
+                      <Link to="/aplicatie-mobila">Aplicație mobilă</Link>
+                    </li>
+                    <li>
+                      <Link to="/mentenanta-administrare">
+                        Mentenață și administrare
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>

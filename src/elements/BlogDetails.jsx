@@ -42,7 +42,7 @@ class BlogDetails extends Component {
               <div className="col-lg-12">
                 <div className="blog-single-page-title text-center pt--100">
                   <h2 className="title theme-gradient">
-                    Politică de <br /> confidențialitate
+                    Politica de <br /> confidentialitate
                   </h2>
                 </div>
               </div>
@@ -68,8 +68,8 @@ class BlogDetails extends Component {
                       telefon si mesajul transmis.
                     </p> */}
                     <p>
-                      Website-ul www.webdynamicx.ro colecteaza informații atunci
-                      când se completeza formularul de contact din cadrul
+                      Website-ul www.webappdynamicx.ro colecteaza informații
+                      atunci când se completeza formularul de contact din cadrul
                       sectiunii contact aferenta website-ulul nostru.
                       Informațiile colectate includ numele, adresa de e-mail,
                       numărul de telefon si mesajul transmis.
@@ -122,10 +122,10 @@ class BlogDetails extends Component {
                       fraudă, situațiile care implică potențiale amenințări la
                       siguranța fizică a oricărei persoane, încălcări ale
                       termenilor de utilizare, sau altfel cerute de lege.
-                      <br />
+                      {/* <br />
                       Informațiile non-private, cu toate acestea, pot fi
                       furnizate către alte părți pentru marketing, publicitate,
-                      sau în alte scopuri.
+                      sau în alte scopuri. */}
                     </p>
                     <h4>5. PROTEJAREA INFORMAȚIILOR</h4>
                     <p>

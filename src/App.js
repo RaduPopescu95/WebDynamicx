@@ -18,6 +18,7 @@ import MagazinOnline from "./component/pricing/MagazinOnline";
 import WebsitePrezentare from "./component/pricing/WebsitePrezentare";
 import AplicatiiMobile from "./component/pricing/AplicatieMobila";
 import Mentenanta from "./component/pricing/Mentenanta";
+import LogoDesign from "./component/pricing/LogoDesign";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         {/* <Route exact path="/service-details" element={<ServiceDetails />} /> */}
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/portfolio-details" element={<PortfolioDetails />} />
+        {/* <Route exact path="/portfolio-details" element={<PortfolioDetails />} /> */}
         {/* <Route
               exact
               path={`/politica`}
@@ -44,7 +45,7 @@ function App() {
         <Route exact path="/politicacookie" element={<PoliticaCookie />} />
 
         {/* Blocks Elements  */}
-        <Route exact path="/pricing-table" element={<PricingTable />} />
+        {/* <Route exact path="/pricing-table" element={<PricingTable />} /> */}
         {/* Pricing Elements  */}
         <Route exact path="/magazin-online" element={<MagazinOnline />} />
         <Route
@@ -54,6 +55,7 @@ function App() {
         />
         <Route exact path="/aplicatie-mobila" element={<AplicatiiMobile />} />
         <Route exact path="/mentenanta-administrare" element={<Mentenanta />} />
+        <Route exact path="/logo-design" element={<LogoDesign />} />
 
         <Route path="/404" element={<Error404 />} />
         <Route path="/*" element={<Error404 />} />

@@ -73,7 +73,7 @@ const AplicatiiMobile = () => {
                         <li>
                           <FiSmartphone /> Numarul de pagini: primele 3 sunt
                           incluse în preț, iar pentru fiecare pagina adaugata in
-                          plus se adauga la pretul total 15 euro
+                          plus se adauga la pretul total <b>15 euro</b>
                         </li>
                         <li>
                           <FiSmartphone /> Design personalizat – inclus in pret
@@ -156,10 +156,10 @@ const AplicatiiMobile = () => {
                         </li> */}
 
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit timp de 6 luni</b>
                         </li>
                         <li>
-                          Termen de realizare{" "}
+                          Termen de realizare
                           <b>In functie de functionalitatile selectate</b>
                         </li>
                       </ul>

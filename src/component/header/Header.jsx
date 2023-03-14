@@ -59,9 +59,12 @@ class Header extends Component {
     return (
       <header
         className={`header-area formobile-menu header--transparent ${color} ${services}`}
-        style={{}}
       >
-        <div className="header-wrapper" id="header-wrapper">
+        <div
+          className="header-wrapper"
+          id="header-wrapper"
+          style={{ marginTop: 20 }}
+        >
           <div className="header-left">
             <div style={{ width: "200px" }}>
               <a href="/">{logoUrl}</a>
@@ -90,14 +93,17 @@ class Header extends Component {
                       <Link to="/website-prezentare">Website Prezentare</Link>
                     </li>
                     <li>
+                      <Link to="/logo-design">Logo Design</Link>
+                    </li>
+                    <li>
                       <Link to="/magazin-online">Magazin Online</Link>
                     </li>
                     <li>
-                      <Link to="/aplicatie-mobila">Aplicație mobilă</Link>
+                      <Link to="/aplicatie-mobila">Aplicatie mobila</Link>
                     </li>
                     <li>
                       <Link to="/mentenanta-administrare">
-                        Mentenață și administrare
+                        Mentenata si administrare
                       </Link>
                     </li>
                   </ul>
@@ -106,7 +112,7 @@ class Header extends Component {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/politica">Politică confidențialitate</Link>
+                  <Link to="/politica">Politica confidentialitate</Link>
                 </li>
               </ul>
             </nav>

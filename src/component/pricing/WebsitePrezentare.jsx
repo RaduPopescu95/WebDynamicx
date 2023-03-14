@@ -82,7 +82,7 @@ const WebsitePrezentare = () => {
                           <FiCheck /> Optimizare SEO on-page
                         </li>
                         <li>
-                          <FiCheck /> Creare logo <b> 1 varianta</b>
+                          <FiCheck /> Creare logo <b> OPTIONAL</b>
                         </li>
                         <li>
                           <FiCheck /> Indexare in google.ro
@@ -122,7 +122,7 @@ const WebsitePrezentare = () => {
                           Fereastra Pop-up
                         </li>
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit pana la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>5 - 7 zile</b>
@@ -172,7 +172,7 @@ const WebsitePrezentare = () => {
                           <FiCheck /> Optimizare SEO on-page
                         </li>
                         <li>
-                          <FiCheck /> Creare logo <b> 2 variante</b>
+                          <FiCheck /> Creare logo <b> OPTIONAL</b>
                         </li>
                         <li>
                           <FiCheck /> Indexare in google.ro
@@ -212,7 +212,7 @@ const WebsitePrezentare = () => {
                           Fereastra Pop-up
                         </li>
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit pana la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>7 - 14 zile</b>
@@ -261,7 +261,7 @@ const WebsitePrezentare = () => {
                           <FiCheck /> Optimizare SEO on-page
                         </li>
                         <li>
-                          <FiCheck /> Creare logo <b> 3 variante</b>
+                          <FiCheck /> Creare logo <b> OPTIONAL</b>
                         </li>
                         <li>
                           <FiCheck /> Indexare in google.ro
@@ -301,7 +301,7 @@ const WebsitePrezentare = () => {
                           Fereastra Pop-up
                         </li>
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit pana la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>14 - 30 zile</b>

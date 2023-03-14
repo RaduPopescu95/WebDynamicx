@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     let title = "Ai nevoie de un website pentru afacerea ta?",
       description =
-        "Realizăm website-uri și aplicații mobile unice cu o identitate vizuală performantă în mediul online. WebDynamicx este o agenție care vă oferă servicii complete de: creare site de prezentare, creare magazin online, aplicații mobile crossplatform iOS / Android, analiză și optimizare SEO, dar și găzduire website.";
+        "Realizam website-uri si aplicatii mobile unice cu o identitate vizuală performanta în mediul online. Web App Dynamicx este o agenție care va ofera servicii complete de: creare site de prezentare, creare magazin online, aplicatii mobile crossplatform iOS / Android, analiza si optimizare SEO, dar si gazduire website.";
     return (
       <React.Fragment>
         <div className="about-wrapper">
@@ -30,32 +30,32 @@ class About extends Component {
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">
-                          Creare website prezentare și magazine online
+                          Creare website prezentare si magazine online
                         </h3>
                         <p>
-                          Succesul afacerii tale stă într-un website bine pus la
-                          punct, personalizat în functie de nevoile domeniului
-                          de activitate, bazat pe cele mai noi tehnologii și
-                          optimizat pentru a oferi o experiență unică.
-                          Serviciile noastre sunt gândite pentru a te ajuta să
-                          ai un raport preț calitate excelent.
+                          Succesul afacerii tale sta intr-un website bine pus la
+                          punct, personalizat in functie de nevoile domeniului
+                          de activitate, bazat pe cele mai noi tehnologii si
+                          optimizat pentru a oferi o experienta unica.
+                          Serviciile noastre sunt gandite pentru a te ajuta sa
+                          ai un raport pret calitate excelent.
                         </p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">
-                          Creaza-ti propria aplicatie mobilea in doar cateva
+                          Îti cream propria aplicatie mobila în doar cateva
                           zile!
                         </h3>
                         <p>
-                          Vă oferim posibilitatea de a crea aplicații mobile
-                          pentru telefoanele Android si Iphone! O aplicație
-                          mobilă în combinație cu adaptarea site-ului la
-                          versiunea mobilă este o strategie de afaceri
-                          profitabilă. Noi vă creăm o aplicație care să vă ajute
-                          sa vă creșteți traficul și să fiți mult mai aproape de
-                          clienții dumneavoastră.
+                          Va oferim posibilitatea de a crea aplicatii mobile
+                          pentru telefoanele Android si Iphone! O aplicatie
+                          mobila in combinatie cu adaptarea site-ului la
+                          versiunea mobila este o strategie de afaceri
+                          profitabila. Noi va cream o aplicatie care sa va ajute
+                          sa va cresteti traficul si sa fiti mult mai aproape de
+                          clientii dumneavoastra.
                         </p>
                       </div>
                     </div>

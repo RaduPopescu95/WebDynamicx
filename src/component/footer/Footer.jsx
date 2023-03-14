@@ -30,9 +30,9 @@ class Footer extends Component {
               <div className="col-lg-6">
                 <div className="footer-left">
                   <div className="inner">
-                    <span>Ai o întrebare sau dorești o oferta?</span>
+                    <span>Ai o întrebare sau doresti o oferta?</span>
                     <h2>
-                      Contactează-ne <br /> Azi!
+                      Contacteaza-ne <br /> Azi!
                     </h2>
                     <a className="rn-button-style--2" href="/contact">
                       <span>Contact</span>

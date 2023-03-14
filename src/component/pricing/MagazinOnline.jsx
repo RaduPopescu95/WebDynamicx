@@ -87,9 +87,7 @@ const MagazinOnline = () => {
                         <li>
                           <FiCheck /> Optimizare SEO on-page
                         </li>
-                        <li>
-                          <FiCheck /> Creare logo <b> 1 variantă</b>
-                        </li>
+
                         <li>
                           <FiCheck /> Indexare in google.ro
                         </li>
@@ -120,6 +118,9 @@ const MagazinOnline = () => {
                           Blog <b>OPTIONAL</b>
                         </li>
                         <li>
+                          <FiCheck /> Creare logo <b>OPTIONAL</b>
+                        </li>
+                        <li>
                           <FiCheck />
                           Plata online cu card <b>OPTIONAL</b>
                         </li>
@@ -140,10 +141,10 @@ const MagazinOnline = () => {
                           Sistem live chat
                         </li>
 
-                        <li>
+                        {/* <li>
                           <FiLock />
                           Modul facturare PDF
-                        </li>
+                        </li> */}
 
                         <li>
                           <FiLock />
@@ -151,7 +152,7 @@ const MagazinOnline = () => {
                         </li>
 
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit până la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>10 - 14 zile</b>
@@ -208,9 +209,7 @@ const MagazinOnline = () => {
                         <li>
                           <FiCheck /> Optimizare SEO on-page
                         </li>
-                        <li>
-                          <FiCheck /> Creare logo <b> 2 variante</b>
-                        </li>
+
                         <li>
                           <FiCheck /> Indexare in google.ro
                         </li>
@@ -241,6 +240,9 @@ const MagazinOnline = () => {
                           Blog <b>OPTIONAL</b>
                         </li>
                         <li>
+                          <FiCheck /> Creare logo <b>OPTIONAL</b>
+                        </li>
+                        <li>
                           <FiCheck />
                           Plata online cu card <b>OPTIONAL</b>
                         </li>
@@ -260,11 +262,11 @@ const MagazinOnline = () => {
                           <FiLock />
                           Sistem live chat
                         </li>
-
+                        {/* 
                         <li>
                           <FiLock />
                           Modul facturare PDF
-                        </li>
+                        </li> */}
 
                         <li>
                           <FiLock />
@@ -272,7 +274,7 @@ const MagazinOnline = () => {
                         </li>
 
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit până la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>14 - 21 zile</b>
@@ -326,9 +328,7 @@ const MagazinOnline = () => {
                         <li>
                           <FiCheck /> Optimizare SEO on-page
                         </li>
-                        <li>
-                          <FiCheck /> Creare logo <b> 3 variante</b>
-                        </li>
+
                         <li>
                           <FiCheck /> Indexare in google.ro
                         </li>
@@ -359,6 +359,9 @@ const MagazinOnline = () => {
                           Blog <b>OPTIONAL</b>
                         </li>
                         <li>
+                          <FiCheck /> Creare logo <b>OPTIONAL</b>
+                        </li>
+                        <li>
                           <FiCheck />
                           Plata online cu card <b>OPTIONAL</b>
                         </li>
@@ -379,10 +382,10 @@ const MagazinOnline = () => {
                           Sistem live chat
                         </li>
 
-                        <li>
+                        {/* <li>
                           <FiCheck />
                           Modul facturare PDF
-                        </li>
+                        </li> */}
 
                         <li>
                           <FiCheck />
@@ -390,7 +393,7 @@ const MagazinOnline = () => {
                         </li>
 
                         <li>
-                          Asistenta tehnică <b>PERMANENT</b>
+                          Asistenta tehnică <b>gratuit până la 6 luni</b>
                         </li>
                         <li>
                           Termen de realizare <b>14 - 31 zile</b>

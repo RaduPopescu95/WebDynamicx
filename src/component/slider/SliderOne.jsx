@@ -25,7 +25,7 @@ class SliderOne extends Component {
                     className="title theme-gradient"
                     style={{ marginTop: 60 }}
                   >
-                    Dezvoltări Aplicații Web și Mobile
+                    Dezvoltari Aplicatii Web si Mobile
                   </h1>
                 </div>
               </div>

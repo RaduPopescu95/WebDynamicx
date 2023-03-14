@@ -23,25 +23,25 @@ const ServiceList = [
     icon: <FiMonitor />,
     title: "Site de prezentare",
     description:
-      "Adaugă valoare afacerii tale cu un website de prezentare impecabil și atrage noi clienți prin design-ul atractiv.",
+      "Adauga valoare afacerii tale cu un website de prezentare impecabil si atrage noi clienti prin design-ul atractiv.",
   },
   {
     icon: <FiShoppingCart />,
     title: "Magazin online",
     description:
-      "Magazinul tău în mediul online prin care poți comercializa ușor produse printr-o interfață ușor de utilizat.",
+      "Magazinul tau în mediul online prin care poti comercializa usor produse printr-o interfata adaptata tuturor dispozitivelor si usor de utilizat.",
   },
   {
     icon: <FiTrendingUp />,
     title: "Optimizare SEO",
     description:
-      "Oferim servicii care au ca scop creșterea vizibilității și a traficului organic al unui site în motoarele de căutare, precum Google, Yahoo sau Bing.",
+      "Oferim servicii care au ca scop cresterea vizibilitătii si a traficului organic al unui site în motoarele de cautare, precum Google, Yahoo sau Bing.",
   },
   {
     icon: <FiSmartphone />,
     title: "Dezvoltare aplicații mobile",
     description:
-      "Dezvoltarea unei aplicatii mobile reprezinta o investitie de viitor care va imbunatati in mod evident afacerea ta. Aici la WebDynamicx dezvoltăm aplicații mobile pentru Android & IOS adaptate perfect Afacerii tale.",
+      "Dezvoltarea unei aplicatii mobile reprezinta o investitie de viitor care va imbunatati in mod evident afacerea ta. Aici la Web App Dynamicx dezvoltam aplicatii mobile pentru Android & IOS adaptate perfect afacerii tale.",
   },
   {
     icon: <FiEdit />,
@@ -51,15 +51,15 @@ const ServiceList = [
   },
   {
     icon: <FiSettings />,
-    title: "Înregistrare domeniu și găzduire site",
+    title: "Înregistrare domeniu si gazduire site",
     description:
       "Pentru ca un site sa apara online este necesar un nume de domeniu asociat site-ului si gazduirea acestuia pe un server. Numele site-ului si serverul pe care este gazduit trebuie alese cu grija, de aceea noi va oferim pe langa serviciul de creare site, consultanta in alegerea numelui si serviciile de inregistrare domeniu si gazduire site.",
   },
   {
     icon: <FiTool />,
-    title: "Administrare și mentenanță aplicații web și mobile",
+    title: "Administrare si mentenanță aplicatii web si mobile",
     description:
-      "Datorită evoluției online-ului, discutăm despre strategii de asigurare a calității pe termen lung a aplicațiilor și nu despre o chestiune 'one time'. WebDynamicx vă asigură permanent buna funcționare a website-ului sau a aplicației mobile și totodată fructifică capacitatea aplicației de a produce profit pentru afacerea ta prin folosirea uneltelor potrivite.",
+      "Datorita evolutiei online-ului, discutam despre strategii de asigurare a calității pe termen lung a aplicatiilor si nu despre o chestiune 'one time'. Web App Dynamicx va asigura permanent buna functionare a website-ului sau a aplicației mobile si totodata fructifica capacitatea aplicatiei de a produce profit pentru afacerea ta prin folosirea uneltelor potrivite.",
   },
 ];
 class Service extends Component {
@@ -86,11 +86,11 @@ class Service extends Component {
                 <div className="section-title text-center mb--30">
                   <h2>Despre noi</h2>
                   <p>
-                    Relația cu fiecare client este foarte importantă pentru noi
-                    și continuă mult timp după ce proiectul a luat sfărșit și a
-                    intrat în funcțiune. <br />
-                    Ne ocupăm de multe lucruri din spatele scenei, astfel încât
-                    să nu mai fie nevoie să o faci personal.
+                    Relatia cu fiecare client este foarte importanta pentru noi
+                    și continua mult timp dupa ce proiectul a luat sfarsit si a
+                    intrat in funcțiune. <br />
+                    Ne ocupam de multe lucruri din spatele scenei, astfel încat
+                    sa nu mai fie nevoie sa o faci personal.
                   </p>
                 </div>
               </div>

@@ -10,7 +10,7 @@ import {
 } from "react-icons/fi";
 import Link from "next/link";
 // import PageHelmet from "../common/Helmet";
-import Header from "../components/header/Header";
+import Header from "../components/header/header";
 import Breadcrumb from "../components/Breadcrumb";
 import Footer from "../components/footer/Footer";
 

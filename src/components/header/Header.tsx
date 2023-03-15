@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import Link from "next/link";
+import Link, { LinkProps } from "next/link";
+import { HTMLProps, FC } from "react";
 import { FiX, FiMenu } from "react-icons/fi";
+import LinkButton from "./LinkButton";
 
 class Header extends Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
     this.menuTrigger = this.menuTrigger.bind(this);
     this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
@@ -86,8 +88,10 @@ class Header extends Component {
                 </li>
 
                 <li className="has-droupdown">
-                  <Link href="" onClick={this.menuListTrigger}>
-                    Preturi
+                  <Link legacyBehavior href="">
+                    <a href="" onClick={this.menuListTrigger}>
+                      Preturi
+                    </a>
                   </Link>
 
                   <ul className="submenu">

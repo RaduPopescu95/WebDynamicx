@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
 import Link from "next/link";
 // import PageHelmet from "../common/Helmet";
-
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../components/header/Header";

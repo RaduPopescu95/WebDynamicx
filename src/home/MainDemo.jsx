@@ -13,12 +13,21 @@ import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
+import PageHelmet from "../component/common/Helmet";
 
 class MainDemo extends Component {
   render() {
     const PostList = BlogContent.slice(0, 3);
     return (
       <Fragment>
+        <PageHelmet
+          pageTitle="WebAppDynamicx - Dezvoltare Website, Aplicatii Mobile, Magazin Online, SEO, logo design, sigla"
+          descriere="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+          facebookType="website"
+          facebookTitle="WebAppDynamicx - Dezvoltare Website, Aplicatii Mobile, Magazin
+          Online, SEO, logo design, sigla"
+          facebookDescription="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+        />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"

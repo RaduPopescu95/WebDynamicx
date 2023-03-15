@@ -15,7 +15,7 @@ const ServiceList = [
   },
   {
     icon: "03",
-    title: "Aplicatii Cross Platform",
+    title: "Aplicatii Mobile Cross Platform",
     description:
       "Avand experienta cu tehnologii cross platform, aici la Web App Dynamicx echipa noastra de programatori de aplicatii mobile va dezvolta pentru afacerea ta o aplicatie mobila sigura, scalabila si sustenabila, atat pentru Android cat si pentru IOS.",
   },
@@ -36,7 +36,9 @@ class ServiceOne extends Component {
                   />
                 </div> */}
                 <div className="content">
-                  <h4 className="title">{val.title}</h4>
+                  <h1 className="title" style={{ color: "white" }}>
+                    {val.title}
+                  </h1>
                   <p>{val.description}</p>
                 </div>
               </div>

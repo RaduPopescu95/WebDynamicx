@@ -23,9 +23,9 @@ class SliderOne extends Component {
                   {/* <h1 className="title theme-gradient">Agentie Web design și dezvoltre aplicații mobile <br /> Servicii complete de development in Romania </h1> */}
                   <h1
                     className="title theme-gradient"
-                    style={{ marginTop: 60 }}
+                    style={{ marginTop: 50 }}
                   >
-                    Dezvoltari Aplicatii Web si Mobile
+                    Dezvoltare Aplicatii Web si Mobile
                   </h1>
                 </div>
               </div>

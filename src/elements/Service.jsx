@@ -66,7 +66,7 @@ class Service extends Component {
   render() {
     return (
       <React.Fragment>
-        {/* <PageHelmet pageTitle="Service" /> */}
+        <PageHelmet pageTitle="Servicii" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"

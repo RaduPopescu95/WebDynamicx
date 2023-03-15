@@ -78,7 +78,7 @@ class Footer extends Component {
                             </a>
                           </li>
                           <li>
-                            <a href="tel:+40787813831">0787813831</a>
+                            <a href="tel:+40774592098">0774 592 098</a>
                           </li>
                         </ul>
 
@@ -98,7 +98,7 @@ class Footer extends Component {
                     <div className="col-lg-12">
                       <div className="copyright-text">
                         <p>
-                          Copyright © 2023 WebDynamicx. Toate drepturile
+                          Copyright © 2023 WebAppDynamicx. Toate drepturile
                           rezervate.
                         </p>
                       </div>

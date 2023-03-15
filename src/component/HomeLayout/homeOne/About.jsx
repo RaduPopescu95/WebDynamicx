@@ -15,7 +15,7 @@ class About extends Component {
                   <img
                     className="w-100"
                     src="/assets/images/about/about-1.jpeg"
-                    alt="About Images"
+                    alt="Aplicatii mobile, website, site, magazin online, logo design, SEO"
                   />
                 </div>
               </div>

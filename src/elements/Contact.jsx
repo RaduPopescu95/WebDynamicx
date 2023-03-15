@@ -42,7 +42,9 @@ class Contact extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Contact WebDynamicx</h2>
+                  <h2 className="title theme-gradient">
+                    Contact WebAppDynamicx
+                  </h2>
                   <p>
                     Dacă vrei sa afli mai multe despre viitorul tău site de
                     prezentare, magazin online sau aplicație mobilă,
@@ -68,7 +70,7 @@ class Contact extends Component {
                   <div className="inner">
                     <h4 className="title">Număr de telefon</h4>
                     <p>
-                      <a href="tel:+04787813831">+04787813831</a>
+                      <a href="tel:+40774592098">0774 592 098</a>
                     </p>
                   </div>
                 </div>
@@ -101,7 +103,7 @@ class Contact extends Component {
                   </div>
                   <div className="inner">
                     <h4 className="title">Locație</h4>
-                    <p>Str. Soroca, Nr.1A, Târgoviște, Dâmbovița</p>
+                    <p>Str. Cernauti, Târgoviște, Dâmbovița</p>
                   </div>
                 </div>
               </div>

@@ -24,6 +24,11 @@ const WebsitePrezentare = () => {
           name="description"
           content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
         />
+        <meta
+          name="keywords"
+          content="Creare website prezentare, site prezentare, optimizare SEO, mentenanta site, administrare site, gazduire"
+        ></meta>
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="www.webappdynamicx.ro" />

@@ -37,6 +37,10 @@ class About extends Component {
             property="og:description"
             content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
           />
+          <meta
+            name="keywords"
+            content="Creare site, creare magazine online, creare aplicatie mobila, Android, IOS, optimizare SEO, mentenanta site, administrare site, gazduire"
+          ></meta>
           <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

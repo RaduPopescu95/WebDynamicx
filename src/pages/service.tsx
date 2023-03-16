@@ -75,6 +75,11 @@ class Service extends Component {
             name="description"
             content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
           />
+          <meta
+            name="keywords"
+            content="Creare website, creare magazine online, creare aplicatii mobile Android, aplicatii mobile  IOS, optimizare SEO, mentenanta site, administrare site, gazduire, creare logo"
+          ></meta>
+
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {/* <meta property="og:type" content="website" />
           <meta property="og:url" content="www.webappdynamicx.ro" />

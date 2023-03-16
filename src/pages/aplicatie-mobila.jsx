@@ -37,6 +37,11 @@ const AplicatiiMobile = () => {
           property="og:description"
           content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
         />
+        <meta
+          name="keywords"
+          content="creare aplicatie mobila, Android, IOS, optimizare ASO"
+        ></meta>
+
         <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,0 +1,9 @@
+//robots.txt
+
+
+User-agent: *
+Disallow: /politica-confidentialitate
+Disallow: /politica-cookie
+
+
+Sitemap: https://www.webappdynamicx.ro/sitemap.xml

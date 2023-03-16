@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
             marginLeft: 10,
             textDecoration: "underline",
           }}
-          href="/politicacookie"
+          href="/politica-cookie"
         >
           Politica de Cookie``
         </Link>
@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
             marginLeft: 10,
             textDecoration: "underline",
           }}
-          href="/politica"
+          href="/politica-confidentialitate"
         >
           Politica de confidențialitate
         </Link>

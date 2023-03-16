@@ -20,10 +20,10 @@ const AplicatiiMobile = () => {
     <>
       {/* <PageHelmet pageTitle="Pricing Table" /> */}
       <Head>
-        <title>WebAppDynamicx - aplicatii mobile</title>
+        <title>WebAppDynamicx - Aplicatii mobile ANDROID / IOS</title>
         <meta
-          name="Descriere"
-          content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobil ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+          name="description"
+          content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
@@ -84,7 +84,7 @@ const AplicatiiMobile = () => {
                     <div className="pricing-header">
                       <div className="pricing">
                         <span className="price" style={{ fontSize: "50px" }}>
-                          de la 400 €
+                          de la 300 €
                         </span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
@@ -92,7 +92,7 @@ const AplicatiiMobile = () => {
                     <div className="pricing-body">
                       <ul className="list-style--1">
                         <li>
-                          <FiSmartphone /> Numarul de pagini: primele 3 sunt
+                          <FiSmartphone /> Numarul de pagini: primele 5 sunt
                           incluse în preț, iar pentru fiecare pagina adaugata in
                           plus se adauga la pretul total <b>15 euro</b>
                         </li>
@@ -112,23 +112,23 @@ const AplicatiiMobile = () => {
                         </li>
                         <li>
                           <FiSmartphone /> Formular de contact -
-                          <b>OPTIONAL (+ 100 euro)</b>
+                          <b>OPTIONAL (+ 50 euro)</b>
                         </li>
                         <li>
                           <FiSmartphone /> Google Analytics -
-                          <b>OPTIONAL (+ 100 euro)</b>
+                          <b>OPTIONAL (+ 50 euro)</b>
                         </li>
                         <li>
-                          <FiSmartphone /> INTEGRARE SOCIAL MEDIA –
-                          <b>OPTIONAL (+ 150 euro)</b>
+                          <FiSmartphone /> INTEGRARE AUTENTIFICARE SOCIAL MEDIA
+                          –<b>OPTIONAL (+ 100 euro)</b>
                         </li>
                         <li>
                           <FiSmartphone />  Integrare baza de date -{" "}
-                          <b>OPTIONAL (+ 200 euro)</b>
+                          <b>OPTIONAL (+ 150 euro)</b>
                         </li>
                         <li>
                           <FiSmartphone /> Automatizare Email-uri -
-                          <b>OPTIONAL (+50 euro)</b>
+                          <b>OPTIONAL (+25 euro)</b>
                         </li>
 
                         <ul
@@ -141,29 +141,29 @@ const AplicatiiMobile = () => {
                           <FiSmartphone style={{ marginRight: 5 }} />
                           Integrare functionalitati <b>eCommerce</b>:
                           <li>
-                            <FiArrowRight /> Plata online cu card <b>25 euro</b>
+                            <FiArrowRight /> Plata online cu card <b>20 euro</b>
                           </li>
                           <li>
-                            <FiArrowRight /> Filtre produse <b>25 euro</b>
+                            <FiArrowRight /> Filtre produse <b>20 euro</b>
                           </li>
                           <li>
-                            <FiArrowRight /> Sistem discount <b>25 euro</b>
+                            <FiArrowRight /> Sistem discount <b>15 euro</b>
                           </li>
                         </ul>
 
                         <li>
                           <FiSmartphone />
                           Generare de documente ( CSV, Word, PDF, Excel, etc.) –
-                          <b> OPTIONAL (+ 150 euro)</b>
+                          <b> OPTIONAL (+ 100 euro)</b>
                         </li>
                         <li>
                           <FiSmartphone />
-                          Chat Intern – <b> OPTIONAL (300 euro) </b>
+                          Chat Intern – <b> OPTIONAL (150 euro) </b>
                         </li>
                         <li>
                           <FiSmartphone />
-                          Autentificare utilizator –{" "}
-                          <b> OPTIONAL (100 euro) </b>
+                          Autentificare utilizator pe baza de Email sau numar de
+                          telefon – <b> OPTIONAL (50 euro) </b>
                         </li>
                         {/* <li>
                           <FiSmartphone />

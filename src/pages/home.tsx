@@ -23,12 +23,11 @@ class Home extends Component {
       <>
         <Head>
           <title>
-            WebAppDynamicx - servicii dezvoltare website de prezentare, magazin
-            online, aplicatii mobile
+            WebAppDynamicx - Website, Aplicatii mobile, magazin online
           </title>
           <meta
-            name="Descriere"
-            content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobil ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+            name="description"
+            content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:type" content="website" />

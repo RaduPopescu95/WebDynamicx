@@ -20,10 +20,10 @@ const MagazinOnline = () => {
     <>
       {/* <PageHelmet pageTitle="Pricing Table" /> */}
       <Head>
-        <title>WebAppDynamicx - magazin online</title>
+        <title>WebAppDynamicx - magazin online, ecommerce</title>
         <meta
-          name="Descriere"
-          content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobil ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+          name="description"
+          content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
@@ -84,7 +84,7 @@ const MagazinOnline = () => {
                         Perfect pentru business-uri mici
                       </h5>
                       <div className="pricing">
-                        <span className="price">270 €</span>
+                        <span className="price">200 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>
@@ -205,7 +205,7 @@ const MagazinOnline = () => {
                         Perfect pentru business-uri mari
                       </h5>
                       <div className="pricing">
-                        <span className="price">420 €</span>
+                        <span className="price">300 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>
@@ -325,7 +325,7 @@ const MagazinOnline = () => {
                         Perfect pentru business-uri mari
                       </h5>
                       <div className="pricing">
-                        <span className="price">690 €</span>
+                        <span className="price">500 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>

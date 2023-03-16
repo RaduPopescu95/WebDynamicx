@@ -21,8 +21,8 @@ const WebsitePrezentare = () => {
       <Head>
         <title>WebAppDynamicx - website prezentare</title>
         <meta
-          name="Descriere"
-          content="Web App Dynamicx ofera servicii de dezvoltare site, realizare website de prezentare, magazin online, aplicatii mobil ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
+          name="description"
+          content="Servicii creare dezvoltare website de prezentare, magazin online, aplicatii mobile ANDROID / IOS, creare logo / sigla vectoriala, optimizare SEO."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
@@ -83,7 +83,7 @@ const WebsitePrezentare = () => {
                         Perfect pentru business-uri mici
                       </h5>
                       <div className="pricing">
-                        <span className="price">190 €</span>
+                        <span className="price">100 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>
@@ -173,7 +173,7 @@ const WebsitePrezentare = () => {
                         Perfect pentru business-uri mari
                       </h5>
                       <div className="pricing">
-                        <span className="price">390 €</span>
+                        <span className="price">150 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>
@@ -262,7 +262,7 @@ const WebsitePrezentare = () => {
                         Perfect pentru business-uri mari
                       </h5>
                       <div className="pricing">
-                        <span className="price">690 €</span>
+                        <span className="price">200 €</span>
                         {/* <span className="subtitle">USD Per Month</span> */}
                       </div>
                     </div>

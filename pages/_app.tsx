@@ -1,5 +1,5 @@
 import "./globals.css";
-import "../../src/index.scss";
+import "../index.scss";
 import CookieConsent, { Cookies } from "react-cookie-consent";
 import Link from "next/link";
 import type { AppProps } from "next/app";

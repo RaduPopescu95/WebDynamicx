@@ -96,7 +96,7 @@ const MainMenu = () => {
             <a
               // className="nav-link dropdown-toggle"
               className={
-                servicii.some((elm) => isActive(elm.link))
+                preturi.some((elm) => isActive(elm.link))
                   ? "nav-link dropdown-toggle active-menu"
                   : "nav-link dropdown-toggle"
               }

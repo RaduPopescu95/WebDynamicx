@@ -12,9 +12,9 @@ const CallToActions = () => {
               <div className="row align-items-end">
                 <div className="col-lg-6">
                   <div className="title-style-two">
-                    <div className="sc-title fw-500 ">Subscirbe Now</div>
+                    <div className="sc-title fw-500 ">Ramai la curent cu ofertele noastre!</div>
                     <h4 className="main-title fw-bold tx-dark">
-                      New user? Start your free trial now.
+                      Înscrie-te acum!
                     </h4>
                   </div>{" "}
                   {/* /.title-style-two */}
@@ -27,21 +27,21 @@ const CallToActions = () => {
                       <input
                         type="email"
                         required
-                        placeholder="Email address"
+                        placeholder="Adresa e-mail"
                       />
                       <button
                         type="submit"
                         className="tran3s position-absolute"
                       >
-                        Subscribe
+                        Continua
                       </button>
                     </form>
-                    <p className="m0 pt-10">
+                    {/* <p className="m0 pt-10">
                       Already a member?{" "}
                       <Link href="/login" className="tx-dark">
                         Sign in.
                       </Link>
-                    </p>
+                    </p> */}
                   </div>
                   {/* /.subscribe-form */}
                 </div>

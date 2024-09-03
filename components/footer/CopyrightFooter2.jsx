@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const links = [
   {
-    title: "Privacy & Terms.",
+    title: "Politica confidentialitate",
     href: "/faq",
   },
   {
-    title: "Contact Us",
+    title: "Contact",
     href: "/contact",
   },
 ];
@@ -72,9 +72,8 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+                Web App Dynamicx
               </a>
-              inc.
             </p>
           </div>
         </div>

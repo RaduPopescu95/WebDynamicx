@@ -5,37 +5,39 @@ const blocksData = [
   {
     id: 1,
     iconSrc: "/images/icon/icon_152.svg",
-    title: "Quality Service",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    title: "Servicii de Calitate",
+    content: "Oferim servicii de cea mai înaltă calitate, adaptate nevoilor tale specifice, pentru a asigura succesul proiectelor tale.",
     dataAos: "fade-up",
     dataAosDelay: "",
   },
   {
     id: 2,
     iconSrc: "/images/icon/icon_153.svg",
-    title: "24x7 Support",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    title: "Suport 24x7",
+    content: "Echipa noastră este disponibilă non-stop pentru a-ți oferi suport tehnic și consultanță, indiferent de ora sau zi.",
     dataAos: "fade-up",
     dataAosDelay: "100",
   },
   {
     id: 3,
     iconSrc: "/images/icon/icon_154.svg",
-    title: "Great Pricing",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    title: "Prețuri Avantajoase",
+    content: "Îți oferim soluții de dezvoltare la prețuri competitive, fără a compromite calitatea sau performanța.",
     dataAos: "fade-up",
     dataAosDelay: "200",
   },
   {
     id: 4,
     iconSrc: "/images/icon/icon_155.svg",
-    title: "100% Trusted",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    title: "100% De Încredere",
+    content: "Construim parteneriate de lungă durată, bazate pe încredere și transparență, asigurându-ne că fiecare client este pe deplin mulțumit.",
     dataAos: "fade-up",
     dataAosDelay: "300",
   },
-  // Add more blocks as needed
+  // Adăugați mai multe blocuri după cum este necesar
 ];
+
+
 
 const Block = () => {
   return (

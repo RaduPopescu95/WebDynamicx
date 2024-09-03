@@ -4,23 +4,23 @@ import Social from "./Social";
 const Footer = () => {
   const footerLinks = [
     {
-      title: "Links",
+      title: "Companie",
       links: [
-        { label: "Home", href: "/" },
-        { label: "Pricing", href: "/pages-menu/pricing" },
-        { label: "About us", href: "/pages-menu/about-us-v1" },
-        { label: "Service", href: "/pages-menu/service-v1" },
-        { label: "Blog", href: "/blog/blog-v1" },
+        { label: "Acasa", href: "/" },
+        { label: "Preturi", href: "/pages-menu/pricing" },
+        { label: "Despre noi", href: "/pages-menu/about-us-v1" },
+        { label: "Servicii", href: "/pages-menu/service-v1" },
+        { label: "Contact", href: "/blog/blog-v1" },
       ],
       classes: "col-lg-2 col-sm-4 ms-auto mb-30",
     },
     {
-      title: "Help & Support",
+      title: "Legalitate",
       links: [
-        { label: "FAQ", href: "/pages-menu/faq" },
-        { label: "Blog", href: "/blog/blog-v1" },
-        { label: "Contact Us", href: "/contact" },
-        { label: "Support", href: "/contact" },
+        { label: "Politica confidentialitate", href: "/pages-menu/faq" },
+        // { label: "Blog", url: "/blog/blog-v1" },
+        // { label: "Contact Us", url: "/contact" },
+        // { label: "Support", url: "/contact" },
       ],
       classes: "col-lg-3 col-sm-4 mb-30",
     },
@@ -31,7 +31,8 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_01.png" alt="" width={95} />
+            <img src="/images/logo/logo_01.png" alt=""       width={125}
+                      height={70} />
           </Link>
         </div>
         <img
@@ -57,19 +58,19 @@ const Footer = () => {
       {/* End menu data */}
 
       <div className="col-xl-3 col-sm-4 mb-30">
-        <h5 className="footer-title tx-dark fw-500">Our Address</h5>
+        {/* <h5 className="footer-title tx-dark fw-500">Our Address</h5>
         <p className="fs-17">
           2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
-        </p>
-        <a href="mailto:januinc@company.com" className="email tran3s fs-17">
-          januinc@company.com
+        </p> */}
+        <a href="mailto:webdynamicx@gmail.com" className="email tran3s fs-17">
+          webdynamicx@gmail.com
         </a>
         <br />
-        <a href="tel:+7576994478" className="mobile tran3s fs-20 mt-20 mb-30">
-          +757 699-4478
+        <a href="tel:0774 550 758" className="mobile tran3s fs-20 mt-20 mb-30">
+        0774 550 758
         </a>
 
-        <Social />
+        {/* <Social /> */}
       </div>
     </div>
   );

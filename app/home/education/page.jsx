@@ -192,7 +192,7 @@ const education = () => {
             <div className="col-lg-6 col-md-7 col-sm-10 m-auto">
               <div className="title-style-one text-center mb-40 lg-mb-20">
                 <h2 className="main-title fw-500 tx-dark m0">
-                  What’s our client Say About us.
+                Ce spun clientii noastri despre noi
                 </h2>
               </div>
             </div>

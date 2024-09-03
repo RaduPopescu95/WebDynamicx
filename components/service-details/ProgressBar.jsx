@@ -12,7 +12,7 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Success Ratio",
+    title: "Aplicatii mobile",
     description: "We’re best for our success work ratio.",
     value: 86,
   },

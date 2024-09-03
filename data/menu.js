@@ -95,19 +95,22 @@ export const pagesItems = [
 // ];
 
 export const servicii = [
-  { name: "Aplicatii mobile", link: "/portfolio/portfolio-v1" },
-  { name: "Creare site web", link: "/portfolio/portfolio-v2" },
-  { name: "Logo design", link: "/portfolio/portfolio-v3" },
-  { name: "Magazin online", link: "/portfolio/portfolio-v4" },
-  { name: "Domeniu si gazduire", link: "/portfolio/portfolio-v5" },
+  {
+    name: "Aplicatii mobile",
+    link: "/servicii/dezvoltare-aplicatii-mobile",
+  },
+  { name: "Creare site web", link: "/servicii/dezvoltare-site-web" },
+  { name: "Logo design", link: "/servicii/logo-design" },
+  { name: "Magazin online", link: "/servicii/creare-magazin-online" },
+  { name: "Domeniu si gazduire", link: "/servicii/domeniu-gazduire" },
 ];
 
 export const preturi = [
-  { name: "Aplicatii mobile", link: "/portfolio/portfolio-v1" },
+  { name: "Aplicatii Android/IOS", link: "/costuri-aplicatie-mobila" },
   { name: "Creare site web", link: "/portfolio/portfolio-v2" },
-  { name: "Logo design", link: "/portfolio/portfolio-v3" },
-  { name: "Magazin online", link: "/portfolio/portfolio-v4" },
-  { name: "Domeniu si gazduire", link: "/portfolio/portfolio-v5" },
+  // { name: "Logo design", link: "/portfolio/portfolio-v3" },
+  // { name: "Magazin online", link: "/portfolio/portfolio-v4" },
+  // { name: "Domeniu si gazduire", link: "/portfolio/portfolio-v5" },
 ];
 
 export const blogItems = [

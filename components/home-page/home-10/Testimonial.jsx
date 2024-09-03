@@ -10,33 +10,41 @@ const Testimonial = () => {
       imgSrc: "/images/media/img_02.png",
       backgroundColor: "#825EFF",
       rating: "Very solid, 8.3 out 10",
-      text: "We’v 9,000 agents across are country, Find agents near your neighborhood.",
-      author: "Martin Jonas",
-      country: "USA",
+      text: "Aplicatia mea de tarot si horoscop a fost un succes datorita acestei agentii. Au inteles perfect viziunea mea.",
+      author: "Cristina Zurba",
+      country: "Romania",
     },
     {
       imgSrc: "/images/media/img_03.png",
       backgroundColor: "#08CE97",
       rating: "Very solid, 7.2 out 10",
-      text: "We’v 9,000 agents across are country, Find agents near your neighborhood.",
-      author: "Martin Jonas",
-      country: "USA",
+      text: "Colaborarea cu aceasta agentie a fost excelenta. Echipa lor a depasit toate asteptarile.",
+      author: "Andrei Popescu",
+      country: "Romania",
     },
     {
       imgSrc: "/images/media/img_02.png",
       backgroundColor: "#FF8A3A",
       rating: "Very solid, 9.1 out 10",
-      text: "We’v 9,000 agents across are country, Find agents near your neighborhood.",
-      author: "Martin Jonas",
-      country: "USA",
+      text: "Sunt foarte multumit de site-ul creat pentru afacerea mea. Profesionisti rapizi si de incredere.",
+      author: "Ioana Ionescu",
+      country: "Romania",
     },
     {
       imgSrc: "/images/media/img_03.png",
       backgroundColor: "#08CE97",
       rating: "Very solid, 10 out 10",
-      text: "We’v 9,000 agents across are country, Find agents near your neighborhood.",
-      author: "Martin Jonas",
-      country: "USA",
+      text: "Aplicatia dezvoltata a imbunatatit mult experienta clientilor nostri. Recomand cu incredere!",
+      author: "Mihai Georgescu",
+      country: "Romania",
+    },
+    {
+      imgSrc: "/images/media/img_03.png",
+      backgroundColor: "#08CE97",
+      rating: "Very solid, 10 out 10",
+      text: "Serviciile de gazduire sunt de top. De cand am mutat site-ul la ei, nu am avut probleme.",
+      author: "Ana Tudor",
+      country: "Romania",
     },
   ];
 
@@ -102,7 +110,7 @@ const Testimonial = () => {
             {data.map((item, index) => (
               <div className="item" key={index}>
                 <div className="feedback-block-one pt-45 align-items-end d-sm-flex">
-                  <div className="img-meta position-relative">
+                  {/* <div className="img-meta position-relative">
                     <Image
                       width={297}
                       height={397}
@@ -110,7 +118,7 @@ const Testimonial = () => {
                       alt="img"
                       className="m-auto"
                     />
-                  </div>
+                  </div> */}
                   <div className="text-wrapper">
                     <div
                       className="icon d-flex align-items-center justify-content-center rounded-circle mb-15"
@@ -123,9 +131,9 @@ const Testimonial = () => {
                         alt="img"
                       />
                     </div>
-                    <div className="rating h3 fw-bold tx-dark">
+                    {/* <div className="rating h3 fw-bold tx-dark">
                       {item.rating}
-                    </div>
+                    </div> */}
                     <p className="text-lg pt-35 pb-20">{item.text}</p>
                     <h6>
                       {item.author},{" "}

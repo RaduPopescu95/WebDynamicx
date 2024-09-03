@@ -61,7 +61,7 @@ const DesignAgency = () => {
             <div className="col-xl-7 col-md-6 col-sm-8 m-auto">
               <div className="title-style-five text-center mb-80 lg-mb-60">
                 <h2 className="main-title font-recoleta fw-500 tx-dark">
-                  What’s our client Say About us.
+                  Ce spun clientii noastri despre noi
                 </h2>
               </div>
             </div>

@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 const data = [
   {
-    count: 0.35,
+    count: 300,
     label: "Job done successfully",
     unit: "k",
     delay: "100",

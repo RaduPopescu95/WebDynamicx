@@ -32,11 +32,12 @@ const AboutUsV3 = () => {
         >
           <div className="container">
             <div className="title-style-five">
-              <h2 className="main-title tx-dark fw-bold">About us</h2>
+              <h2 className="main-title tx-dark fw-bold">Despre Noi</h2>
             </div>
             <p className="fs-20 mt-30 lg-mt-20">
-              Agency work with top rated talented people provide qulaity
-              services.
+            Suntem Web App Dynamicx, o agenție digitală full service compusă
+                din oameni cu idei creative, strategi orientați spre rezultate,
+                pregătiți să îți crească afacerea.
             </p>
           </div>
           {/* End container */}
@@ -57,11 +58,11 @@ const AboutUsV3 = () => {
           </div>
         </div>{" "}
         {/* /.container */}
-        <div className="container">
+        {/* <div className="container">
           <div className="row justify-content-center pt-60 md-pt-40">
             <Counter2 />
           </div>
-        </div>
+        </div> */}
       </div>
       {/* /.fancy-feature-two */}
 
@@ -76,15 +77,15 @@ const AboutUsV3 = () => {
             <div className="row">
               <div className="col-lg-4" data-aos="fade-right">
                 <div className="title-style-one mt-30">
-                  <div className="sc-title text-uppercase">Why us?</div>
+                  <div className="sc-title text-uppercase">De ce noi?</div>
                   <h2 className="main-title fw-bold tx-dark">
-                    Why <span>choose</span> Jano.
+                    De ce sa <span>alegi</span> Web App Dynamicx.
                   </h2>
                 </div>{" "}
                 {/* /.title-style-one */}
                 <p className="text-lg mt-40 lg-mt-20">
-                  We helping our client to fullfill their needs with our expert.
-                </p>
+    Noi ajutăm clienții noștri să își îndeplinească nevoile cu ajutorul expertizei noastre.
+  </p>
                 <Image
                   width={73}
                   height={75}
@@ -140,7 +141,7 @@ const AboutUsV3 = () => {
         Team Section Four
         =====================================================
         */}
-      <div className="team-section-four mt-150 lg-mt-90">
+      {/* <div className="team-section-four mt-150 lg-mt-90">
         <div className="container">
           <div className="row align-items-end">
             <div className="col-xxl-6 col-md-7" data-aos="fade-right">
@@ -150,7 +151,7 @@ const AboutUsV3 = () => {
                   We’ve talented expert to help you
                 </h2>
               </div>{" "}
-              {/* /.title-style-one */}
+          
             </div>
             <div
               className="col-xxl-6 col-md-5 text-center text-md-end"
@@ -161,17 +162,17 @@ const AboutUsV3 = () => {
               </a>
             </div>
           </div>{" "}
-          {/* /.row */}
+  
           <div className="wrapper border-bottom pt-80 lg-pt-50">
             <div className="row gx-xxl-5">
               <Team5 />
             </div>
-            {/* /.row */}
+       
           </div>
         </div>
-        {/* /.container */}
-      </div>
-      {/* /.team-section-four */}
+       
+      </div> */}
+      
 
       {/*
         =====================================================
@@ -207,7 +208,7 @@ const AboutUsV3 = () => {
             <div className="col-xl-8 col-lg-10 m-auto text-center">
               <div className="title-style-one" data-aos="fade-up">
                 <h2 className="main-title fw-bold tx-dark m0">
-                  Gata să începi planul? E nevoie doar de <span>un click</span>
+                  Gata să începi proiectul? E nevoie doar de <span>un click</span>
                 </h2>
               </div>{" "}
               {/* /.title-style-one */}
@@ -224,7 +225,7 @@ const AboutUsV3 = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Purchase Now
+                Începe acum
               </a>
             </div>
           </div>
@@ -290,7 +291,7 @@ const AboutUsV3 = () => {
                   rel="noopener noreferrer"
                   href="https://themeforest.net/user/ib-themes"
                 >
-                  ib-themes
+                  Web App Dynamicx
                 </a>
               </p>
             </div>

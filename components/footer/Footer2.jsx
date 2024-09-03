@@ -1,32 +1,24 @@
 const columns = [
   {
-    title: "Links",
+    title: "Companie",
     links: [
-      { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
-      { label: "Blog", url: "/" },
+      { label: "Acasa", url: "/" },
+      { label: "Preturi", url: "/pages-menu/pricing" },
+      { label: "Despre noi", url: "/pages-menu/about-us-v1" },
+      { label: "Servicii", url: "/pages-menu/service-v1" },
+      { label: "Contact", url: "/blog/blog-v1" },
     ],
+    className: "col-lg-2 col-md-3 col-sm-6 mb-30",
   },
   {
-    title: "Support",
+    title: "Legalitate",
     links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
+      { label: "Politica confidentialitate", url: "/pages-menu/faq" },
+      // { label: "Blog", url: "/blog/blog-v1" },
+      // { label: "Contact Us", url: "/contact" },
+      // { label: "Support", url: "/contact" },
     ],
-  },
-  {
-    title: "Products",
-    links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
-    ],
+    className: "col-lg-2 col-md-3 col-sm-6 mb-30",
   },
 ];
 

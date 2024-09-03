@@ -4,23 +4,25 @@ import React from "react";
 const AboutCeo = () => {
   const aboutData = {
     title: {
-      subtitle: "About us",
+      subtitle: "Despre noi",
       mainTitle: (
         <>
-          We’ve been helping <span>customer</span> globally.
+          Am sprijinit <span>afaceri</span> la nivel global.
         </>
       ),
     },
     content: {
-      sectionTitle: "Who we are?",
+      sectionTitle: "Cine suntem?",
       description:
-        "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook. As operations scaled, they grew frustrated by how difficult it was.",
+        "Echipa noastră a fost fondată de dezvoltatori web pasionați, cu o viziune de a revoluționa modul în care sunt create experiențele digitale. De-a lungul anilor, am colaborat cu clienți din întreaga lume, transformând ideile lor în aplicații web scalabile și robuste.",
     },
     rating: {
-      text: "Avg 4.8 rating makes us world best agency.",
+      text: "Ratingul nostru mediu de 4.8 reflectă angajamentul nostru față de excelență.",
       starsCount: 5,
     },
   };
+  
+  
 
   const starIcons = Array.from(
     { length: aboutData.rating.starsCount },
@@ -47,10 +49,10 @@ const AboutCeo = () => {
             {aboutData.content.sectionTitle}
           </h4>
           <p className="fs-20">{aboutData.content.description}</p>
-          <p className="fs-18 mb-10 pt-30 lg-pt-20">
+          {/* <p className="fs-18 mb-10 pt-30 lg-pt-20">
             <span className="fw-500 tx-dark">{aboutData.rating.text}</span>
           </p>
-          <ul className="d-flex style-none rating">{starIcons}</ul>
+          <ul className="d-flex style-none rating">{starIcons}</ul> */}
         </div>
         {/* /.block-style-one */}
       </div>
@@ -103,7 +105,7 @@ const AboutCeo = () => {
             alt="shape"
             className="lazy-img shapes shape-seven"
           />
-          <div className="card-one" data-aos="fade-up" data-aos-delay="250">
+          {/* <div className="card-one" data-aos="fade-up" data-aos-delay="250">
             <div className="icon d-flex align-items-center justify-content-center rounded-circle">
               <Image
                 width={24}
@@ -119,7 +121,7 @@ const AboutCeo = () => {
             <p className="fs-18 m0">
               We aim to answer any quis query in a minute
             </p>
-          </div>{" "}
+          </div>{" "} */}
           {/* /.card-one */}
         </div>{" "}
         {/* /.img-meta */}

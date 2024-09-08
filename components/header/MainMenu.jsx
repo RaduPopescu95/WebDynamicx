@@ -75,11 +75,11 @@ const MainMenu = () => {
               className={
                 pagesItems.some((menu) =>
                   menu.subItems.some((elm) => isActive(elm.link))
-                ) || isActive("/pages-menu/about-us-v3")
+                ) || isActive("/despre-noi")
                   ? "nav-link active-menu"
                   : "nav-link"
               }
-              href="/pages-menu/about-us-v3"
+              href="/despre-noi"
             >
               Despre noi
             </Link>
@@ -192,7 +192,7 @@ const MainMenu = () => {
                   ? "nav-link active-menu"
                   : "nav-link"
               }
-              href="/contact/contact-v1"
+              href="/contact"
               role="button"
               // data-bs-toggle="dropdown"
               // data-bs-auto-close="outside"
@@ -222,10 +222,7 @@ const MainMenu = () => {
         {/* Mobile Content */}
         <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
-            <Link
-              href="/contact/contact-v1"
-              className="btn-twentyOne fw-500 tran3s"
-            >
+            <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
               Contact us
             </Link>
           </div>

@@ -91,7 +91,7 @@ const PricingV2 = () => {
             <div className="inner-wrapper text-center m-auto">
               <h6 className="mb-5">Need Custome Plan?</h6>
               <h3 className="fw-normal mb-30">Send us message for Help.</h3>
-              <Link href="/contact/contact-v1" className="btn-six fw-500">
+              <Link href="/contact" className="btn-six fw-500">
                 Contact us
               </Link>
             </div>
@@ -126,10 +126,7 @@ const PricingV2 = () => {
               <p className="text-lg mb-45">
                 Don’t find your answer here? just send us a message for help
               </p>
-              <Link
-                href="/contact/contact-v1"
-                className="tran3s fs-17 fw-500 btn-three"
-              >
+              <Link href="/contact" className="tran3s fs-17 fw-500 btn-three">
                 Contact us
               </Link>
             </div>

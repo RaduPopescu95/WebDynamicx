@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Footer2 from "./Footer2";
-import NewsLetter from "./NewsLetter";
 import CopyrightFooter2 from "./CopyrightFooter2";
+import dynamic from "next/dynamic";
+const NewsLetter = dynamic(() => import("./NewsLetter"), { ssr: false });
 
 const DefaultFooter = () => {
   return (
@@ -20,14 +21,14 @@ const DefaultFooter = () => {
 
             <Footer2 />
 
-            <div className="col-xl-4 col-lg-5 mb-30 form-widget">
+            {/* <div className="col-xl-4 col-lg-5 mb-30 form-widget">
               <h5 className="footer-title tx-dark fw-normal">Newsletter</h5>
               <h6 className="pt-15 pb-20 md-pt-10">Afla cele mai noi oferte</h6>
               <NewsLetter />
               <div className="fs-14 mt-10">
                 Trimitem numai oferte atente selectionate pentru tine!
               </div>
-            </div>
+            </div> */}
             {/* End .col-xl-4 */}
           </div>
           {/* End .row */}

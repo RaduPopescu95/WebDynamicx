@@ -33,7 +33,7 @@ const Hero = () => {
       >
         {/* <p className="m0 pt-10 fw-500 tx-dark fs-15"> */}
         <Link
-          href="/contact/contact-v1"
+          href="/contact"
           className="text-decoration-underline cta-button-main-page tran3s fw-500"
         >
           {content.btnText}

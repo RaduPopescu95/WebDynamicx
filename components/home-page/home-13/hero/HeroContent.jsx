@@ -17,7 +17,7 @@ const HeroContent = () => {
       </p>
       <div className="d-lg-flex align-items-center">
         <Link
-          href="/contact/contact-v1"
+          href="/contact"
           className="demo-btn fw-500 tran3s d-inline-flex align-items-center mb-25 me-4"
         >
           <span>Request a demo</span>

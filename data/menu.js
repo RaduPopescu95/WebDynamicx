@@ -32,7 +32,7 @@ export const menuItems = [
 export const pagesItems = [
   {
     title: "Despre noi",
-    subItems: [{ title: "About - Agency", link: "/pages-menu/about-us-v3" }],
+    subItems: [{ title: "About - Agency", link: "/despre-noi" }],
   },
   {
     title: "Servicii",
@@ -107,7 +107,7 @@ export const servicii = [
 
 export const preturi = [
   { name: "Aplicatii Android/IOS", link: "/costuri-aplicatie-mobila" },
-  { name: "Creare site web", link: "/portfolio/portfolio-v2" },
+  { name: "Creare site web", link: "/costuri-site-web" },
   // { name: "Logo design", link: "/portfolio/portfolio-v3" },
   // { name: "Magazin online", link: "/portfolio/portfolio-v4" },
   // { name: "Domeniu si gazduire", link: "/portfolio/portfolio-v5" },

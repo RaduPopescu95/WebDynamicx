@@ -3,7 +3,7 @@ import Link from "next/link";
 import DefaulHeader from "@/components/header/DefaulHeader";
 import Image from "next/image";
 export const metadata = {
-  title: "404 || Jano - Creative Multipurpose React NextJS Template",
+  title: "404 || Web App Dynamicx",
 };
 const Pricing = () => {
   return (
@@ -24,13 +24,13 @@ const Pricing = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-lg-7 m-auto">
-              <h3>Opps! you’r on the wrong place.</h3>
+              <h3>Opps! Aceasta pagina nu exista.</h3>
               <p className="me-xxl-5 ms-xxl-5 pt-15 pb-20">
-                Can not find what you need? Take a moment and do a search below
-                or start from our Homepage.
+                Nu ai putut gasi ce aveai nevoie? Incepi de la pagina
+                principala.
               </p>
               <Link href="/" className="btn-twentyOne fw-500 tran3s">
-                Back to home
+                Acasa
               </Link>
             </div>
           </div>

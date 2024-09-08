@@ -209,7 +209,7 @@ const AboutUsV3 = () => {
             <div className="col-xl-8 col-lg-10 m-auto text-center">
               <div className="title-style-one" data-aos="fade-up">
                 <h2 className="main-title fw-bold tx-dark m0">
-                  Gata să începi proiectul? E nevoie doar de{" "}
+                  Gata sa incepi proiectul? E nevoie doar de{" "}
                   <span>un click</span>
                 </h2>
               </div>{" "}
@@ -267,7 +267,7 @@ const AboutUsV3 = () => {
         Fancy Short Banner One
         =====================================================
         */}
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* /.fancy-short-banner-one */}
 
       {/* 

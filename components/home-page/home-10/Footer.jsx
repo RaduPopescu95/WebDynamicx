@@ -17,7 +17,10 @@ const Footer = () => {
     {
       title: "Legalitate",
       links: [
-        { label: "Politica confidentialitate", href: "/pages-menu/faq" },
+        {
+          label: "Politica confidentialitate",
+          href: "/politica-confidentialitate",
+        },
         // { label: "Blog", url: "/blog/blog-v1" },
         // { label: "Contact Us", url: "/contact" },
         // { label: "Support", url: "/contact" },
@@ -31,8 +34,12 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_01.png" alt=""       width={125}
-                      height={70} />
+            <img
+              src="/images/logo/logo_01.png"
+              alt=""
+              width={125}
+              height={70}
+            />
           </Link>
         </div>
         <img
@@ -67,7 +74,7 @@ const Footer = () => {
         </a>
         <br />
         <a href="tel:0774 550 758" className="mobile tran3s fs-20 mt-20 mb-30">
-        0774 550 758
+          0774 550 758
         </a>
 
         {/* <Social /> */}

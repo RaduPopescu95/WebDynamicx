@@ -1,17 +1,43 @@
-"use client";
+"use client"; // Asigură-te că această componentă este rulată doar pe client
 
-const NewsLetter = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault(); // prevent default form submission behavior
-    // handle form submission logic
+// import { handleUploadFirestore } from "@/app/utils/firestoreUtils";
+
+import React, { useState } from "react";
+
+const NewsletterForm = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // await addDoc(collection(db, "newsletter"), { email });
+      // await handleUploadFirestore({ email }, "newsletter");
+      setMessage("Te-ai înscris cu succes la newsletter!");
+    } catch (error) {
+      setMessage("A apărut o eroare. Încearcă din nou.");
+    }
+
+    setEmail("");
   };
 
   return (
-    <form onClick={handleSubmit} className="position-relative">
-      <input type="email" placeholder="Scrie e-mail" required />
-      <button className="tran3s fw-500 position-absolute">Inscrie-te</button>
-    </form>
+    <div>
+      <h2>Înscrie-te la newsletter</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Emailul tău"
+          required
+        />
+        <button type="submit">Abonează-te</button>
+      </form>
+      {message && <p>{message}</p>}
+    </div>
   );
 };
 
-export default NewsLetter;
+export default NewsletterForm;

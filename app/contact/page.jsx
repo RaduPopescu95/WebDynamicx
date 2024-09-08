@@ -4,7 +4,7 @@ import Map from "@/components/contact/Map";
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import DefaulHeader from "@/components/header/DefaulHeader";
 export const metadata = {
-  title: "Contact || Jano - Creative Multipurpose React NextJS Template",
+  title: "Contact || Web App Dynamicx",
 };
 const ContactV1 = () => {
   return (

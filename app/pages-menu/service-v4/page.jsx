@@ -30,7 +30,7 @@ const ServiceV4 = () => {
         >
           <div className="container">
             <div className="title-style-five">
-              <h2 className="main-title tx-dark fw-bold">Services</h2>
+              <h2 className="main-title tx-dark fw-bold">Servicii</h2>
             </div>
             <p className="fs-20 mt-30 lg-mt-20">
               Agency work with top rated talented people provide qulaity

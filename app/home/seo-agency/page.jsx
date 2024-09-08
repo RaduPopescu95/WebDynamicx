@@ -21,7 +21,6 @@ export const metadata = {
 const SeoAgency = () => {
   return (
     <>
-      
       {/* <!-- 
         =============================================
         Theme Default Menu
@@ -356,7 +355,7 @@ const SeoAgency = () => {
                   2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
                 </p> */}
                 <a
-                  href="mailto:januinc@company.com"
+                  href="mailto:webdynamicx@gmail.com"
                   className="email tran3s fs-17"
                 >
                   webdynamicx@gmail.com

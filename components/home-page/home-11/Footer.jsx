@@ -6,17 +6,20 @@ const Footer = () => {
       title: "Companie",
       links: [
         { label: "Acasa", url: "/" },
-        { label: "Preturi", url: "/pages-menu/pricing" },
-        { label: "Despre noi", url: "/pages-menu/about-us-v1" },
-        { label: "Servicii", url: "/pages-menu/service-v1" },
-        { label: "Contact", url: "/blog/blog-v1" },
+        // { label: "Preturi", url: "/pages-menu/pricing" },
+        { label: "Despre noi", url: "/despre-noi" },
+        // { label: "Servicii", url: "/pages-menu/service-v1" },
+        { label: "Contact", url: "/contact" },
       ],
       className: "col-lg-2 col-md-3 col-sm-6 mb-30",
     },
     {
       title: "Legalitate",
       links: [
-        { label: "Politica confidentialitate", url: "/pages-menu/faq" },
+        {
+          label: "Politica confidentialitate",
+          url: "/politica-confidentialitate",
+        },
         // { label: "Blog", url: "/blog/blog-v1" },
         // { label: "Contact Us", url: "/contact" },
         // { label: "Support", url: "/contact" },

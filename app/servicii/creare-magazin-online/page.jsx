@@ -243,7 +243,7 @@ const PortfolioV1 = () => {
             <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
               <div className="service-sidebar pe-xxl-5 md-mt-60">
                 <div className="service-category mb-40">
-                  <h4 className="tx-dark mb-15">Services</h4>
+                  <h4 className="tx-dark mb-15">Servicii</h4>
                   <ul className="style-none">
                     <li>
                       <Link href="/servicii/dezvoltare-aplicatii-mobile">

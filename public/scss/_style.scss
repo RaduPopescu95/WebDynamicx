@@ -30,18 +30,18 @@
 :root {
   --text-color: #48494e;
   --heading: #090f32;
-  --prime-one: #ff8c24;
-  --prime-two: #ff733b;
+  --prime-one: #4da6ff;
+  --prime-two: #4da6ff;
   --prime-three: #6a45ff;
-  --prime-four: #ffcd45;
+  --prime-four: #4da6ff;
   --prime-five: #007bff;
-  --prime-six: #ffd338;
+  --prime-six: #4da6ff;
   --prime-seven: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
-  --prime-eight: #ffed4e;
-  --prime-nine: #ff1292;
-  --prime-ten: #ff3294;
-  --prime-eleven: #ffce4c;
-  --prime-twelve: #ffe500;
+  --prime-eight: #4da6ff;
+  --prime-nine: #4da6ff;
+  --prime-ten: #4da6ff;
+  --prime-eleven: #4da6ff;
+  --prime-twelve: #4da6ff;
 }
 ::selection {
   background-color: #2a2a2a;
@@ -384,7 +384,7 @@ p {
   bottom: 10px;
   width: 98%;
   height: 12px;
-  background: rgba(255, 139, 37, 0.4);
+  background: var(--prime-one);
   z-index: -1;
 }
 .title-style-two .sc-title {
@@ -4788,7 +4788,7 @@ body .btn-twentySix:hover:after {
   height: 14px;
   bottom: 15px;
   left: 9px;
-  background: rgba(255, 139, 37, 0.2);
+  background: var(--prime-one);
   z-index: -1;
 }
 .hero-banner-six .subscribe-form {

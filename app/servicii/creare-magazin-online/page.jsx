@@ -46,7 +46,7 @@ const PortfolioV1 = () => {
         />
         <img
           src="/images/shape/shape_175.svg"
-          alt="shap"
+          alt="shape"
           className="lazy-img shapes shape-three"
         />
       </div>
@@ -71,8 +71,8 @@ const PortfolioV1 = () => {
                   maxime.
                 </p>
                 <img
-                  src="/images/media/img_95.jpg"
-                  alt="media"
+                  src="/images/media/magazinonline.svg"
+                  alt="creare magazin online"
                   className="main-img-meta"
                 />
                 <h2 className="main-title tx-dark mb-30">
@@ -246,19 +246,27 @@ const PortfolioV1 = () => {
                   <h4 className="tx-dark mb-15">Services</h4>
                   <ul className="style-none">
                     <li>
-                      <a href="#">Dezvoltare Aplicatii Mobile</a>
+                      <Link href="/servicii/dezvoltare-aplicatii-mobile">
+                        Dezvoltare Aplicatii Mobile
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Dezvoltare Site Web</a>
+                      <Link href="/servicii/dezvoltare-site-web">
+                        Dezvoltare Site Web
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Logo Design</a>
+                      <Link href="/servicii/logo-design">Logo Design</Link>
                     </li>
                     <li className="current-page">
-                      <a href="#">Magazin Online</a>
+                      <Link href="/servicii/creare-magazin-online">
+                        Magazin Online
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Domeniu si Gazduire</a>
+                      <Link href="/servicii/domeniu-gazduire">
+                        Domeniu si Gazduire
+                      </Link>
                     </li>
                   </ul>
                 </div>

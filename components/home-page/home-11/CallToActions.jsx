@@ -42,7 +42,7 @@ const CallToActions = () => {
 
             {/* <p className="m0 pt-10 fw-500 tx-dark fs-15"> */}
             <Link
-              href="/login"
+              href="/contact/contact-v1"
               className="text-decoration-underline cta-button tran3s fw-500"
             >
               Începe proiectul

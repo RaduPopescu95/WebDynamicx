@@ -73,7 +73,7 @@ const AplicatieMobilaPret = () => {
                 </p>
 
                 <img
-                  src="/images/media/img_95.jpg"
+                  src="/images/media/siteweb.svg"
                   alt="media"
                   className="main-img-meta"
                 />
@@ -318,8 +318,8 @@ const AplicatieMobilaPret = () => {
                 {/* /.service-category */}
 
                 {/* /.sidebar-quote */}
-                <h4 className="tx-dark mb-15">Distribuie</h4>
-                <Social />
+                {/* <h4 className="tx-dark mb-15">Distribuie</h4>
+                <Social /> */}
               </div>
               {/* /.service-sidebar */}
             </div>

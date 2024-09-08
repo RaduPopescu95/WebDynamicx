@@ -71,8 +71,8 @@ const AplicatieMobilaPret = () => {
                 </p>
 
                 <img
-                  src="/images/media/img_95.jpg"
-                  alt="media"
+                  src="/images/media/costaplicatiimobile.svg"
+                  alt="cost dezvoltare aplicatii mobile"
                   className="main-img-meta"
                 />
                 <p>
@@ -367,8 +367,8 @@ const AplicatieMobilaPret = () => {
                 {/* /.service-category */}
 
                 {/* /.sidebar-quote */}
-                <h4 className="tx-dark mb-15">Distribuie</h4>
-                <Social />
+                {/* <h4 className="tx-dark mb-15">Distribuie</h4>
+                <Social /> */}
               </div>
               {/* /.service-sidebar */}
             </div>

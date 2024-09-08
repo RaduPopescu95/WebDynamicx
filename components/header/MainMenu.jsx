@@ -52,14 +52,9 @@ const MainMenu = () => {
           </li>
           {/* End li */}
 
-          <li className="nav-item dropdown mega-dropdown-md">
-            <a
-              // className="nav-link dropdown-toggle active-menu"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
+          <li className="nav-item dropdown">
+            <Link
+              // className="nav-link dropdown-toggle"
               className={
                 menuItems.some((menu) =>
                   menu.items.some((elm) => isActive(elm.link))
@@ -67,13 +62,12 @@ const MainMenu = () => {
                   ? "nav-link active-menu"
                   : "nav-link"
               }
-
-              // style={{color:'green'}}
+              href="/"
             >
               Acasa
-            </a>
+            </Link>
           </li>
-          {/* End li (home mega menu) */}
+          {/* End li (pages) */}
 
           <li className="nav-item dropdown">
             <Link
@@ -198,7 +192,7 @@ const MainMenu = () => {
                   ? "nav-link active-menu"
                   : "nav-link"
               }
-              href="/contact/contact-v2"
+              href="/contact/contact-v1"
               role="button"
               // data-bs-toggle="dropdown"
               // data-bs-auto-close="outside"

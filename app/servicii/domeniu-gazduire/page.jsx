@@ -71,8 +71,8 @@ const PortfolioV1 = () => {
                   eficientă și protecție maximă a datelor.
                 </p>
                 <img
-                  src="/images/media/img_95.jpg"
-                  alt="media"
+                  src="/images/media/gazduire.svg"
+                  alt="domeniu si gazduire"
                   className="main-img-meta"
                 />
 
@@ -119,19 +119,30 @@ const PortfolioV1 = () => {
                   <h4 className="tx-dark mb-15">Servicii</h4>
                   <ul className="style-none">
                     <li>
-                      <a href="#">Dezvoltare Aplicatii Mobile</a>
+                      <Link href="/servicii/dezvoltare-aplicatii-mobile">
+                        Dezvoltare Aplicatii Mobile
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Dezvoltare Site Web</a>
-                    </li>
-                    <li className="current-page">
-                      <a href="#">Logo Design</a>
-                    </li>
-                    <li>
-                      <a href="#">Magazin Online</a>
+                      <Link href="/servicii/dezvoltare-site-web">
+                        Dezvoltare Site Web
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Domeniu si Gazduire</a>
+                      <Link href="/servicii/logo-design">Logo Design</Link>
+                    </li>
+                    <li>
+                      <Link href="/servicii/creare-magazin-online">
+                        Magazin Online
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="current-page"
+                        href="/servicii/domeniu-gazduire"
+                      >
+                        Domeniu si Gazduire
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -149,8 +160,8 @@ const PortfolioV1 = () => {
                   <div className="name">- Rashed Kabir</div>
                 </div> */}
                 {/* /.sidebar-quote */}
-                <h4 className="tx-dark mb-15">Distribuire</h4>
-                <Social />
+                {/* <h4 className="tx-dark mb-15">Distribuire</h4>
+                <Social /> */}
               </div>
               {/* /.service-sidebar */}
             </div>

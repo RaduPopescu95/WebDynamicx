@@ -6,7 +6,8 @@ const blocksData = [
     id: 1,
     iconSrc: "/images/icon/icon_152.svg",
     title: "Servicii de Calitate",
-    content: "Oferim servicii de cea mai înaltă calitate, adaptate nevoilor tale specifice, pentru a asigura succesul proiectelor tale.",
+    content:
+      "Oferim servicii de cea mai inalta calitate, adaptate nevoilor tale specifice, pentru a asigura succesul proiectelor tale.",
     dataAos: "fade-up",
     dataAosDelay: "",
   },
@@ -14,15 +15,17 @@ const blocksData = [
     id: 2,
     iconSrc: "/images/icon/icon_153.svg",
     title: "Suport 24x7",
-    content: "Echipa noastră este disponibilă non-stop pentru a-ți oferi suport tehnic și consultanță, indiferent de ora sau zi.",
+    content:
+      "Echipa noastra este disponibila non-stop pentru a-ti oferi suport tehnic si consultanta, indiferent de ora sau zi.",
     dataAos: "fade-up",
     dataAosDelay: "100",
   },
   {
     id: 3,
     iconSrc: "/images/icon/icon_154.svg",
-    title: "Prețuri Avantajoase",
-    content: "Îți oferim soluții de dezvoltare la prețuri competitive, fără a compromite calitatea sau performanța.",
+    title: "Preturi Avantajoase",
+    content:
+      "Iti oferim solutii de dezvoltare la preturi competitive, fara a compromite calitatea sau performanta.",
     dataAos: "fade-up",
     dataAosDelay: "200",
   },
@@ -30,14 +33,13 @@ const blocksData = [
     id: 4,
     iconSrc: "/images/icon/icon_155.svg",
     title: "100% De Încredere",
-    content: "Construim parteneriate de lungă durată, bazate pe încredere și transparență, asigurându-ne că fiecare client este pe deplin mulțumit.",
+    content:
+      "Construim parteneriate de lunga durata, bazate pe incredere si transparenta, asigurandu-ne ca fiecare client este pe deplin multumit.",
     dataAos: "fade-up",
     dataAosDelay: "300",
   },
   // Adăugați mai multe blocuri după cum este necesar
 ];
-
-
 
 const Block = () => {
   return (

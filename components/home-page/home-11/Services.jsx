@@ -5,6 +5,7 @@ const Services = () => {
     {
       icon: "/images/icon/icon_09.svg",
       title: "Logo design",
+      link: "/servicii/logo-design",
       description:
         "Cream logo-uri unice si memorabile care reflecta identitatea brandului tau.",
       delay: 0,
@@ -12,6 +13,7 @@ const Services = () => {
     {
       icon: "/images/icon/icon_51.svg",
       title: "Magazin online",
+      link: "/servicii/creare-magazin-online",
       description:
         "Dezvoltam magazine online optimizate pentru vanzari si promovare eficienta in motoarele de cautare.",
       delay: 100,
@@ -19,6 +21,7 @@ const Services = () => {
     {
       icon: "/images/icon/icon_11.svg",
       title: "Aplicatii mobile",
+      link: "/servicii/dezvoltare-aplicatii-mobile",
       description:
         "Construim aplicatii mobile inovatoare, adaptate nevoilor tale, pentru toate platformele majore.",
       delay: 200,
@@ -26,6 +29,7 @@ const Services = () => {
     {
       icon: "/images/icon/icon_11.svg",
       title: "Creare site web",
+      link: "/servicii/dezvoltare-site-web",
       description:
         "Realizam site-uri web moderne si responsive, cu design atractiv si functionalitate impecabila.",
       delay: 300,
@@ -33,6 +37,7 @@ const Services = () => {
     {
       icon: "/images/icon/icon_11.svg",
       title: "Domeniu si gazduire",
+      link: "/servicii/domeniu-gazduire",
       description:
         "Oferim servicii complete de inregistrare domenii si gazduire web rapide si sigure.",
       delay: 400,
@@ -56,10 +61,7 @@ const Services = () => {
               {service.title}
             </span>
             <h4 className="fw-500 mb-35">{service.description}</h4>
-            <Link
-              href="/pages-menu/service-details"
-              className="read-btn mt-auto tran3s"
-            >
+            <Link href={service.link} className="read-btn mt-auto tran3s">
               <img src="/images/icon/icon_12.svg" alt="" className="lazy-img" />
             </Link>
           </div>

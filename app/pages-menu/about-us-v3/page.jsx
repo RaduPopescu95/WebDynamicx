@@ -8,6 +8,7 @@ import Team5 from "@/components/team/Team5";
 import Block from "@/components/about/Block";
 import Counter2 from "@/components/about/Counter2";
 import AboutCeo from "@/components/about/AboutCeo";
+import Link from "next/link";
 export const metadata = {
   title: "AboutUs V3 || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -35,9 +36,9 @@ const AboutUsV3 = () => {
               <h2 className="main-title tx-dark fw-bold">Despre Noi</h2>
             </div>
             <p className="fs-20 mt-30 lg-mt-20">
-            Suntem Web App Dynamicx, o agenție digitală full service compusă
-                din oameni cu idei creative, strategi orientați spre rezultate,
-                pregătiți să îți crească afacerea.
+              Suntem Web App Dynamicx, o agentie digitala full service compusa
+              din oameni cu idei creative, strategi orientati spre rezultate,
+              pregatiti sa iti creasca afacerea.
             </p>
           </div>
           {/* End container */}
@@ -84,8 +85,9 @@ const AboutUsV3 = () => {
                 </div>{" "}
                 {/* /.title-style-one */}
                 <p className="text-lg mt-40 lg-mt-20">
-    Noi ajutăm clienții noștri să își îndeplinească nevoile cu ajutorul expertizei noastre.
-  </p>
+                  Noi ajutam clientii nostri sa isi indeplineasca nevoile cu
+                  ajutorul expertizei noastre.
+                </p>
                 <Image
                   width={73}
                   height={75}
@@ -172,7 +174,6 @@ const AboutUsV3 = () => {
         </div>
        
       </div> */}
-      
 
       {/*
         =====================================================
@@ -208,7 +209,8 @@ const AboutUsV3 = () => {
             <div className="col-xl-8 col-lg-10 m-auto text-center">
               <div className="title-style-one" data-aos="fade-up">
                 <h2 className="main-title fw-bold tx-dark m0">
-                  Gata să începi proiectul? E nevoie doar de <span>un click</span>
+                  Gata să începi proiectul? E nevoie doar de{" "}
+                  <span>un click</span>
                 </h2>
               </div>{" "}
               {/* /.title-style-one */}
@@ -219,14 +221,9 @@ const AboutUsV3 = () => {
               >
                 Try it risk free — we don’t charge cancellation fees.
               </p> */}
-              <a
-                href="#"
-                className="btn-two fs-18 fw-500"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <Link href="/contact/contact-v1" className="btn-two fs-18 fw-500">
                 Începe acum
-              </a>
+              </Link>
             </div>
           </div>
         </div>

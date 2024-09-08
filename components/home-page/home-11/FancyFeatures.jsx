@@ -15,7 +15,7 @@ const FancyFeatures = () => {
               Over
               <span
                 className="text-decoration-underline"
-                style={{ color: "#ff733b" }}
+                style={{ color: "#007bff" }}
               >
                 200 clienti
               </span>

@@ -60,9 +60,9 @@ const ServiceV4 = () => {
             </div>
             <div className="col-lg-5 ms-auto aos fadeInRight">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
-                Suntem Web App Dynamicx, o agenție digitală full service compusă
-                din oameni cu idei creative, strategi orientați spre rezultate,
-                pregătiți să îți crească afacerea.
+                Suntem Web App Dynamicx, o agentie digitala full service compusa
+                din oameni cu idei creative, strategi orientati spre rezultate,
+                pregatiti sa iti creasca afacerea.
               </p>
             </div>
           </div>
@@ -162,7 +162,7 @@ const ServiceV4 = () => {
               <div className="col-lg-6 col-md-7 m-auto">
                 <div className="title-style-one text-center">
                   <h2 className="main-title fw-bold tx-dark m0">
-                    What’s <span>Our Client</span> Say About us.
+                    Ce spun <span>clinetii</span> nostri despre noi.
                   </h2>
                 </div>
                 {/* /.title-style-one */}

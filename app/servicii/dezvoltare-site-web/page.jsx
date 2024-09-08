@@ -8,6 +8,19 @@ import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
   title: "Dezvoltare site web || Web App Dynamicx",
+  description: "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  openGraph: {
+    title: "Dezvoltare site web || Web App Dynamicx",
+    description: "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/dezvoltare-site-web`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 const PortfolioV1 = () => {
   return (

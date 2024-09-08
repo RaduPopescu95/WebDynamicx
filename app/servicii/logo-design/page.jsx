@@ -8,6 +8,17 @@ import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
   title: "Realizare Sigla Vectoriala Logo || Web App Dynamicx",
+  openGraph: {
+    title: "Realizare Sigla Vectoriala Logo || Web App Dynamicx",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/logo-design`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 const PortfolioV1 = () => {
   return (

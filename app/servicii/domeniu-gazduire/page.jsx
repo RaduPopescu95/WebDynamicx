@@ -7,7 +7,18 @@ import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
-  title: "Inregistrare Domenii Rapid si in Siguranta || Web App Dynamicx",
+  title: "Dezvoltare site web || Web App Dynamicx",
+  openGraph: {
+    title: "Dezvoltare site web || Web App Dynamicx",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/domeniu-gazduire`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 const PortfolioV1 = () => {
   return (

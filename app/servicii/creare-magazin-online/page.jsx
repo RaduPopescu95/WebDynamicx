@@ -8,7 +8,21 @@ import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
   title: "Realizare magazin online || Web App Dynamicx",
+  description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  openGraph: {
+    title: "Realizare magazin online || Web App Dynamicx",
+    description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/creare-magazin-online`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
 const PortfolioV1 = () => {
   return (
     <>

@@ -15,7 +15,7 @@ export const metadata = {
     description: "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/costuri-aplicatie-mobila`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

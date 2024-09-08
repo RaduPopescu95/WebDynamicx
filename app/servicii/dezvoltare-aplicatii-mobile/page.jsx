@@ -8,6 +8,19 @@ import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
   title: "Dezvoltare aplicatii mobile || Web App Dynamicx",
+  description: "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  openGraph: {
+    title: "Dezvoltare aplicatii mobile || Web App Dynamicx",
+    description: "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/dezvoltare-aplicatii-mobile`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 const PortfolioV1 = () => {
   return (

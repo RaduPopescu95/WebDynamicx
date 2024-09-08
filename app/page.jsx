@@ -1,4 +1,4 @@
-import Agentie from "./home/seo-agency/page";
+import Agentie from "./home/page";
 export const metadata = {
   title:
     "Web App Dynamicx || Dezvoltare aplicatii mobile Android sau iOS si website",

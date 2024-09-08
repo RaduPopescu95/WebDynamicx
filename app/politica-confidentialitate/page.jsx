@@ -6,9 +6,7 @@ import Faq from "@/components/home-page/home-2/Faq";
 import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
-export const metadata = {
-  title: "Dezvoltare aplicatii mobile || Web App Dynamicx",
-};
+
 const PortfolioV1 = () => {
   return (
     <>

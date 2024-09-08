@@ -6,9 +6,24 @@ import Faq from "@/components/home-page/home-2/Faq";
 import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
+
 export const metadata = {
   title: "Cât costă dezvoltarea unei aplicații – WebAppDynamicx",
+  description: "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+  openGraph: {
+    title: "Cât costă dezvoltarea unei aplicații – WebAppDynamicx",
+    description: "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
 const AplicatieMobilaPret = () => {
   return (
     <>

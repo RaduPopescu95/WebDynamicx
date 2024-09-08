@@ -1,4 +1,8 @@
 User-Agent: *
+Disallow: /404
+Disallow: /blog
+Disallow: /politica-confidentialitate
+
 Allow: /
 
 Sitemap: https://webappdynamicx.ro/sitemap.xml

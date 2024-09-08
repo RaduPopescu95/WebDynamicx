@@ -10,8 +10,23 @@ import Counter2 from "@/components/about/Counter2";
 import AboutCeo from "@/components/about/AboutCeo";
 import Link from "next/link";
 export const metadata = {
-  title: "AboutUs V3 || Jano - Creative Multipurpose React NextJS Template",
+  title: "Pagina despre noi | Web App Dynamicx",
+  description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm site-uri web, aplicații mobile și magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  openGraph: {
+    title: "Pagina despre noi | Web App Dynamicx",
+    description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm site-uri web, aplicații mobile și magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
+
 const AboutUsV3 = () => {
   return (
     <>

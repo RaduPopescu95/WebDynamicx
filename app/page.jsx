@@ -18,11 +18,11 @@ import Footer from "@/components/home-page/home-11/Footer";
 import ChatButton from "@/components/chat/chatUI";
 import ChatComponent from "@/components/chat/chatUI";
 export const metadata = {
-  title: "Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx",
-  description: "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de site-uri web, aplicații mobile personalizate și magazine online. Oferim soluții rapide și optimizate SEO pentru succesul afacerii tale. Dezvoltare aplicații mobile la prețuri avantajoase.",
+  title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
+  description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău. Dezvoltare aplicații mobile.",
   openGraph: {
-    title: "Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx",
-    description: "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de aplicații mobile Android și site-uri web personalizate. Soluții rapide, eficiente și optimizate SEO pentru creșterea afacerii tale.",
+    title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
+    description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău. Dezvoltare aplicații mobile.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
@@ -40,10 +40,10 @@ const MainRoot = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx`,
+    name: `Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx`,
     // image: product.image,
     description:
-      "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de aplicații mobile Android și site-uri web personalizate. Soluții rapide, eficiente și optimizate SEO pentru creșterea afacerii tale.",
+      "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău. Dezvoltare aplicații mobile.",
   };
   return (
     <>

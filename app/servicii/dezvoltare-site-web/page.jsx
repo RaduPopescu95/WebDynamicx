@@ -93,7 +93,7 @@ const PortfolioV1 = () => {
                   className="main-img-meta"
                 />
                 <h2 className="main-title tx-dark mb-30">
-                  Dezvoltăm și livrăm website-uri „la cheie”, optimizate pentru
+                  Dezvoltam si livrăm website-uri „la cheie”, optimizate pentru
                   a stimula vânzările.
                 </h2>
                 <p>
@@ -129,7 +129,7 @@ const PortfolioV1 = () => {
                   scalabilitate.
                 </p>
                 <p>
-                  Dezvoltăm site-uri web de înaltă performanță, folosind
+                  Dezvoltam site-uri web de înaltă performanță, folosind
                   tehnologii moderne precum React JS și Next JS. Aceste site-uri
                   sunt concepute pentru a genera lead-uri eficiente și a
                   impulsiona vânzările.

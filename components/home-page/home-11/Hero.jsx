@@ -13,9 +13,9 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Dezvoltăm website-uri și aplicații mobile personalizate",
+    heading: "Dezvoltam website-uri si aplicatii mobile personalizate",
     subheading:
-      "Transformam ideile în realitate digitala pentru a-ți aduce afacerea la următorul nivel.",
+      "Transformam ideile in realitate digitala pentru a-ti aduce afacerea la următorul nivel.",
     btnText: "Incepe Proiectul",
   };
 

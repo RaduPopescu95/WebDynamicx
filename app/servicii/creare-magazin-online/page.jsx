@@ -79,8 +79,8 @@ const PortfolioV1 = () => {
                   afacerii tale
                 </h2>
                 <p className="text-lg tx-dark">
-                  Alătură-te nouă și concentrează-te pe obiectivele tale, în
-                  timp ce noi dezvoltăm pentru tine un magazin online intuitiv
+                  Alătura-te nouă și concentrează-te pe obiectivele tale, în
+                  timp ce noi dezvoltam pentru tine un magazin online intuitiv
                   și ușor de administrat, optimizat pentru a atinge performanțe
                   maxime.
                 </p>
@@ -90,7 +90,7 @@ const PortfolioV1 = () => {
                   className="main-img-meta"
                 />
                 <h2 className="main-title tx-dark mb-30">
-                  Dezvoltăm și livrăm magazine online „la cheie”, optimizate
+                  Dezvoltam si livrăm magazine online „la cheie”, optimizate
                   pentru a stimula vânzările.
                 </h2>
                 <p>

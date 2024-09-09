@@ -47,6 +47,10 @@ const MainRoot = () => {
   };
   return (
     <>
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
         =============================================
         Theme Default Menu

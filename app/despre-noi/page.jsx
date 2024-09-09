@@ -10,11 +10,11 @@ import Counter2 from "@/components/about/Counter2";
 import AboutCeo from "@/components/about/AboutCeo";
 import Link from "next/link";
 export const metadata = {
-  title: "Pagina despre noi | Web App Dynamicx",
-  description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm site-uri web, aplicații mobile și magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  title: "Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx",
+  description: "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
   openGraph: {
-    title: "Pagina despre noi | Web App Dynamicx",
-    description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm site-uri web, aplicații mobile și magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+    title: "Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx",
+    description: "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii de creare site-uri web, aplicații mobile și magazine online de calitate, cu optimizări SEO pentru creșterea afacerii tale.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
@@ -26,10 +26,22 @@ export const metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: `Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx`,
+  // image: product.image,
+  description:
+    "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
+};
 
 const AboutUsV3 = () => {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -47,14 +59,13 @@ const AboutUsV3 = () => {
           style={{ backgroundImage: "url(/images/assets/bg-17.svg)" }}
         >
           <div className="container">
-            <div className="title-style-five">
-              <h2 className="main-title tx-dark fw-bold">Despre Noi</h2>
-            </div>
-            <p className="fs-20 mt-30 lg-mt-20">
-              Suntem Web App Dynamicx, o agentie digitala full service compusa
-              din oameni cu idei creative, strategi orientati spre rezultate,
-              pregatiti sa iti creasca afacerea.
-            </p>
+          <div className="title-style-five">
+  <h1 className="main-title tx-dark fw-bold">Agentie de dezvoltare aplicatii web si mobile</h1>
+</div>
+<p className="fs-20 mt-30 lg-mt-20">
+  Agentie de dezvoltare aplicatii web si mobile din Targoviste. Oferim servicii profesionale de creare site-uri web, aplicatii mobile Android si iOS, magazine online personalizate
+</p>
+
           </div>
           {/* End container */}
         </div>

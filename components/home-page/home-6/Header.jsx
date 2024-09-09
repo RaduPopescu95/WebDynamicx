@@ -52,7 +52,7 @@ const Header = () => {
               href="/contact"
               className="contact-btn-two fs-17 fw-500 tran3s d-none d-lg-block"
             >
-              Contact us
+              Conctactează-ne
             </Link>
           </div>
           {/* /.right-widget */}

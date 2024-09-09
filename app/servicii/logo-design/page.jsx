@@ -21,8 +21,20 @@ export const metadata = {
   },
 };
 const PortfolioV1 = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Realizare Sigla Vectoriala Logo || Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Realizare Sigla Vectoriala Logo || Web App Dynamicx",
+  };
   return (
     <>
+         <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

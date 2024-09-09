@@ -25,8 +25,20 @@ export const metadata = {
 };
 
 const AplicatieMobilaPret = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Cât costă dezvoltarea unei aplicații – WebAppDynamicx`,
+    // image: product.image,
+    description:
+      "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+  };
   return (
     <>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

@@ -7,9 +7,9 @@ import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
-  title: "Dezvoltare site web || Web App Dynamicx",
+  title: "Domeniu si gazduire || Web App Dynamicx",
   openGraph: {
-    title: "Dezvoltare site web || Web App Dynamicx",
+    title: "Domeniu si gazduire || Web App Dynamicx",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/domeniu-gazduire`,
@@ -21,8 +21,20 @@ export const metadata = {
   },
 };
 const PortfolioV1 = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Domeniu si gazduire || Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Domeniu si gazduire || Web App Dynamicx",
+  };
   return (
     <>
+         <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

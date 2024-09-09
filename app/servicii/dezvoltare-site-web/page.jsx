@@ -26,8 +26,20 @@ export const metadata = {
 
 
 const PortfolioV1 = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Dezvoltare site web || Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  };
   return (
     <>
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

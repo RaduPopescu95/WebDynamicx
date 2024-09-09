@@ -24,8 +24,20 @@ export const metadata = {
 };
 
 const PortfolioV1 = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Realizare magazin online || Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+  };
   return (
     <>
+              <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

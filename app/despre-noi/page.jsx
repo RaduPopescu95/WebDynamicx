@@ -26,16 +26,17 @@ export const metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: `Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx`,
-  // image: product.image,
-  description:
-    "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
-};
+
 
 const AboutUsV3 = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
+  };
   return (
     <>
       <script

@@ -24,8 +24,20 @@ export const metadata = {
   },
 };
 const AplicatieMobilaPret = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Cât costă dezvoltarea unui site web – WebAppDynamicx`,
+    // image: product.image,
+    description:
+      "Cât costă un site? Răspunsul la această întrebare te ajută la calcularea bugetului alocat pentru site-ul firmei. Noi îți oferim destul de multe alternative de preț încât să poți apela la noi cu încredere.",
+  };
   return (
     <>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu

@@ -22,6 +22,9 @@ export const metadata = {
     follow: true,
   },
 };
+// Client-side componentă (folosește `window`)
+
+
 const PortfolioV1 = () => {
   return (
     <>

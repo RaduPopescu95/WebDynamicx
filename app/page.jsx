@@ -1,3 +1,5 @@
+
+
 import Link from "next/link";
 
 import Contact from "@/components/home-page/home-11/Contact";
@@ -16,11 +18,11 @@ import Footer from "@/components/home-page/home-11/Footer";
 import ChatButton from "@/components/chat/chatUI";
 import ChatComponent from "@/components/chat/chatUI";
 export const metadata = {
-  title: "Acasa | Web App Dynamicx",
-  description: "Agenție de dezvoltare web și aplicații mobile în Târgoviște, specializată în crearea de site-uri web, aplicații mobile și magazine online personalizate. Oferim soluții rapide, eficiente și optimizate SEO pentru succesul afacerii tale.",
+  title: "Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx",
+  description: "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de site-uri web, aplicații mobile personalizate și magazine online. Oferim soluții rapide și optimizate SEO pentru succesul afacerii tale. Dezvoltare aplicații mobile la prețuri avantajoase.",
   openGraph: {
-    title: "Acasa | Web App Dynamicx",
-    description: "Agenție de dezvoltare web și aplicații mobile în Târgoviște, specializată în crearea de site-uri web, aplicații mobile și magazine online personalizate. Oferim soluții rapide, eficiente și optimizate SEO pentru succesul afacerii tale.",
+    title: "Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx",
+    description: "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de aplicații mobile Android și site-uri web personalizate. Soluții rapide, eficiente și optimizate SEO pentru creșterea afacerii tale.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
@@ -31,7 +33,18 @@ export const metadata = {
     follow: true,
   },
 };
+
+// Verificare dacă suntem pe client sau server
+
 const MainRoot = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `Dezvoltare Aplicații Mobile și Web | Creare Site Web | Web App Dynamicx`,
+    // image: product.image,
+    description:
+      "Agenție de dezvoltare aplicații mobile și web în România, specializată în crearea de aplicații mobile Android și site-uri web personalizate. Soluții rapide, eficiente și optimizate SEO pentru creșterea afacerii tale.",
+  };
   return (
     <>
       {/* <!-- 
@@ -351,7 +364,7 @@ const MainRoot = () => {
                   <Link href="/">
                     <img
                       src="/images/logo/logo_01.png"
-                      alt=""
+                      alt="Web App Dynamicx"
                       width={125}
                       height={70}
                     />

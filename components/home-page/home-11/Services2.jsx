@@ -59,7 +59,7 @@ const Services2 = () => {
             >
               <img
                 src="/images/icon/icon_12.svg"
-                alt="icon"
+                alt={service.title}
                 className="lazy-img"
               />
             </Link>

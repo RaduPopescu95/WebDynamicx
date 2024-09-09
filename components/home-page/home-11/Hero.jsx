@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { sendGTMEvent } from '@next/third-parties/google'
 
 const Hero = () => {
   const [inputValue, setInputValue] = useState("");
@@ -12,9 +13,9 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Transformam ideile în realitate digitala",
+    heading: "Dezvoltăm website-uri și aplicații mobile personalizate",
     subheading:
-      "Dezvoltăm website-uri și aplicații mobile personalizate pentru a-ți aduce afacerea la următorul nivel.",
+      "Transformam ideile în realitate digitala pentru a-ți aduce afacerea la următorul nivel.",
     btnText: "Incepe Proiectul",
   };
 
@@ -35,6 +36,7 @@ const Hero = () => {
         <Link
           href="/contact"
           className="text-decoration-underline cta-button-main-page tran3s fw-500"
+          onClick={() => sendGTMEvent('event', 'buttonClicked', { value: 'a fost apasat buton header "Incepe Proiectul"' })}
         >
           {content.btnText}
         </Link>

@@ -35,7 +35,7 @@ const Header = () => {
             <Link href="/" className="d-block">
               <Image
                 src="/images/logo/logo_01.png"
-                alt="logo"
+                alt="Web App Dynamicx"
                 width={95}
                 height={30}
               />

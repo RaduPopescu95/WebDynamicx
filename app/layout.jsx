@@ -7,6 +7,7 @@ import "../styles/index.scss";
 import ScrollToTop from "@/components/common/ScrollTop";
 import ChatComponent from "@/components/chat/chatUI";
 import WhatsAppComponent from "@/components/chat/whatsAppComponent";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
+       <GoogleTagManager gtmId="GTM-KH2BPJH3" />
       <body>
         <div className="main-page-wrapper">
           {children}

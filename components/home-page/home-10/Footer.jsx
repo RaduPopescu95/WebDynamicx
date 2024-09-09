@@ -36,7 +36,7 @@ const Footer = () => {
           <Link href="/">
             <img
               src="/images/logo/logo_01.png"
-              alt=""
+              alt="Web App Dynamicx"
               width={125}
               height={70}
             />

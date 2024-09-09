@@ -13,7 +13,7 @@ const DefaultFooter = () => {
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/logo_01.png" alt="brand" />
+                  <img src="/images/logo/logo_01.png" alt="Web App Dynamicx" />
                 </Link>
               </div>
             </div>

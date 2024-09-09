@@ -8,6 +8,7 @@ import ScrollToTop from "@/components/common/ScrollTop";
 import ChatComponent from "@/components/chat/chatUI";
 import WhatsAppComponent from "@/components/chat/whatsAppComponent";
 import { GoogleTagManager } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/react"
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           {children}
           {/* <ScrollToTop /> */}
           <WhatsAppComponent />
+          <Analytics />
         </div>
       </body>
     </html>

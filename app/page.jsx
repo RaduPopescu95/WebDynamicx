@@ -392,7 +392,7 @@ const MainRoot = () => {
                 </a>
                 <br />
                 <a
-                  href="tel:+0774 550 758"
+                  href="tel:0774 550 758"
                   className="mobile tran3s fs-20 mt-20 mb-30"
                 >
                   0774 550 758

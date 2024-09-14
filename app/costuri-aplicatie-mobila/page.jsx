@@ -9,10 +9,10 @@ import Social from "@/components/service-details/Social";
 
 export const metadata = {
   title: "Cât costă dezvoltarea unei aplicații – WebAppDynamicx",
-  description: "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+  description: "Dezvoltarea aplicațiilor mobile în România necesită expertiză și resurse variate. Descoperă soluții personalizate pentru creare și dezvoltare aplicații mobile, optimizate pentru succes.",
   openGraph: {
     title: "Cât costă dezvoltarea unei aplicații – WebAppDynamicx",
-    description: "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+    description: "Dezvoltarea aplicațiilor mobile în România necesită expertiză și resurse variate. Descoperă soluții personalizate pentru creare și dezvoltare aplicații mobile, optimizate pentru succes.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/costuri-aplicatie-mobila`,
@@ -31,7 +31,7 @@ const AplicatieMobilaPret = () => {
     name: `Cât costă dezvoltarea unei aplicații – WebAppDynamicx`,
     // image: product.image,
     description:
-      "Pentru a dezvolta o aplicație mobilă poate reprezenta o investiție semnificativă, deoarece necesită o varietate de resurse și expertiză.",
+      "Dezvoltarea aplicațiilor mobile în România necesită expertiză și resurse variate. Descoperă soluții personalizate pentru creare și dezvoltare aplicații mobile, optimizate pentru succes.",
   };
   return (
     <>

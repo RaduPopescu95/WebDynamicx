@@ -10,11 +10,11 @@ import Counter2 from "@/components/about/Counter2";
 import AboutCeo from "@/components/about/AboutCeo";
 import Link from "next/link";
 export const metadata = {
-  title: "Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx",
-  description: "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
+  title: "Despre Noi |  Aplicații Web și Mobile | Web App Dynamicx",
+  description: "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
   openGraph: {
-    title: "Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx",
-    description: "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii de creare site-uri web, aplicații mobile și magazine online de calitate, cu optimizări SEO pentru creșterea afacerii tale.",
+    title: "Despre Noi |  Aplicații Web și Mobile | Web App Dynamicx",
+    description: "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
@@ -32,10 +32,10 @@ const AboutUsV3 = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `Despre Noi | Dezvoltare Aplicații Web și Mobile | Web App Dynamicx`,
+    name: `Despre Noi | Aplicații Web și Mobile | Web App Dynamicx`,
     // image: product.image,
     description:
-      "Agenție de dezvoltare aplicații web și mobile din Târgoviște. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate și soluții SEO optimizate pentru afacerea ta.",
+      "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
   };
   return (
     <>

@@ -14,7 +14,7 @@ export const metadata = {
     description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/creare-magazin-online`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/creare-magazin-online`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

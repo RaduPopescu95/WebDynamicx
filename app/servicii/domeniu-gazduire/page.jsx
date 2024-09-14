@@ -12,7 +12,7 @@ export const metadata = {
     title: "Domeniu si gazduire || Web App Dynamicx",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/domeniu-gazduire`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/domeniu-gazduire`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

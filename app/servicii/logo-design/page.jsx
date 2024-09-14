@@ -12,7 +12,7 @@ export const metadata = {
     title: "Realizare Sigla Vectoriala Logo || Web App Dynamicx",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/logo-design`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/logo-design`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

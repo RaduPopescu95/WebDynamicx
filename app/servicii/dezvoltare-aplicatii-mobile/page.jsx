@@ -14,7 +14,7 @@ export const metadata = {
     description: "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/dezvoltare-aplicatii-mobile`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-aplicatii-mobile`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

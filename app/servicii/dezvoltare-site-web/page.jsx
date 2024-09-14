@@ -14,7 +14,7 @@ export const metadata = {
     description: "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/dezvoltare-site-web`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-site-web`,
   },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {

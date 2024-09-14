@@ -11,10 +11,10 @@ import AboutCeo from "@/components/about/AboutCeo";
 import Link from "next/link";
 export const metadata = {
   title: "Despre Noi |  Aplicații Web și Mobile | Web App Dynamicx",
-  description: "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
+  description: "Oferim dezvoltare de aplicații mobile și crearea unei aplicații Android sau iOS personalizate. Creează-ți propria aplicație, optimizează un magazin de aplicații și beneficiezi de găzduire domeniu pentru afacerea ta.",
   openGraph: {
     title: "Despre Noi |  Aplicații Web și Mobile | Web App Dynamicx",
-    description: "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
+    description: "Oferim dezvoltare de aplicații mobile și crearea unei aplicații Android sau iOS personalizate. Creează-ți propria aplicație, optimizează un magazin de aplicații și beneficiezi de găzduire domeniu pentru afacerea ta.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
@@ -35,7 +35,7 @@ const AboutUsV3 = () => {
     name: `Despre Noi | Aplicații Web și Mobile | Web App Dynamicx`,
     // image: product.image,
     description:
-      "Oferim servicii profesionale de dezvoltare website-uri pentru magazine online și aplicații mobile. Creăm soluții personalizate pentru afaceri de succes, optimizate pentru performanță și creșterea vânzărilor online.",
+      "Oferim dezvoltare de aplicații mobile și crearea unei aplicații Android sau iOS personalizate. Creează-ți propria aplicație, optimizează un magazin de aplicații și beneficiezi de găzduire domeniu pentru afacerea ta.",
   };
   return (
     <>

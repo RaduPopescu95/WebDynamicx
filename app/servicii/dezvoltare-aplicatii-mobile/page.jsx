@@ -87,9 +87,73 @@ const PortfolioV1 = () => {
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">
-                  Dezvoltarea aplicațiilor mobile a devenit esențială în era
-                  digitală actuală
+                  Dezvoltarea aplicatiilor mobile a devenit esențiala in era
+                  digitala actuala
                 </h2>
+                
+                {/* <h3 className="tx-dark mt-100 mb-20 lg-mt-50">
+                  Any Questions find here.
+                </h3>
+                <Faq /> */}
+              </div>
+              {/* /.service-details-meta */}
+            </div>
+            {/* End .col-xl-9 */}
+
+            <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
+              <div className="service-sidebar pe-xxl-5 md-mt-60">
+                <div className="service-category mb-40">
+                  <h4 className="tx-dark mb-15">Servicii</h4>
+                  <ul className="style-none">
+                    <li className="current-page">
+                      <Link href="/servicii/dezvoltare-aplicatii-mobile">
+                        Dezvoltare Aplicatii Mobile
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/servicii/dezvoltare-site-web">
+                        Dezvoltare Site Web
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/servicii/logo-design">Logo Design</Link>
+                    </li>
+                    <li>
+                      <Link href="/servicii/creare-magazin-online">
+                        Magazin Online
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/servicii/domeniu-gazduire">
+                        Domeniu si Gazduire
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                {/* /.service-category */}
+
+                {/* <div className="sidebar-quote mb-20">
+                  <img
+                    src="/images/icon/icon_150.svg"
+                    alt="icon"
+                    className="m-auto"
+                  />
+                  <p className="fw-500">
+                    Evernote Web offers a complete lineup major linup browser
+                  </p>
+                  <div className="name">- Rashed Kabir</div>
+                </div> */}
+                {/* /.sidebar-quote */}
+                {/* <h4 className="tx-dark mb-15">Distribuire</h4>
+                <Social /> */}
+              </div>
+              {/* /.service-sidebar */}
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 order-lg-12">
+              <div className="service-details-meta ps-lg-5">
+         
                 <p className="text-lg tx-dark">
                   Ai o idee pentru o aplicație destinată smartphone-urilor sau
                   tabletelor și crezi că va fi un hit? Putem transforma acea
@@ -177,7 +241,7 @@ const PortfolioV1 = () => {
                     <ProgressBar />
                   </div>
                 </div> */}
-                <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
+                <h3 className="tx-dark mt-20 mb-20 lg-mt-50">
                   Aplicatii native si hibride
                 </h3>
                 <p>
@@ -220,7 +284,61 @@ const PortfolioV1 = () => {
                   partenerul ideal pentru a-ți aduce ideile la viață și a-ți
                   propulsa afacerea în lumea digitală.
                 </p>
-                {/* <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
+                <h2 className="tx-dark mt-20 mb-20">
+                Soluții Mobile Personalizate pentru Diverse Industrii
+                </h2>
+                <h3 className="tx-dark mt-20 mb-20">
+                Aplicații de Food Ordering
+                </h3>
+                <img
+                  src="/images/media/foodorder.svg"
+                  alt="Aplicații de Food Ordering"
+                  className="main-img-meta"
+                />
+                <p>
+                Industria alimentară a fost una dintre primele care a profitat de avantajele aplicațiilor mobile. Cu o aplicație personalizată pentru comandarea mâncării, poți oferi clienților tăi o experiență simplificată și intuitivă, fie că este vorba de comenzi la domiciliu sau preluări de la restaurant. Integrarea funcțiilor avansate, cum ar fi urmărirea în timp real a livrării, opțiuni de plată securizate și recomandări bazate pe preferințele utilizatorilor, va crește gradul de satisfacție și loialitate al clienților tăi. Echipa noastră de dezvoltare este pregătită să implementeze soluții personalizate pentru a facilita gestionarea comenzilor, optimizarea proceselor și creșterea veniturilor afacerii tale.
+
+
+                </p>
+              
+              
+                <h3 className="tx-dark mt-20 mb-20">
+                Aplicații de Booking
+                </h3>
+                <img
+                  src="/images/media/saloonboking.svg"
+                  alt="Aplicații de Booking"
+                  className="main-img-meta"
+                />
+                <p>
+                Aplicațiile de rezervare (booking) au revoluționat modul în care utilizatorii își planifică călătoriile, ieșirile în oraș sau programările la diverse servicii. Fie că ai nevoie de o aplicație pentru rezervări hoteliere, închiriere de mașini sau programări la salonul de înfrumusețare, noi putem dezvolta o soluție completă care să îți automatizeze afacerea și să îmbunătățească interacțiunea cu clienții. Cu funcționalități precum rezervări în timp real, notificări push pentru confirmarea programărilor și integrare cu diverse sisteme de plată, aplicațiile noastre de booking ajută la optimizarea proceselor și la reducerea costurilor operaționale.
+
+                </p>
+             
+                       <h3 className="tx-dark mt-20 mb-20">
+                       Aplicații de E-commerce
+                </h3>
+                <img
+                  src="/images/media/ecommerce.svg"
+                  alt="Aplicații de E-commerce"
+                  className="main-img-meta"
+                />
+                <p>
+                E-commerce-ul este în continuă creștere, iar o aplicație mobilă dedicată îți poate oferi un avantaj competitiv major pe această piață dinamică. Cu ajutorul unei aplicații mobile de e-commerce, îți poți prezenta produsele într-un mod atractiv, oferi reduceri personalizate și comunica în mod eficient cu clienții. Funcționalitățile avansate, precum căutarea intuitivă, coșul de cumpărături optimizat și suportul pentru multiple metode de plată, sunt esențiale pentru succesul oricărei aplicații de acest tip. Echipa noastră se concentrează pe crearea unor aplicații care nu doar să atragă clienți, ci și să crească rata de conversie și să stimuleze vânzările.
+                </p>
+                <h3 className="tx-dark mt-20 mb-20">
+                De Ce Să Alegi Serviciile Noastre?                </h3>
+                <p>
+                Experiența noastră în dezvoltarea aplicațiilor mobile ne permite să înțelegem nevoile și provocările fiecărui proiect în parte. Ne asumăm responsabilitatea de a furniza soluții optimizate pentru performanță, securitate și ușurință în utilizare, astfel încât să ne asigurăm că aplicațiile livrate respectă cele mai înalte standarde de calitate. Împreună, putem aduce afacerea ta la următorul nivel prin soluții
+
+
+
+
+
+
+</p>
+             
+                {/* <h3 className="tx-dark mt-100 mb-20 lg-mt-50">
                   Any Questions find here.
                 </h3>
                 <Faq /> */}
@@ -229,55 +347,7 @@ const PortfolioV1 = () => {
             </div>
             {/* End .col-xl-9 */}
 
-            <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
-              <div className="service-sidebar pe-xxl-5 md-mt-60">
-                <div className="service-category mb-40">
-                  <h4 className="tx-dark mb-15">Servicii</h4>
-                  <ul className="style-none">
-                    <li className="current-page">
-                      <Link href="/servicii/dezvoltare-aplicatii-mobile">
-                        Dezvoltare Aplicatii Mobile
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/servicii/dezvoltare-site-web">
-                        Dezvoltare Site Web
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/servicii/logo-design">Logo Design</Link>
-                    </li>
-                    <li>
-                      <Link href="/servicii/creare-magazin-online">
-                        Magazin Online
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/servicii/domeniu-gazduire">
-                        Domeniu si Gazduire
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                {/* /.service-category */}
-
-                {/* <div className="sidebar-quote mb-50">
-                  <img
-                    src="/images/icon/icon_150.svg"
-                    alt="icon"
-                    className="m-auto"
-                  />
-                  <p className="fw-500">
-                    Evernote Web offers a complete lineup major linup browser
-                  </p>
-                  <div className="name">- Rashed Kabir</div>
-                </div> */}
-                {/* /.sidebar-quote */}
-                {/* <h4 className="tx-dark mb-15">Distribuire</h4>
-                <Social /> */}
-              </div>
-              {/* /.service-sidebar */}
-            </div>
+        
           </div>
         </div>
       </div>

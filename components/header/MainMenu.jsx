@@ -152,39 +152,39 @@ const MainMenu = () => {
           </li>
           {/* End li (portfolio) */}
 
-          {/* <li className="nav-item dropdown">
-            <a
-              // className="nav-link dropdown-toggle"
+
+
+          <li className="nav-item dropdown">
+            <Link
               className={
-                blogItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
+                 isActive("/blog")
+                  ? "nav-link active-menu"
+                  : "nav-link"
               }
-              href="#"
+              href="/blog"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
+              // data-bs-toggle="dropdown"
+              // data-bs-auto-close="outside"
+              // aria-expanded="false"
             >
               Blog
-            </a>
-            <ul className="dropdown-menu">
-              {blogItems.map((blog, index) => (
+            </Link>
+            {/* <ul className="dropdown-menu">
+              {contactItems.map((contact, index) => (
                 <li key={index}>
                   <Link
-                    href={blog.link}
+                    href={contact.link}
                     className={`dropdown-item ${
-                      isActive(blog.link) ? "active" : ""
+                      isActive(contact.link) ? "active" : ""
                     }`}
                   >
-                    <span>{blog.text}</span>
+                    <span>{contact.text}</span>
                   </Link>
                 </li>
               ))}
-            </ul>
-          </li> */}
-          {/* End li (blog) */}
-
+            </ul> */}
+          </li>
+          {/* End li (BLOG) */}
           <li className="nav-item dropdown">
             <Link
               className={

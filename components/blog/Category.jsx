@@ -1,15 +1,27 @@
+import React from 'react';
+import blogPosts from "@/data/blog";
+
 const Category = () => {
-  const categories = [
-    { name: "Digital", count: 3 },
-    { name: "Marketing", count: 4 },
-    { name: "Design", count: 2 },
-    { name: "WordPress", count: 8 },
-    { name: "Plugin", count: 5 },
-  ];
+  // Calculăm numărul de elemente pentru fiecare categorie
+  const categoryCounts = blogPosts.reduce((acc, post) => {
+    const tag = post.tag || "Uncategorized"; // Folosim "Uncategorized" pentru elementele fără tag
+    if (acc[tag]) {
+      acc[tag]++;
+    } else {
+      acc[tag] = 1;
+    }
+    return acc;
+  }, {});
+
+  // Conversia obiectului de categorii în array de obiecte cu name și count
+  const categoryArray = Object.keys(categoryCounts).map((category) => ({
+    name: category,
+    count: categoryCounts[category],
+  }));
 
   return (
     <ul className="style-none">
-      {categories.map((category, index) => (
+      {categoryArray.map((category, index) => (
         <li key={index}>
           <a href="#">
             {category.name}

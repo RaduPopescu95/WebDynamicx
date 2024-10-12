@@ -154,7 +154,7 @@ const MainMenu = () => {
 
 
 
-          {/* <li className="nav-item dropdown">
+          <li className="nav-item dropdown">
             <Link
               className={
                  isActive("/blog")
@@ -168,7 +168,7 @@ const MainMenu = () => {
               Blog
             </Link>
          
-          </li> */}
+          </li>
           {/* End li (BLOG) */}
           <li className="nav-item dropdown">
             <Link

@@ -154,7 +154,7 @@ const MainMenu = () => {
 
 
 
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <Link
               className={
                  isActive("/blog")
@@ -163,27 +163,12 @@ const MainMenu = () => {
               }
               href="/blog"
               role="button"
-              // data-bs-toggle="dropdown"
-              // data-bs-auto-close="outside"
-              // aria-expanded="false"
+            
             >
               Blog
             </Link>
-            {/* <ul className="dropdown-menu">
-              {contactItems.map((contact, index) => (
-                <li key={index}>
-                  <Link
-                    href={contact.link}
-                    className={`dropdown-item ${
-                      isActive(contact.link) ? "active" : ""
-                    }`}
-                  >
-                    <span>{contact.text}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul> */}
-          </li>
+         
+          </li> */}
           {/* End li (BLOG) */}
           <li className="nav-item dropdown">
             <Link

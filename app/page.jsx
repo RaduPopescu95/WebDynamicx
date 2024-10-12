@@ -411,7 +411,7 @@ const MainRoot = () => {
                   rel="noopener noreferrer"
                   href="https://webappdynamicx.ro"
                 >
-                  Web App Dynamicx
+                  POPESCU POMPILIU ION P.F.A.
                 </a>
               </p>
             </div>

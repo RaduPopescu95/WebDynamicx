@@ -59,7 +59,7 @@ const PortfolioV1 = () => {
                   1. COLECTAREA DE INFORMAȚII
                 </h3>
                 <p>
-                  Website-ul www.webappdynamicx.ro colecteaza informații atunci
+                  Website-ul www.webappdynamicx.ro, detinut de POPESCU POMPILIU ION P.F.A., colecteaza informații atunci
                   când se completeza formularul de contact din cadrul sectiunii
                   contact aferenta website-ulul nostru. Informațiile colectate
                   includ numele, adresa de e-mail, numărul de telefon si mesajul

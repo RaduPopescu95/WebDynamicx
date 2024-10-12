@@ -20,13 +20,16 @@ export default function RootLayout({ children }) {
       duration: 1200,
     });
   }, []);
+
   return (
     <html lang="en">
-       <GoogleTagManager gtmId="GTM-KH2BPJH3" />
+      <head>
+        <meta name="facebook-domain-verification" content="fjya94n231ecen894icl8c7fbme3od" />
+        <GoogleTagManager gtmId="GTM-KH2BPJH3" />
+      </head>
       <body>
         <div className="main-page-wrapper">
           {children}
-          {/* <ScrollToTop /> */}
           <WhatsAppComponent />
           <Analytics />
         </div>

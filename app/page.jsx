@@ -19,10 +19,10 @@ import ChatButton from "@/components/chat/chatUI";
 import ChatComponent from "@/components/chat/chatUI";
 export const metadata = {
   title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
-  description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău. Dezvoltare aplicații mobile.",
+  description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău.",
   openGraph: {
     title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
-    description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău. Dezvoltare aplicații mobile.",
+    description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău.",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
@@ -32,7 +32,12 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    // Adăugăm aici meta-tag-ul pentru verificarea domeniului de la Facebook
+    "facebook-domain-verification": "fjya94n231ecen894icl8c7fbme3od",
+  },
 };
+
 
 // Verificare dacă suntem pe client sau server
 

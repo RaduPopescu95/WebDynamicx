@@ -15,7 +15,9 @@ const Hero = () => {
   const content = {
     heading: "Dezvoltam website-uri si aplicatii mobile personalizate",
     subheading:
-      "Transformam ideile in realitate digitala pentru a-ti aduce afacerea la următorul nivel.",
+      "website-ul www.webappdynamicx.ro este deținut de Popescu Pompiliu Ion Persoană Fizică Autorizată.",
+    // subheading:
+    //   "Transformam ideile in realitate digitala pentru a-ti aduce afacerea la următorul nivel.",
     btnText: "Incepe Proiectul",
   };
 

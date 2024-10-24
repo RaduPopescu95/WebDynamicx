@@ -149,7 +149,7 @@ const MainRoot = () => {
               <p className="text-lg text-center text-lg-start md-pt-30 m0 ps-xxl-4">
                 Suntem Web App Dynamicx, o agentie digitala full service compusa
                 din oameni cu idei creative, strategi orientati spre rezultate,
-                pregatiti sa iti creasca afacerea. Website-ul www.webappdynamicx.ro este deținut de Popescu Pompiliu Ion Persoană Fizică Autorizată (PFA).
+                pregatiti sa iti creasca afacerea.
                 
               </p>
             </div>

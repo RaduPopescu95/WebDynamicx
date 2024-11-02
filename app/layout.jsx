@@ -26,8 +26,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="facebook-domain-verification" content="fjya94n231ecen894icl8c7fbme3od" />
         <GoogleTagManager gtmId="GTM-KH2BPJH3" />
-        <meta name="google-site-verification" content="bJ7a8PKIWUZ5bWsvR664i8AD7AC-e4s3fc7EnT24eqE" />
-      </head>
+        google-site-verification=jLPmcWMXKRz7-XqqO3LpXhig5rqPy4RmDG6pDbnf8c4      </head>
       <body>
         <div className="main-page-wrapper">
           {children}

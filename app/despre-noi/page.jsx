@@ -64,7 +64,7 @@ const AboutUsV3 = () => {
   <h1 className="main-title tx-dark fw-bold">Agentie de dezvoltare aplicatii web si mobile</h1>
 </div>
 <p className="fs-20 mt-30 lg-mt-20">
-  Agentie de dezvoltare aplicatii web si mobile din Targoviste. Oferim servicii profesionale de creare site-uri web, aplicatii mobile Android si iOS, magazine online personalizate
+  Agentie de dezvoltare aplicatii web si mobile. Oferim servicii profesionale de creare site-uri web, aplicatii mobile Android si iOS, magazine online personalizate
 </p>
 
           </div>

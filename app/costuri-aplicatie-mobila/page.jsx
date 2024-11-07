@@ -14,9 +14,7 @@ export const metadata = {
     title: "Cât costă dezvoltarea unei aplicații – WebAppDynamicx",
     description: "Dezvoltarea aplicațiilor mobile în România necesită expertiză și resurse variate. Descoperă soluții personalizate pentru creare și dezvoltare aplicații mobile, optimizate pentru succes.",
   },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/costuri-aplicatie-mobila`,
-  },
+
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {
     index: true,

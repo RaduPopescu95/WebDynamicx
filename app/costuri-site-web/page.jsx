@@ -14,9 +14,6 @@ export const metadata = {
     title: "Cât costă dezvoltarea unui site web – WebAppDynamicx",
     description: "Cât costă un site? Răspunsul la această întrebare te ajută la calcularea bugetului alocat pentru site-ul firmei. Noi îți oferim destul de multe alternative de preț încât să poți apela la noi cu încredere.",
   },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/costuri-site-web`,
-  },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {
     index: true,

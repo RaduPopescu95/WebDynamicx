@@ -16,9 +16,6 @@ export const metadata = {
     title: "Despre Noi |  Aplicații Web și Mobile | Web App Dynamicx",
     description: "Oferim dezvoltare de aplicații mobile și crearea unei aplicații Android sau iOS personalizate. Creează-ți propria aplicație, optimizează un magazin de aplicații și beneficiezi de găzduire domeniu pentru afacerea ta.",
   },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/despre-noi`,
-  },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {
     index: true,

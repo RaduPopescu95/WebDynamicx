@@ -1,73 +1,123 @@
 "use client";
 
 import { useState } from "react";
-import items from "@/data/portfolio";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const PortfolioGallery5 = () => {
+  // Array-ul cu datele pentru portofoliu
+  const items = [
+    {
+      id: 1,
+      category: "website-prezentare",
+      name: "Firma de asigurari 'Jano'",
+      tag: "Website Prezentare",
+      image: "/images/gallery/website-prezentare.jpg",
+      projectInfo: {
+        date: "12 Martie, 2024",
+        clientName: "Client Jano, România",
+        projectType: "UI/UX, Web Design",
+      },
+    },
+    {
+      id: 2,
+      category: "aplicatii-mobile",
+      name: "Aplicație Mobilă Android si Ios 'Cristina Zurba'",
+      tag: "Aplicatii mobile",
+      image: "/images/gallery/aplicatie-mobila.jpg",
+      projectInfo: {
+        date: "01 Ianuarie, 2024",
+        clientName: "Client Zurba Cristina, Romania",
+        projectType: "Mobile App",
+      },
+    },
+    {
+      id: 3,
+      category: "magazine-online",
+      name: "Magazin online Design and Gift",
+      tag: "Magazin Online",
+      image: "/images/gallery/magazin-online.jpg",
+      projectInfo: {
+        date: "10 Septembrie, 2023",
+        clientName: "Client Z, SUA",
+        projectType: "E-Commerce, Web Dev",
+      },
+    },
+    {
+      id: 4,
+      category: "website-prezentare",
+      name: "Website prezentare pentru Alex Hotel",
+      tag: "Website Prezentare",
+      image: "/images/gallery/hotel.jpg",
+      projectInfo: {
+        date: "21 Decembrie, 2023",
+        clientName: "Client Alex, Romania",
+        projectType: "Mobile App, UI/UX",
+      },
+    },
+ 
+  ];
+
   const [filter, setFilter] = useState("*");
 
+  // Filtrare în funcție de categorie.
+  // Dacă filter === "*", afișăm toate item-urile
   const filteredItems =
     filter === "*"
-      ? items.slice(34, 40)
-      : items.slice(34, 40).filter((item) => item.category.includes(filter));
+      ? items
+      : items.filter((item) => item.category.includes(filter));
 
   return (
     <div className="portfolio-gallery-seven pt-30">
       <div className="container">
-        <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
+        {/* Meniul de filtre */}
+        {/* <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
           <li
             className={filter === "*" ? "is-checked" : ""}
             onClick={() => setFilter("*")}
           >
-            All
+            Toate
           </li>
           <li
-            className={filter === "marketing" ? "is-checked" : ""}
-            onClick={() => setFilter("marketing")}
+            className={filter === "website-prezentare" ? "is-checked" : ""}
+            onClick={() => setFilter("website-prezentare")}
           >
-            Marketing
+            Website prezentare
           </li>
           <li
-            className={filter === "application" ? "is-checked" : ""}
-            onClick={() => setFilter("application")}
+            className={filter === "aplicatii-mobile" ? "is-checked" : ""}
+            onClick={() => setFilter("aplicatii-mobile")}
           >
-            Application
+            Aplicații mobile
           </li>
           <li
-            className={filter === "design" ? "is-checked" : ""}
-            onClick={() => setFilter("design")}
+            className={filter === "magazine-online" ? "is-checked" : ""}
+            onClick={() => setFilter("magazine-online")}
           >
-            Design
+            Magazine online
           </li>
-          <li
-            className={filter === "dev" ? "is-checked" : ""}
-            onClick={() => setFilter("dev")}
-          >
-            Development
-          </li>
-        </ul>
+        </ul> */}
 
+        {/* Galeria */}
         <div className="row pt-90 lg-pt-50">
           <Gallery>
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className={`col-lg-6 col-md-6 ${item.category}`}
+                className={`col-lg-6 col-md-6 mb-40 ${item.category}`}
               >
-                <div className="portfolio-block-six mb-40">
+                <div className="portfolio-block-six">
                   <div className="img-meta position-relative">
                     <Image
                       width={800}
                       height={833}
                       src={item.image}
-                      alt="gallary"
-                      className="w-100 tran5s"
+                      alt={item.name}
+                      className="w-100 tran5s portofolio-image"
                     />
-
+                    {/* Butonul pentru zoom / fullscreen */}
                     <Item
                       original={item.image}
                       thumbnail={item.image}
@@ -86,18 +136,16 @@ const PortfolioGallery5 = () => {
                         </span>
                       )}
                     </Item>
+
                     <div className="caption tran3s d-flex justify-content-end flex-column">
                       <span className="tag">{item.tag}</span>
                       <h6>
-                        <Link
-                          href={`/portfolio/${item.id}`}
-                          className="pj-title"
-                        >
+                        <Link href={`#`} className="pj-title">
                           {item.name}
                         </Link>
                       </h6>
                     </div>
-                    {/* <!-- /.caption --> */}
+                    {/* ./caption */}
                   </div>
                 </div>
               </div>

@@ -69,6 +69,23 @@ const MainMenu = () => {
           </li>
           {/* End li (pages) */}
 
+
+          <li className="nav-item dropdown">
+            <Link
+              className={
+                 isActive("/portofoliu")
+                  ? "nav-link active-menu"
+                  : "nav-link"
+              }
+              href="/portofoliu"
+              role="button"
+            
+            >
+              Portofoliu
+            </Link>
+         
+          </li>
+
           <li className="nav-item dropdown">
             <Link
               // className="nav-link dropdown-toggle"

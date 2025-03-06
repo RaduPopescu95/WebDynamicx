@@ -14,12 +14,12 @@ const CallToAction = () => {
                 data-aos-delay="100"
               >
                 <h2 className="main-title fw-500 tx-dark">
-                  Have Any Project? <br />
+                  Vrei să realizezi un proiect? <br />
                   <span className="position-relative">
-                    Let’s Talk{" "}
+                    Contactează-ne{" "}
                     <img src="/images/shape/shape_132.svg" alt="shape" />
                   </span>
-                  &amp; Grow your Business
+                  &amp; Dezvoltă-ți afacerea
                 </h2>
               </div>
               {/* /.title-style-ten */}
@@ -28,7 +28,7 @@ const CallToAction = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                We’r ready to help you. Our expert is here, just send a message.
+                Trimite un mesaj
               </p>
               <Link
                 href="/contact"
@@ -36,7 +36,7 @@ const CallToAction = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                Send Message
+                Contact
               </Link>
             </div>
           </div>

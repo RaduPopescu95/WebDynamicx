@@ -1,19 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import items from "@/data/portfolio";
-import { Gallery, Item } from "react-photoswipe-gallery";
-import "photoswipe/dist/photoswipe.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const PortfolioGallery6 = () => {
   const [filter, setFilter] = useState("*");
-
-  const filteredItems =
-    filter === "*"
-      ? items.slice(40, 45)
-      : items.slice(40, 45).filter((item) => item.category.includes(filter));
 
   return (
     <div className="portfolio-gallery-seven pt-30">
@@ -23,83 +15,229 @@ const PortfolioGallery6 = () => {
             className={filter === "*" ? "is-checked" : ""}
             onClick={() => setFilter("*")}
           >
-            All
+            Toate
           </li>
           <li
-            className={filter === "marketing" ? "is-checked" : ""}
-            onClick={() => setFilter("marketing")}
+            className={filter === "website" ? "is-checked" : ""}
+            onClick={() => setFilter("website")}
           >
-            Marketing
+            Website prezentare
           </li>
           <li
-            className={filter === "application" ? "is-checked" : ""}
-            onClick={() => setFilter("application")}
+            className={filter === "Aplicatii mobile" ? "is-checked" : ""}
+            onClick={() => setFilter("Aplicatii mobile")}
           >
-            Application
+            Aplicatii mobile
           </li>
           <li
-            className={filter === "design" ? "is-checked" : ""}
-            onClick={() => setFilter("design")}
+            className={filter === "Magazine online" ? "is-checked" : ""}
+            onClick={() => setFilter("Magazine online")}
           >
-            Design
-          </li>
-          <li
-            className={filter === "dev" ? "is-checked" : ""}
-            onClick={() => setFilter("dev")}
-          >
-            Development
+            Magazine online
           </li>
         </ul>
 
         <div className="row pt-90 lg-pt-50">
-          <Gallery>
-            {filteredItems.map((item) => (
-              <div key={item.id} className={`col-lg-12 ${item.category}`}>
-                <div className="portfolio-block-six mb-40">
-                  <div className="img-meta position-relative">
-                    <Image
-                      width={1320}
-                      height={600}
-                      src={item.image}
-                      alt="gallary"
-                      className="w-100 tran5s"
-                    />
-
-                    <Item
-                      original={item.image}
-                      thumbnail={item.image}
-                      width={1320}
-                      height={600}
+          {/* Imaginea 1 */}
+          {(filter === "*" || filter === "website") && (
+            <div className="col-lg-12 website">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+                  <Link href={`/portfolio/1`}>
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
                     >
-                      {({ ref, open }) => (
-                        <span
-                          role="button"
-                          className="fancybox tran3s overlay-icon zoom-icon"
-                          title="Click for large view"
-                          ref={ref}
-                          onClick={open}
-                        >
-                          <i className="bi bi-plus"></i>
-                        </span>
-                      )}
-                    </Item>
-                    <div className="caption tran3s d-flex justify-content-end flex-column">
-                      <span className="tag">{item.tag}</span>
-                      <h6>
-                        <Link
-                          href={`/portfolio/${item.id}`}
-                          className="pj-title"
-                        >
-                          {item.name}
-                        </Link>
-                      </h6>
-                    </div>
-                    {/* <!-- /.caption --> */}
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <span className="tag">website</span>
+                    <h6>
+                      <Link href={`/portfolio/1`} className="pj-title">
+                        Proiect 1
+                      </Link>
+                    </h6>
                   </div>
                 </div>
               </div>
-            ))}
-          </Gallery>
+            </div>
+          )}
+
+          {/* Imaginea 2 */}
+          {(filter === "*" || filter === "Aplicatii mobile") && (
+            <div className="col-lg-12 Aplicatii mobile">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+                  <Link href={`/portfolio/2`}>
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <span className="tag">Aplicatii mobile</span>
+                    <h6>
+                      <Link href={`/portfolio/2`} className="pj-title">
+                        Proiect 2
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Imaginea 3 */}
+          {(filter === "*" || filter === "Magazine online") && (
+            <div className="col-lg-12 Magazine online">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+               <Link href="https://www.design-and-gift.ro" target="_blank">
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <h6>
+                      <Link href="https://www.design-and-gift.ro"  className="pj-title">
+                        Magazin Online
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {/* Imaginea 3 */}
+          {(filter === "*" || filter === "Magazine online") && (
+            <div className="col-lg-12 Magazine online">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin2.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+               <Link href="https://www.design-and-gift.ro" target="_blank">
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <h6>
+                      <Link href="https://www.design-and-gift.ro"  className="pj-title">
+                        Magazin Online
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Imaginea 4 */}
+          {(filter === "*" || filter === "dev") && (
+            <div className="col-lg-12 dev">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+                  <Link href={`/portfolio/4`}>
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <span className="tag">Development</span>
+                    <h6>
+                      <Link href={`/portfolio/4`} className="pj-title">
+                        Proiect 4
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Imaginea 5 */}
+          {(filter === "*" || filter === "website") && (
+            <div className="col-lg-12 website">
+              <div className="portfolio-block-six mb-40">
+                <div className="img-meta position-relative">
+                  <Image
+                    width={1320}
+                    height={600}
+                    src="/images/portofolio/magazin.png"
+                    alt="gallery"
+                    className="w-100 tran5s"
+                  />
+                  <Link href={`/portfolio/5`}>
+                    <span
+                      role="button"
+                      className="fancybox tran3s overlay-icon zoom-icon"
+                      title="Click for large view"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </span>
+                  </Link>
+                  <div className="caption tran3s d-flex justify-content-end flex-column">
+                    <span className="tag">website</span>
+                    <h6>
+                      <Link href={`/portfolio/5`} className="pj-title">
+                        Proiect 5
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

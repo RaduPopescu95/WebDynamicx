@@ -17,6 +17,7 @@ import Social from "@/components/home-page/home-11/Social";
 import Footer from "@/components/home-page/home-11/Footer";
 import ChatButton from "@/components/chat/chatUI";
 import ChatComponent from "@/components/chat/chatUI";
+import PortfolioGallery5 from "@/components/portfolio/PortfolioGallery5";
 export const metadata = {
   title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
   description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău.",
@@ -197,7 +198,7 @@ const MainRoot = () => {
 				Feature Section Twenty One
 			============================================== 
 			*/}
-      {/* <div className="fancy-feature-twentyOne position-relative mt-190 pt-130 pb-150 lg-mt-130 lg-pt-60 lg-pb-60">
+      <div className="fancy-feature-twentyOne position-relative mt-190 pt-130 pb-150 lg-mt-130 lg-pt-60 lg-pb-60">
         <div className="container">
           <div className="row">
             <Services2 />
@@ -218,7 +219,7 @@ const MainRoot = () => {
           alt="shape"
           className="lazy-img shapes shape-five"
         />
-      </div> */}
+      </div>
       {/* /.fancy-feature-twentyOne */}
 
       {/*
@@ -249,6 +250,30 @@ const MainRoot = () => {
         <div className="shapes shape-two rounded-circle" />
       </div> */}
       {/* /.pricing-section-three */}
+
+
+            <div className="pricing-section-three position-relative mt-225 mb-225 lg-mt-140 lg-mb-120">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 m-auto">
+              <div
+                className="title-style-one text-center mb-70 lg-mb-40"
+                data-aos="fade-up"
+              >
+                <div className="sc-title text-uppercase">Portofoliu</div>
+                <h2 className="main-title fw-normal tx-dark m0">
+                  Doar o parte din <span>proiectele</span> noastre.
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <PortfolioGallery5 />
+        </div>
+
+        <div className="shapes shape-one rounded-circle" />
+        <div className="shapes shape-two rounded-circle" />
+      </div>
 
       {/* 
 			=============================================

@@ -4,27 +4,27 @@ const Services2 = () => {
   const services = [
     {
       icon: "/images/icon/icon_09.svg",
-      title: "Design & Devlopment",
+      title: "Dezvoltare Aplicatii mobile si website",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_52.svg",
-      title: "Content writing & Affiliate",
+      title: "Scriere continut",
       delay: 200,
     },
     {
       icon: "/images/icon/icon_53.svg",
-      title: "Design & Devlopment",
+      title: "Promovare",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_54.svg",
-      title: "SEO & Social marketing",
+      title: "Continut SEO",
       delay: 200,
     },
     {
       icon: "/images/icon/icon_55.svg",
-      title: "Pay per click",
+      title: "Reclame pay per click",
       delay: 300,
     },
   ];
@@ -34,7 +34,7 @@ const Services2 = () => {
       <div className="col-lg-5 me-auto mt-40 md-mt-10" data-aos="fade-up">
         <div className="title-style-one">
           <h2 className="main-title fw-normal tx-dark m0">
-            Let’s <br /> <span>Discover</span> all our Services.
+            Descopera <br /> <span>toate</span> serviciile noastre.
           </h2>
         </div>
         {/* /.title-style-one */}
@@ -75,9 +75,9 @@ const Services2 = () => {
       >
         <div className="block">
           <div className="fs-15 fw-500" style={{ color: "#FF7228" }}>
-            Confusion?
+            Ai întrebări?
           </div>
-          <h4 className="fw-normal">Send message for info.</h4>
+          <h4 className="fw-normal">Trimite un mesaj pentru mai multe informatii.</h4>
           <Link href="/contact" className="btn-eleven fs-15 fw-500 tran3s">
           Conctactează-ne
           </Link>

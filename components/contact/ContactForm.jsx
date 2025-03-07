@@ -1,12 +1,32 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
   const [showMessage, setShowMessage] = useState(false);
 
+  // ▶️ 1. Adăugăm tracking pe PAGE LOAD
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "ads_conversion_Contact_Us_1", {
+        event_category: "engagement",
+        event_label: "Page Load",
+      });
+    }
+  }, []);
+
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    // ▶️ 2. Adăugăm tracking pe CLICK (la trimiterea formularului)
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "ads_conversion_Contact_Us_1", {
+        event_category: "conversion",
+        event_label: "Form Submit",
+      });
+    }
+
     emailjs
       .sendForm(
         "service_4bilcxr",
@@ -51,9 +71,7 @@ const ContactForm = () => {
                 placeholder="Your Name*"
                 name="name"
                 required="required"
-                data-error="Name is required."
               />
-              <div className="help-block with-errors" />
             </div>
           </div>
 
@@ -64,9 +82,7 @@ const ContactForm = () => {
                 placeholder="Email Address*"
                 name="email"
                 required="required"
-                data-error="Valid email is required."
               />
-              <div className="help-block with-errors" />
             </div>
           </div>
 
@@ -77,9 +93,7 @@ const ContactForm = () => {
                 placeholder="Phone Number*"
                 name="phone"
                 required="required"
-                data-error="Phone number is required."
               />
-              <div className="help-block with-errors" />
             </div>
           </div>
 
@@ -90,9 +104,7 @@ const ContactForm = () => {
                 placeholder="Subject*"
                 name="subject"
                 required="required"
-                data-error="Subject is required."
               />
-              <div className="help-block with-errors" />
             </div>
           </div>
 
@@ -102,10 +114,7 @@ const ContactForm = () => {
                 placeholder="Your message*"
                 name="message"
                 required="required"
-                data-error="Please, leave us a message."
-                defaultValue={""}
               />
-              <div className="help-block with-errors" />
             </div>
           </div>
 

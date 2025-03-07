@@ -62,7 +62,7 @@ const PortfolioGallery5 = () => {
       category: "aplicatii-mobile",
       name: "Aplicatie mobila pentru saloane 'Style Connect'",
       tag: "Aplicatii mobile",
-      image: "/images/gallery/style-connect.png",
+      image: "/images/gallery/stylec-connect.jpg",
       projectInfo: {
         date: "21 Decembrie, 2023",
         clientName: "Client Style Connect, Romania",

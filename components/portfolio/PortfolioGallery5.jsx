@@ -57,6 +57,18 @@ const PortfolioGallery5 = () => {
         projectType: "Mobile App, UI/UX",
       },
     },
+    {
+      id: 5,
+      category: "aplicatii-mobile",
+      name: "Aplicatie mobila pentru saloane 'Style Connect'",
+      tag: "Aplicatii mobile",
+      image: "/images/gallery/style-connect.png",
+      projectInfo: {
+        date: "21 Decembrie, 2023",
+        clientName: "Client Style Connect, Romania",
+        projectType: "Mobile App, UI/UX",
+      },
+    },
  
   ];
 

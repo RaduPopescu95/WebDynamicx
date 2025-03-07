@@ -7,8 +7,8 @@ import "../styles/index.scss";
 import ScrollToTop from "@/components/common/ScrollTop";
 import ChatComponent from "@/components/chat/chatUI";
 import WhatsAppComponent from "@/components/chat/whatsAppComponent";
-import { GoogleTagManager } from '@next/third-parties/google'
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
@@ -25,8 +25,22 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="facebook-domain-verification" content="fjya94n231ecen894icl8c7fbme3od" />
-        <GoogleTagManager gtmId="GTM-KH2BPJH3" />
-        google-site-verification=jLPmcWMXKRz7-XqqO3LpXhig5rqPy4RmDG6pDbnf8c4      </head>
+        <meta name="google-site-verification" content="jLPmcWMXKRz7-XqqO3LpXhig5rqPy4RmDG6pDbnf8c4" />
+
+        {/* Integrare Google Ads gtag.js */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16914216527"
+        />
+        <Script strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16914216527');
+          `}
+        </Script>
+      </head>
       <body>
         <div className="main-page-wrapper">
           {children}

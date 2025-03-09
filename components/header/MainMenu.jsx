@@ -73,6 +73,21 @@ const MainMenu = () => {
           <li className="nav-item dropdown">
             <Link
               className={
+                 isActive("/chat-bot")
+                  ? "nav-link active-menu"
+                  : "nav-link"
+              }
+              href="https://webappdynamicx-ai-chatbot.vercel.app/"
+              role="button"
+            
+            >
+              ChatBot
+            </Link>
+         
+          </li>
+          <li className="nav-item dropdown">
+            <Link
+              className={
                  isActive("/portofoliu")
                   ? "nav-link active-menu"
                   : "nav-link"

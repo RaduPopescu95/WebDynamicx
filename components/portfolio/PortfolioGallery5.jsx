@@ -69,6 +69,30 @@ const PortfolioGallery5 = () => {
         projectType: "Mobile App, UI/UX",
       },
     },
+    {
+      id: 6,
+      category: "aplicatii-web",
+      name: "Aplicatie Web pentru gestionarea programarilor firmei tale",
+      tag: "Aplicatie Web",
+      image: "/images/gallery/aplicatie-web-programari.jpg",
+      projectInfo: {
+        date: "21 August, 2024",
+        clientName: "Client Doccure",
+        projectType: "Mobile App, UI/UX",
+      },
+    },
+    {
+      id: 7,
+      category: "blog-personal",
+      name: "Website de tip blog",
+      tag: "Blog personal",
+      image: "/images/gallery/blog-personal.jpg",
+      projectInfo: {
+        date: "23 Februarie, 2024",
+        clientName: "Client Promovare Digitala",
+        projectType: "Mobile App, UI/UX",
+      },
+    },
  
   ];
 

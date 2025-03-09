@@ -25,8 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="facebook-domain-verification" content="fjya94n231ecen894icl8c7fbme3od" />
-        <meta name="google-site-verification" content="jLPmcWMXKRz7-XqqO3LpXhig5rqPy4RmDG6pDbnf8c4" />
-
+        <meta name="google-site-verification" content="bJ7a8PKIWUZ5bWsvR664i8AD7AC-e4s3fc7EnT24eqE" />
         {/* Integrare Google Ads gtag.js */}
         <Script
           strategy="afterInteractive"

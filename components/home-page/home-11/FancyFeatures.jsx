@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const FancyFeatures = () => {
   const items = [
-    "Solutii personalizate pentru fiecare proiect.",
-    "Echipa dedicata de experti in tehnologie.",
-    "Lansari rapide si eficiente.",
-    "Colaborare transparenta la fiecare pas.",
-  ];
+    "Soluții personalizate pentru fiecare proiect.",
+    "Echipă dedicată de experți în tehnologie.",
+    "Lansări rapide și eficiente.",
+    "Colaborare transparentă la fiecare pas.",
+];
 
   return (
     <div className="row">
@@ -14,7 +14,7 @@ const FancyFeatures = () => {
         <div className="block-style-one ps-xxl-5" data-aos="fade-left">
           <div className="title-style-one">
             <div className="sc-title">
-              Over
+              Peste{" "}
               <span
                 className="text-decoration-underline"
                 style={{ color: "#007bff" }}

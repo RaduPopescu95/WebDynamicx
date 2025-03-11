@@ -14,13 +14,14 @@ const AboutCeo = () => {
     content: {
       sectionTitle: "Cine suntem?",
       description:
-        "Echipa noastra a fost fondata de dezvoltatori web pasionati, cu o viziune de a revolutiona modul in care sunt create experientele digitale. De-a lungul anilor, am colaborat cu clienti din intreaga lume, transformand ideile lor in aplicatii web scalabile si robuste.",
+        "Echipa noastră a fost fondată de dezvoltatori web pasionați, cu o viziune de a revoluționa modul în care sunt create experiențele digitale. De-a lungul anilor, am colaborat cu clienți din întreaga lume, transformând ideile lor în aplicații web scalabile și robuste.",
     },
     rating: {
       text: "Ratingul nostru mediu de 4.8 reflectă angajamentul nostru față de excelență.",
       starsCount: 5,
     },
-  };
+};
+
 
   const starIcons = Array.from(
     { length: aboutData.rating.starsCount },

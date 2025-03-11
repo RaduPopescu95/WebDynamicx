@@ -4,25 +4,25 @@ const BlockContact = () => {
   const addressBlocks = [
     {
       icon: "/images/icon/icon_147.svg",
-      title: "Adresa",
-      content: "Targoviste, Dambovita",
+      title: "Adresă",
+      content: "Târgoviște, Dâmbovița",
       delay: "100",
     },
     {
       icon: "/images/icon/icon_148.svg",
-      title: "Apeleaza-ne",
-      content: "Suntem aici pentru proiectul tau",
+      title: "Apelează-ne",
+      content: "Suntem aici pentru proiectul tău",
       link: "tel:0774 550 758",
       delay: "200",
     },
     {
       icon: "/images/icon/icon_149.svg",
       title: "Suport live",
-      content: "Whats app",
+      content: "WhatsApp",
       link: "https://wa.me/40774550758",
       delay: "300",
     },
-  ];
+];
 
   return (
     <>

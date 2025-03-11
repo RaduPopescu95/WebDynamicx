@@ -8,7 +8,7 @@ const BannerPost = ({ backgroundUrl, heading, description, buttonText, buttonUrl
     >
       <div className="banner-content">
         <h4>{heading}</h4>
-        <p>{description}</p>
+        {/* <p>{description}</p> */}
         <a href={buttonUrl} className="btn-twentyOne fw-500 tran3s">
           {buttonText}
         </a>

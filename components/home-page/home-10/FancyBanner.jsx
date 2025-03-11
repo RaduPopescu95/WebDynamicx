@@ -6,7 +6,7 @@ const FancyBanner = () => {
           <div className="col-xl-8 col-lg-10 m-auto text-center">
             <div className="title-style-one" data-aos="fade-up">
               <h2 className="main-title fw-bold tx-dark m0">
-                Gata să începi planul? E nevoie doar de <span>un click</span>
+                Ești gata să începi planul? Este nevoie doar de <span>un singur click</span>
               </h2>
             </div>{" "}
             {/* /.title-style-one */}

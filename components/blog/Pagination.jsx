@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Pagination = () => {
   const [activePage, setActivePage] = useState(1);
-  const pageNumbers = [1, 2, 3, 4]; // replace with actual page numbers
+  const pageNumbers = [1]; // replace with actual page numbers
 
   const handlePageClick = (pageNumber) => {
     setActivePage(pageNumber);
@@ -21,11 +21,11 @@ const Pagination = () => {
           {pageNumber}
         </li>
       ))}
-      <li>...</li>
-      <li>Last</li>
-      <li className="arrow">
+      {/* <li>...</li>
+      <li>Last</li> */}
+      {/* <li className="arrow">
         <i className="bi bi-arrow-right" />
-      </li>
+      </li> */}
     </ul>
   );
 };

@@ -31,12 +31,13 @@ const ContactV1 = () => {
               >
                 <div className="sc-title">CONTACT</div>
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
-                  Echipa{" "}
-                  <span className="position-relative">
-                    noastra <img src="/images/shape/shape_186.svg" alt="icon" />
-                  </span>
-                  este aici sa te ajute.
-                </h2>
+    Echipa{" "}
+    <span className="position-relative">
+        noastră <img src="/images/shape/shape_186.svg" alt="icon" />
+    </span>
+    este aici să te ajute.
+</h2>
+
               </div>
               {/* /.title-style-fourteen */}
             </div>
@@ -66,12 +67,13 @@ const ContactV1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 col-md-9 m-auto">
-              <h2
-                className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40"
-                data-aos="fade-up"
-              >
-                Ai o întrebare sau doresti o oferta?
-              </h2>
+            <h2
+    className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40"
+    data-aos="fade-up"
+>
+    Ai o întrebare sau dorești o ofertă?
+</h2>
+
             </div>
             <div className="col-xl-11 m-auto">
               <ContactForm />
@@ -80,7 +82,7 @@ const ContactV1 = () => {
           </div>
         </div>
         {/* End .container */}
-        <Map />
+        {/* <Map /> */}
       </div>
 
       {/* 

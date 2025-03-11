@@ -58,11 +58,12 @@ const AboutUsV3 = () => {
         >
           <div className="container">
           <div className="title-style-five">
-  <h1 className="main-title tx-dark fw-bold">Agentie de dezvoltare aplicatii web si mobile</h1>
+  <h1 className="main-title tx-dark fw-bold">Agenție de dezvoltare aplicații web și mobile</h1>
 </div>
 <p className="fs-20 mt-30 lg-mt-20">
-  Agentie de dezvoltare aplicatii web si mobile. Oferim servicii profesionale de creare site-uri web, aplicatii mobile Android si iOS, magazine online personalizate
+  Agenție de dezvoltare aplicații web și mobile. Oferim servicii profesionale de creare site-uri web, aplicații mobile Android și iOS, magazine online personalizate.
 </p>
+
 
           </div>
           {/* End container */}
@@ -104,14 +105,16 @@ const AboutUsV3 = () => {
                 <div className="title-style-one mt-30">
                   <div className="sc-title text-uppercase">De ce noi?</div>
                   <h2 className="main-title fw-bold tx-dark">
-                    De ce sa <span>alegi</span> Web App Dynamicx.
-                  </h2>
+    De ce să <span>alegi</span> Web App Dynamicx.
+</h2>
+
                 </div>{" "}
                 {/* /.title-style-one */}
                 <p className="text-lg mt-40 lg-mt-20">
-                  Noi ajutam clientii nostri sa isi indeplineasca nevoile cu
-                  ajutorul expertizei noastre.
-                </p>
+    Noi ajutăm clienții noștri să își îndeplinească nevoile cu 
+    ajutorul expertizei noastre.
+</p>
+
                 <Image
                   width={73}
                   height={75}
@@ -232,10 +235,11 @@ const AboutUsV3 = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-10 m-auto text-center">
               <div className="title-style-one" data-aos="fade-up">
-                <h2 className="main-title fw-bold tx-dark m0">
-                  Gata sa incepi proiectul? E nevoie doar de{" "}
-                  <span>un click</span>
-                </h2>
+              <h2 className="main-title fw-bold tx-dark m0">
+    Gata să începi proiectul? E nevoie doar de{" "}
+    <span>un click</span>
+</h2>
+
               </div>{" "}
               {/* /.title-style-one */}
               {/* <p

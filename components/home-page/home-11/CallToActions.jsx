@@ -13,7 +13,7 @@ const CallToActions = () => {
         <div className="col-xxl-7 col-lg-8 col-md-9 m-auto text-center">
           <div className="title-style-one" data-aos="fade-up">
             <h2 className="main-title fw-normal tx-dark m0">
-              Gata să începi planul? E nevoie doar de <span>un click</span>
+              Ești gata să începi planul? Este nevoie doar de <span>un singur click</span>
             </h2>
           </div>
           {/* /.title-style-one */}

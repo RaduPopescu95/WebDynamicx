@@ -16,16 +16,18 @@ module.exports = [
     title: "Cum te ajută un magazin online custom să atragi clienți la nivel global",
     delay: "100",
   },
-  // {
-  //   id: 2,
-  //   tag: "Marketing", // Tag adăugat
-  //   tagStyle: { background: "#FFEB3B" }, // Stil pentru tag
-  //   imageSrc: "/images/blog/blog_img_10.jpg",
-  //   date: "14 March, 2022",
-  //   titleMeta: "Truck Side Advertising Isn It Time for action.",
-  //   title: "Truck Side Advertising Isn It Time for action.",
-  //   delay: "200",
-  // },
+  {
+    id: 2,
+    tag: "Creare site web", // Tag adăugat
+    tagStyle: { background: "#FFEB3B" }, // Stil pentru tag
+    imageSrc: "/images/blog/creare-site-web/creare site web principal.png",
+    date: "11 martie, 2025",
+    titleMeta: "Creare site web",
+    title: "Cele mai bune practici pentru crearea site-urilor web interactive cu Web App Dynamicx",
+    delay: "200",
+    link: "creare-site-web",
+  },
+  
   
   // {
   //   id: 5,

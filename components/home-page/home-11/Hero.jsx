@@ -13,13 +13,14 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Dezvoltam website-uri si aplicatii mobile personalizate",
+    heading: "Dezvoltăm website-uri și aplicații mobile personalizate",
     // subheading:
-    //   "website-ul www.webappdynamicx.ro este deținut de Popescu Pompiliu Ion Persoană Fizică Autorizată.",
+    //   "Website-ul www.webappdynamicx.ro este deținut de Popescu Pompiliu Ion Persoană Fizică Autorizată.",
     subheading:
-      "Transformam ideile in realitate digitala pentru a-ti aduce afacerea la următorul nivel.",
-    btnText: "Incepe Proiectul",
-  };
+      "Transformăm ideile în realitate digitală pentru a-ți aduce afacerea la următorul nivel!",
+    btnText: "Începe Proiectul",
+};
+
 
   return (
     <>

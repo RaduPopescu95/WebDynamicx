@@ -7,7 +7,7 @@ const Services = () => {
       title: "Logo design",
       link: "/servicii/logo-design",
       description:
-        "Cream logo-uri unice si memorabile care reflecta identitatea brandului tau.",
+        "Creăm logo-uri unice și memorabile care reflectă identitatea brandului tău.",
       delay: 0,
     },
     {
@@ -15,15 +15,15 @@ const Services = () => {
       title: "Magazin online",
       link: "/servicii/creare-magazin-online",
       description:
-        "Dezvoltam magazine online optimizate pentru vanzari si promovare eficienta in motoarele de cautare.",
+        "Dezvoltăm magazine online optimizate pentru vânzări și promovare eficientă în motoarele de căutare.",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_11.svg",
-      title: "Aplicatii mobile",
+      title: "Aplicații mobile",
       link: "/servicii/dezvoltare-aplicatii-mobile",
       description:
-        "Construim aplicatii mobile inovatoare, adaptate nevoilor tale, pentru toate platformele majore.",
+        "Construim aplicații mobile inovatoare, adaptate nevoilor tale, pentru toate platformele majore.",
       delay: 200,
     },
     {
@@ -31,18 +31,19 @@ const Services = () => {
       title: "Creare site web",
       link: "/servicii/dezvoltare-site-web",
       description:
-        "Realizam site-uri web moderne si responsive, cu design atractiv si functionalitate impecabila.",
+        "Realizăm site-uri web moderne și responsive, cu design atractiv și funcționalitate impecabilă.",
       delay: 300,
     },
     {
       icon: "/images/icon/icon_11.svg",
-      title: "Domeniu si gazduire",
+      title: "Domeniu și găzduire",
       link: "/servicii/domeniu-gazduire",
       description:
-        "Oferim servicii complete de inregistrare domenii si gazduire web rapide si sigure.",
+        "Oferim servicii complete de înregistrare domenii și găzduire web rapide și sigure.",
       delay: 400,
     },
   ];
+
 
   return (
     <>

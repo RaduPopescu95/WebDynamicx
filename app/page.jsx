@@ -139,7 +139,7 @@ const MainRoot = () => {
             <div className="col-lg-6" data-aos="fade-right">
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-normal tx-dark m0">
-                  Oferim Servicii de <span>Calitate</span>.
+                  Oferim servicii de <span>calitate</span>.
                 </h2>
               </div>
               {/* /.title-style-one */}
@@ -147,12 +147,12 @@ const MainRoot = () => {
             {/* End .col-lg-6 */}
 
             <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
-              <p className="text-lg text-center text-lg-start md-pt-30 m0 ps-xxl-4">
-                Suntem Web App Dynamicx, o agentie digitala full service compusa
-                din oameni cu idei creative, strategi orientati spre rezultate,
-                pregatiti sa iti creasca afacerea.
-                
-              </p>
+            <p className="text-lg text-center text-lg-start md-pt-30 m0 ps-xxl-4">
+    Suntem Web App Dynamicx, o agenție digitală full service compusă
+    din oameni cu idei creative, strategii orientate spre rezultate,
+    pregătiți să îți crească afacerea.
+</p>
+
             </div>
      
     
@@ -296,9 +296,10 @@ const MainRoot = () => {
               <div className="row">
                 <div className="col-lg-5 col-md-6 " data-aos="fade-right">
                   <div className="title-style-one text-center text-md-start mb-100 lg-mb-50">
-                    <h2 className="main-title fw-normal tx-dark m0">
-                      Parerile clientilor <span>spun totul.</span>
-                    </h2>
+                  <h2 className="main-title fw-normal tx-dark m0">
+    Părerile clienților <span>spun totul.</span>
+</h2>
+
                   </div>
                   {/* /.title-style-one */}
                 </div>

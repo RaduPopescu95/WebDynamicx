@@ -51,12 +51,12 @@ const GridWithSidebar = () => {
 
               <div className="col-lg-4 col-md-8">
                 <div className="blog-sidebar md-mt-70">
-                  <div className="blog-sidebar-search mb-55 md-mb-40">
+                  {/* <div className="blog-sidebar-search mb-55 md-mb-40">
                     <SearchBox />
-                  </div>
+                  </div> */}
 
                   <div className="blog-sidebar-category mb-60 md-mb-50">
-                    <h4 className="sidebar-title">Category</h4>
+                    <h4 className="sidebar-title">Categorii</h4>
                     <Category />
                   </div>
 
@@ -64,14 +64,14 @@ const GridWithSidebar = () => {
                     backgroundUrl="/images/dezvoltare-aplicatii-mobile.svg"
                     heading="Dezvoltare aplicatii mobile"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obțiune ofertă"
                     buttonUrl="/servicii/dezvoltare-aplicatii-mobile"
                   />
                   <BannerPost
                     backgroundUrl="/images/dezvoltare-magazin-online.svg"
                     heading="Dezvoltare magazine online"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obțiune ofertă"
                     buttonUrl="/servicii/creare-magazin-online"
                     marginTop="mt-20"
                   />
@@ -79,7 +79,7 @@ const GridWithSidebar = () => {
                     backgroundUrl="/images/creare-website.svg"
                     heading="Creare website"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obțiune ofertă"
                     buttonUrl="/servicii/dezvoltare-site-web"
                     marginTop="mt-20"
                   />

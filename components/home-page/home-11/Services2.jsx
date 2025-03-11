@@ -4,12 +4,12 @@ const Services2 = () => {
   const services = [
     {
       icon: "/images/icon/icon_09.svg",
-      title: "Dezvoltare Aplicatii mobile si website",
+      title: "Dezvoltare aplicații mobile și website-uri",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_52.svg",
-      title: "Scriere continut",
+      title: "Scriere conținut",
       delay: 200,
     },
     {
@@ -19,23 +19,25 @@ const Services2 = () => {
     },
     {
       icon: "/images/icon/icon_54.svg",
-      title: "Continut SEO",
+      title: "Conținut SEO",
       delay: 200,
     },
     {
       icon: "/images/icon/icon_55.svg",
-      title: "Reclame pay per click",
+      title: "Reclame pay-per-click",
       delay: 300,
     },
-  ];
+];
+
 
   return (
     <>
       <div className="col-lg-5 me-auto mt-40 md-mt-10" data-aos="fade-up">
         <div className="title-style-one">
-          <h2 className="main-title fw-normal tx-dark m0">
-            Descopera <br /> <span>toate</span> serviciile noastre.
-          </h2>
+        <h2 className="main-title fw-normal tx-dark m0">
+    Descoperă <br /> <span>toate</span> serviciile noastre.
+</h2>
+
         </div>
         {/* /.title-style-one */}
       </div>
@@ -53,7 +55,7 @@ const Services2 = () => {
               <img src={service.icon} alt="icon" className="lazy-img" />
             </div>
             <h4 className="fw-500 mt-20 mb-50">{service.title}</h4>
-            <Link
+            {/* <Link
               href="/pages-menu/service-details"
               className="read-btn mt-auto tran3s"
             >
@@ -62,7 +64,7 @@ const Services2 = () => {
                 alt={service.title}
                 className="lazy-img"
               />
-            </Link>
+            </Link> */}
           </div>
           {/* /.card-style-ten */}
         </div>
@@ -77,7 +79,7 @@ const Services2 = () => {
           <div className="fs-15 fw-500" style={{ color: "#FF7228" }}>
             Ai întrebări?
           </div>
-          <h4 className="fw-normal">Trimite un mesaj pentru mai multe informatii.</h4>
+          <h4 className="fw-normal">Trimite un mesaj pentru mai multe informații.</h4>
           <Link href="/contact" className="btn-eleven fs-15 fw-500 tran3s">
           Conctactează-ne
           </Link>

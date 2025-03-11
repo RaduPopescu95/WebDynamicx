@@ -68,7 +68,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-30">
               <input
                 type="text"
-                placeholder="Your Name*"
+                placeholder="Numele tău*"
                 name="name"
                 required="required"
               />
@@ -79,7 +79,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-30">
               <input
                 type="email"
-                placeholder="Email Address*"
+                placeholder="Adresă e-mail*"
                 name="email"
                 required="required"
               />
@@ -90,18 +90,20 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-30">
               <input
                 type="text"
-                placeholder="Phone Number*"
+                placeholder="Număr telefon*"
                 name="phone"
                 required="required"
               />
             </div>
           </div>
 
+       
+
           <div className="col-12">
             <div className="input-group-meta form-group mb-30">
               <input
                 type="text"
-                placeholder="Subject*"
+                placeholder="Subiect*"
                 name="subject"
                 required="required"
               />
@@ -111,7 +113,7 @@ const ContactForm = () => {
           <div className="col-12">
             <div className="input-group-meta form-group mb-30">
               <textarea
-                placeholder="Your message*"
+                placeholder="Mesajul tău*"
                 name="message"
                 required="required"
               />
@@ -126,6 +128,7 @@ const ContactForm = () => {
               Trimite mesaj
             </button>
           </div>
+          
         </div>
       </form>
     </div>

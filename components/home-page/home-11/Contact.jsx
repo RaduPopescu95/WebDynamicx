@@ -3,12 +3,13 @@ import Form from "./Form";
 const Contact = () => {
   const contentData = {
     imgSrc: "/images/icon/icon_60.svg",
-    title: "Discuta cu expertii nostri in dezvoltare.",
+    title: "Discută cu experții noștri în dezvoltare.",
     subtitle:
-      "Suntem aici pentru a te ajuta sa iti transformi ideile in realitate digitala.",
+      "Suntem aici pentru a te ajuta să îți transformi ideile în realitate digitală.",
     urgent: "Ai nevoie de ajutor rapid?",
     phone: "0774 550 758",
-  };
+};
+
 
   return (
     <div className="row align-items-center">
@@ -22,7 +23,7 @@ const Contact = () => {
         <p className="text-lg tx-dark mb-55 lg-mb-30">{contentData.subtitle}</p>
         <div className="fw-500 fs-18 ur-text mb-5">{contentData.urgent}</div>
         <div className="call-btn">
-          <span className="fs-18 tx-dark d-inline-block">Suna acum!</span>{" "}
+          <span className="fs-18 tx-dark d-inline-block">Sună acum!</span>{" "}
           <a href={"tel:" + contentData.phone} className="tx-dark tran3s">
             {contentData.phone}
           </a>
@@ -39,7 +40,7 @@ const Contact = () => {
           {/* /.form-style-two */}
 
           <div className="shapes shape-text fw-500 fs-20 tx-dark text-center">
-            Compleateaza <br />
+            Completează <br />
             formularul
           </div>
           <img

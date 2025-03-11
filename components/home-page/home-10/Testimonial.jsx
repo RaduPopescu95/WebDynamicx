@@ -9,44 +9,45 @@ const Testimonial = () => {
     {
       imgSrc: "/images/media/img_02.png",
       backgroundColor: "#825EFF",
-      rating: "Very solid, 8.3 out 10",
-      text: "Aplicatia mea de tarot si horoscop a fost un succes datorita acestei agentii. Au inteles perfect viziunea mea.",
+      rating: "Very solid, 8.3 out of 10",
+      text: "Aplicația mea de tarot și horoscop a fost un succes datorită acestei agenții. Au înțeles perfect viziunea mea.",
       author: "Cristina Zurba",
-      country: "Romania",
+      country: "România",
     },
     {
       imgSrc: "/images/media/img_03.png",
       backgroundColor: "#08CE97",
-      rating: "Very solid, 7.2 out 10",
-      text: "Colaborarea cu aceasta agentie a fost excelenta. Echipa lor a depasit toate asteptarile.",
+      rating: "Very solid, 7.2 out of 10",
+      text: "Colaborarea cu această agenție a fost excelentă. Echipa lor a depășit toate așteptările.",
       author: "Andrei Popescu",
-      country: "Romania",
+      country: "România",
     },
     {
       imgSrc: "/images/media/img_02.png",
       backgroundColor: "#FF8A3A",
-      rating: "Very solid, 9.1 out 10",
-      text: "Sunt foarte multumit de site-ul creat pentru afacerea mea. Profesionisti rapizi si de incredere.",
+      rating: "Very solid, 9.1 out of 10",
+      text: "Sunt foarte mulțumită de site-ul creat pentru afacerea mea. Profesioniști rapizi și de încredere.",
       author: "Ioana Ionescu",
-      country: "Romania",
+      country: "România",
     },
     {
       imgSrc: "/images/media/img_03.png",
       backgroundColor: "#08CE97",
-      rating: "Very solid, 10 out 10",
-      text: "Aplicatia dezvoltata a imbunatatit mult experienta clientilor nostri. Recomand cu incredere!",
+      rating: "Very solid, 10 out of 10",
+      text: "Aplicația dezvoltată a îmbunătățit mult experiența clienților noștri. Recomand cu încredere!",
       author: "Mihai Georgescu",
-      country: "Romania",
+      country: "România",
     },
     {
       imgSrc: "/images/media/img_03.png",
       backgroundColor: "#08CE97",
-      rating: "Very solid, 10 out 10",
-      text: "Serviciile de gazduire sunt de top. De cand am mutat site-ul la ei, nu am avut probleme.",
+      rating: "Very solid, 10 out of 10",
+      text: "Serviciile de găzduire sunt de top. De când am mutat site-ul la ei, nu am avut probleme.",
       author: "Ana Tudor",
-      country: "Romania",
+      country: "România",
     },
-  ];
+];
+
 
   const settings = {
     dots: false,
@@ -78,9 +79,10 @@ const Testimonial = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-7">
             <div className="title-style-one text-center text-md-start">
-              <h2 className="main-title fw-bold tx-dark m0">
-                Ce spun <span>clientii</span> nostrii despre noi.
-              </h2>
+            <h2 className="main-title fw-bold tx-dark m0">
+    Ce spun <span>clienții</span> noștri despre noi.
+</h2>
+
             </div>
             {/* /.title-style-one */}
           </div>

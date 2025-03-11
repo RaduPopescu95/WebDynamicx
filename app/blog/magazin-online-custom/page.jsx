@@ -42,10 +42,7 @@ const DynamicBlogDetails = () => {
             <div className="col-xxl-8 col-lg-9" data-aos="fade-right">
               <p className="blog-pubish-date">
                 Creare Magazin Online . 07 Octombrie
-                 {/* . By
-                <a href="#" className="fw-500">
-                  Hasan Ira
-                </a> */}
+             
               </p>
               <h2 className="blog-heading-one tx-dark">Cum te ajută un magazin online custom să atragi clienți la nivel global</h2>
             </div>
@@ -150,10 +147,7 @@ const DynamicBlogDetails = () => {
 
             
                 
-                    {/* <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
-                      <Tag />
-                      <SocialShare />
-                    </div> */}
+                
                     {/* /.bottom-widget */}
                     <div
         className="fancy-short-banner-sixteen mt-30 lg-mt-30"
@@ -194,65 +188,28 @@ const DynamicBlogDetails = () => {
       </div>
                   </article>
 
-                  {/* /.blog-details-content */}
-
-                  {/* <div className="blog-comment-area">
-                    <h3 className="blog-inner-title tx-dark pb-15">
-                      2 Comments
-                    </h3>
-                    <SingleComments />
-                  </div> */}
-                  {/* /.blog-comment-area */}
-
-                  {/* <div className="blog-comment-form mt-30">
-                    <h3 className="blog-inner-title tx-dark">
-                      Leave A Comment
-                    </h3>
-                    <p>
-                      <Link href="/login" className="text-decoration-underline">
-                        Sign
-                      </Link>
-                      in to post your comment or signup if you dont have any
-                      account.
-                    </p>
-                    <CommentBox />
-                  </div> */}
-                  {/* /.blog-comment-form */}
+            
                 </div>
               </div>
               {/* End .col-lg-8 */}
 
               <div className="col-lg-4 col-md-8">
                 <div className="blog-sidebar md-mt-70">
-                  <div className="blog-sidebar-search mb-55 md-mb-40">
-                    <SearchBox />
-                  </div>
-                  {/* /.blog-sidebar-search */}
-
-                  {/* <div className="blog-sidebar-category mb-60 md-mb-50">
-                    <h4 className="sidebar-title">Category</h4>
-                    <Category />
-                  </div> */}
-                  {/* /.blog-sidebar-category */}
-
-                  {/* <div className="sidebar-recent-news mb-60 md-mb-50">
-                    <h4 className="sidebar-title">Recent News</h4>
-                    <RecentPost />
-                  </div> */}
-                  {/* /.sidebar-recent-news */}
+              
+              
 
                   <BannerPost
                     backgroundUrl="/images/dezvoltare-aplicatii-mobile.svg"
                     heading="Dezvoltare aplicatii mobile"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obține ofertă"
                     buttonUrl="/servicii/dezvoltare-aplicatii-mobile"
                   />
                   <BannerPost
                     backgroundUrl="/images/dezvoltare-magazin-online.svg"
                     heading="Dezvoltare magazine online"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obține ofertă"
                     buttonUrl="/servicii/creare-magazin-online"
                     marginTop="mt-20"
                   />
@@ -260,7 +217,7 @@ const DynamicBlogDetails = () => {
                     backgroundUrl="/images/creare-website.svg"
                     heading="Creare website"
                     description="From its medieval origins digital"
-                    buttonText="Obtine oferta"
+                    buttonText="Obține ofertă"
                     buttonUrl="/servicii/dezvoltare-site-web"
                     marginTop="mt-20"
                   />

@@ -11,57 +11,58 @@ const Testimonial = () => {
       background: "#4CAF50",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Aplicatia mea de tarot si horoscop a fost un succes datorita acestei agentii. Au inteles perfect viziunea mea.",
+        "Aplicația mea de tarot și horoscop a fost un succes datorită acestei agenții. Au înțeles perfect viziunea mea.",
       avatarSrc: "/images/media/img_23.jpg",
       name: "Cristina Zurba",
-      location: "Romania",
+      location: "România",
     },
     {
       background: "#825EFF",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Colaborarea cu aceasta agentie a fost excelenta. Echipa lor a depasit toate asteptarile.",
+        "Colaborarea cu această agenție a fost excelentă. Echipa lor a depășit toate așteptările.",
       avatarSrc: "/images/media/img_18.jpg",
       name: "Andrei Popescu",
-      location: "Romania",
+      location: "România",
     },
     {
       background: "#11D09F",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Sunt foarte multumit de site-ul creat pentru afacerea mea. Profesionisti rapizi si de incredere.",
+        "Sunt foarte mulțumită de site-ul creat pentru afacerea mea. Profesioniști rapizi și de încredere.",
       avatarSrc: "/images/media/img_19.jpg",
       name: "Ioana Ionescu",
-      location: "Romania",
+      location: "România",
     },
     {
       background: "#FFB900",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Aplicatia dezvoltata a imbunatatit mult experienta clientilor nostri. Recomand cu incredere!",
+        "Aplicația dezvoltată a îmbunătățit mult experiența clienților noștri. Recomand cu încredere!",
       avatarSrc: "/images/media/img_20.jpg",
       name: "Mihai Georgescu",
-      location: "Romania",
+      location: "România",
     },
     {
       background: "#FF5E5E",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Serviciile de gazduire sunt de top. De cand am mutat site-ul la ei, nu am avut probleme.",
+        "Serviciile de găzduire sunt de top. De când am mutat site-ul la ei, nu am avut probleme.",
       avatarSrc: "/images/media/img_21.jpg",
       name: "Ana Tudor",
-      location: "Romania",
+      location: "România",
     },
     {
       background: "#EF4DD5",
       imgSrc: "/images/icon/icon_61.svg",
       content:
-        "Suportul tehnic este prompt si de ajutor. Orice problema a fost rezolvata rapid si eficient.",
+        "Suportul tehnic este prompt și de ajutor. Orice problemă a fost rezolvată rapid și eficient.",
       avatarSrc: "/images/media/img_22.jpg",
       name: "Radu Vasile",
-      location: "Romania",
+      location: "România",
     },
-  ];
+];
+
 
   const settings = {
     infinite: true,

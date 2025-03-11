@@ -29,14 +29,14 @@ export default function RootLayout({ children }) {
         {/* Integrare Google Ads gtag.js */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16914216527"
+          src="https://www.googletagmanager.com/gtag/js?id=G-W1G7274CCF"
         />
         <Script strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16914216527');
+            gtag('config', 'G-W1G7274CCF');
           `}
         </Script>
       </head>

@@ -16,8 +16,18 @@ export const metadata = {
   title:
     "Crește-ți vizibilitatea globală cu un magazin online custom",
   description:
-    "Descoperă cum un magazin online custom te poate ajuta să atragi clienți la nivel global",
-};
+    "Descoperă cum un magazin online custom te poate ajuta să atragi clienți la nivel global.",
+    openGraph: {
+      title: "Crește-ți vizibilitatea globală cu un magazin online custom",
+      description: "Descoperă cum un magazin online custom te poate ajuta să atragi clienți la nivel global.",
+    },
+    manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 const DynamicBlogDetails = () => {
 
   

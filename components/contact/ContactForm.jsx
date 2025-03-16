@@ -15,15 +15,19 @@ const ContactForm = () => {
       });
     }
   }, []);
-
+  
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // ▶️ 2. Adăugăm tracking pe CLICK (la trimiterea formularului)
     if (typeof window !== "undefined" && window.gtag) {
+      // Tracking suplimentar (opțional)
       window.gtag("event", "ads_conversion_Contact_Us_1", {
         event_category: "conversion",
         event_label: "Form Submit",
+      });
+      // Evenimentul specific de conversie Google Ads:
+      window.gtag("event", "conversion", {
+        send_to: "AW-11120750022/-bXQCMjLuKsaEMbb5LYp",
       });
     }
 
@@ -44,6 +48,7 @@ const ContactForm = () => {
         }
       );
   };
+
 
   useEffect(() => {
     if (showMessage) {

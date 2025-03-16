@@ -12,12 +12,24 @@ import Link from "next/link";
 
 import blogsData from "@/data/blog";
 import Image from "next/image";
+
+
 export const metadata = {
   title:
-    "Crește-ți vizibilitatea globală cu un magazin online custom",
+    "Cele mai bune practici pentru crearea site-urilor web interactive cu Web App Dynamicx",
   description:
-    "Descoperă cum un magazin online custom te poate ajuta să atragi clienți la nivel global",
-};
+    "Descoperă cum un site web te poate ajuta să atragi clienți la nivel global.",
+    openGraph: {
+      title: "Cele mai bune practici pentru crearea site-urilor web interactive cu Web App Dynamicx",
+      description: "Descoperă cum un site web te poate ajuta să atragi clienți la nivel global.",
+    },
+    manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 const DynamicBlogDetails = () => {
 
   

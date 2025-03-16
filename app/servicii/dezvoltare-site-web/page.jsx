@@ -40,6 +40,16 @@ const PortfolioV1 = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+         <Script strategy="afterInteractive">
+        {`
+          gtag('event', 'conversion', {
+            'send_to': 'AW-11120750022/T6WWCM7LuKsaEMbb5LYp'
+          });
+        `}
+      </Script>
+
+
+
       {/* <!-- 
       =============================================
       Theme Default Menu

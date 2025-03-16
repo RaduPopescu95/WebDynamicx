@@ -9,6 +9,16 @@ import Blog2 from "@/components/blog/Blog2";
 
 export const metadata = {
   title: "Web App Dynamicx | Blog",
+  description: "Ultimele știri despre dezvoltarea aplicațiilor mobile și realizarea site-urilor web",
+  openGraph: {
+    title: "Web App Dynamicx | Blog",
+    description: "Ultimele știri despre dezvoltarea aplicațiilor mobile și realizarea site-urilor web.",
+  },
+  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const GridWithSidebar = () => {

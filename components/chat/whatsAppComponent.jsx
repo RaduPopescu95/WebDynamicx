@@ -26,8 +26,14 @@ const WhatsAppComponent = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    setShowPopup(false); // Ascunde popup-ul când utilizatorul face click pe buton
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-11120750022/Erj4CKvAuKsaEMbb5LYp",
+      });
+    }
+    setShowPopup(false);
   };
+  
 
   return (
     <div style={{ position: "relative" }}>

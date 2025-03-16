@@ -6,6 +6,7 @@ import Faq from "@/components/home-page/home-2/Faq";
 import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
+import Script from "next/script";
 export const metadata = {
   title: "Dezvoltare site web || Web App Dynamicx",
   description: "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",

@@ -6,6 +6,7 @@ import Faq from "@/components/home-page/home-2/Faq";
 import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
+import Script from "next/script";
 export const metadata = {
   title: "Dezvoltare aplicatii mobile || Web App Dynamicx",
   description: "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",

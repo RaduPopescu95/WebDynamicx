@@ -16,6 +16,14 @@ const BlockContact = () => {
       delay: "200",
     },
     {
+      icon: "/images/icon/icon_10.svg",
+      title: "E-mail",
+      content: "Trimite un e-mail, iar noi te vom contacta",
+      link: "mailto:webdynamicx@gmail.com",
+      delay: "200",
+    },
+    
+    {
       icon: "/images/icon/icon_149.svg",
       title: "Suport live",
       content: "WhatsApp",

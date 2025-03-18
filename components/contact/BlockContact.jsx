@@ -18,7 +18,7 @@ const BlockContact = () => {
     {
       icon: "/images/icon/icon_10.svg",
       title: "E-mail",
-      content: "Trimite un e-mail, iar noi te vom contacta",
+      content: "Trimite un e-mail",
       link: "mailto:webdynamicx@gmail.com",
       delay: "200",
     },
@@ -56,7 +56,7 @@ const BlockContact = () => {
                       : "webaddress"
                   }
                 >
-                  {block.title === "E-mail" ? "Scrie-ne" : block.link.replace("tel:", "")}
+                  {block.title === "E-mail" ? "Scrie-ne" : block.title === "Suport live" ? "Scrie-ne" : block.link.replace("tel:", "")}
                 </a>
               )}
             </p>

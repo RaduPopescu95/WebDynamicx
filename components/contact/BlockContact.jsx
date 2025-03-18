@@ -22,7 +22,6 @@ const BlockContact = () => {
       link: "mailto:webdynamicx@gmail.com",
       delay: "200",
     },
-    
     {
       icon: "/images/icon/icon_149.svg",
       title: "Suport live",
@@ -30,13 +29,13 @@ const BlockContact = () => {
       link: "https://wa.me/40774550758",
       delay: "300",
     },
-];
+  ];
 
   return (
-    <>
+    <div className="row">
       {addressBlocks.map((block, index) => (
         <div
-          className="col-md-4"
+          className="col-md-3"
           key={index}
           data-aos="fade-up"
           data-aos-delay={block.delay}
@@ -47,24 +46,24 @@ const BlockContact = () => {
             </div>
             <h5 className="title">{block.title}</h5>
             <p>
-              {block.content} <br />
+              {block.content}
               {block.link && (
                 <a
                   href={block.link}
                   className={
-                    block.link.includes("tel:") || index === 2
+                    block.link.includes("tel:") || block.title === "E-mail"
                       ? "call"
                       : "webaddress"
                   }
                 >
-                  {index === 2 ? "Scrie-ne" : block.link.replace("tel:", "")}
+                  {block.title === "E-mail" ? "Scrie-ne" : block.link.replace("tel:", "")}
                 </a>
               )}
             </p>
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

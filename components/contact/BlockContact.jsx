@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const BlockContact = () => {
   const addressBlocks = [
-    {
-      icon: "/images/icon/icon_147.svg",
-      title: "Adresă",
-      content: "Târgoviște, Dâmbovița",
-      delay: "100",
-    },
+    // {
+    //   icon: "/images/icon/icon_147.svg",
+    //   title: "Adresă",
+    //   content: "Târgoviște, Dâmbovița",
+    //   delay: "100",
+    // },
     {
       icon: "/images/icon/icon_10.svg",
       title: "Apelează-ne",

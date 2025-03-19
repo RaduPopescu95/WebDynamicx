@@ -1,20 +1,6 @@
-import Image from "next/image";
 
 const BlockContact = () => {
   const addressBlocks = [
-    // {
-    //   icon: "/images/icon/icon_147.svg",
-    //   title: "Adresă",
-    //   content: "Târgoviște, Dâmbovița",
-    //   delay: "100",
-    // },
-    {
-      icon: "/images/icon/icon_10.svg",
-      title: "Apelează-ne",
-      content: "Suntem aici pentru proiectul tău",
-      link: "tel:0774 550 758",
-      delay: "200",
-    },
     {
       icon: "/images/icon/icon_148.svg",
       title: "E-mail",
@@ -23,19 +9,26 @@ const BlockContact = () => {
       delay: "200",
     },
     {
+      icon: "/images/icon/icon_10.svg",
+      title: "Apeleaza-ne",
+      content: "Suntem aici pentru proiectul tau",
+      link: "tel:0774 550 758",
+      delay: "200",
+    },
+    {
       icon: "/images/icon/icon_149.svg",
       title: "Suport live",
-      content: "WhatsApp",
+      content: "Whats app",
       link: "https://wa.me/40774550758",
       delay: "300",
     },
   ];
 
   return (
-    <div className="row">
+    <>
       {addressBlocks.map((block, index) => (
         <div
-          className="col-md-3"
+          className="col-md-4"
           key={index}
           data-aos="fade-up"
           data-aos-delay={block.delay}
@@ -46,24 +39,24 @@ const BlockContact = () => {
             </div>
             <h5 className="title">{block.title}</h5>
             <p>
-              {block.content}
+              {block.content} <br />
               {block.link && (
                 <a
                   href={block.link}
                   className={
-                    block.link.includes("tel:") || block.title === "E-mail"
+                    block.link.includes("tel:") || index === 2
                       ? "call"
                       : "webaddress"
                   }
                 >
-                  {block.title === "E-mail" ? "Scrie-ne" : block.title === "Suport live" ? "Scrie-ne" : block.link.replace("tel:", "")}
+                  {index === 2 ? "Scrie-ne" : block.link.replace("tel:", "")}
                 </a>
               )}
             </p>
           </div>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

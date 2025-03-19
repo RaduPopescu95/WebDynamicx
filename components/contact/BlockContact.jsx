@@ -9,14 +9,14 @@ const BlockContact = () => {
       delay: "100",
     },
     {
-      icon: "/images/icon/icon_148.svg",
+      icon: "/images/icon/icon_10.svg",
       title: "Apelează-ne",
       content: "Suntem aici pentru proiectul tău",
       link: "tel:0774 550 758",
       delay: "200",
     },
     {
-      icon: "/images/icon/icon_10.svg",
+      icon: "/images/icon/icon_148.svg",
       title: "E-mail",
       content: "Trimite un e-mail",
       link: "mailto:webdynamicx@gmail.com",

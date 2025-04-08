@@ -4,8 +4,6 @@ import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import "../styles/index.scss";
-import ScrollToTop from "@/components/common/ScrollTop";
-import ChatComponent from "@/components/chat/chatUI";
 import WhatsAppComponent from "@/components/chat/whatsAppComponent";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
@@ -29,14 +27,14 @@ export default function RootLayout({ children }) {
         {/* Integrare Google Ads gtag.js */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-W1G7274CCF"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16914216527"
         />
         <Script strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-W1G7274CCF');
+            gtag('config', 'AW-16914216527');
           `}
         </Script>
       </head>

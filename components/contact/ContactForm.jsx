@@ -6,15 +6,14 @@ import emailjs from "emailjs-com";
 const ContactForm = () => {
   const [showMessage, setShowMessage] = useState(false);
 
-  // 🔁 Funcția oferită de Google pentru tracking cu întârziere
-  const gtagSendEvent = (callback) => {
+  const gtag_report_conversion = (callback) => {
     if (typeof window !== "undefined" && window.gtag) {
-      window.gtag("event", "ads_conversion_Contact_Us_1", {
+      window.gtag("event", "conversion", {
+        send_to: "AW-16914216527/BzuPCMLbhLYaEM_sqYE_",
         event_callback: callback,
-        event_timeout: 2000,
       });
     } else {
-      callback(); // fallback imediat
+      callback(); // fallback dacă gtag nu este disponibil
     }
   };
 
@@ -22,7 +21,6 @@ const ContactForm = () => {
     event.preventDefault();
 
     const callback = () => {
-      // După ce s-a trimis conversia, trimitem și emailul
       emailjs
         .sendForm(
           "service_4bilcxr",
@@ -41,8 +39,7 @@ const ContactForm = () => {
         );
     };
 
-    // Trimite evenimentul de conversie și așteaptă 2 secunde înainte de callback
-    gtagSendEvent(callback);
+    gtag_report_conversion(callback);
   };
 
   useEffect(() => {

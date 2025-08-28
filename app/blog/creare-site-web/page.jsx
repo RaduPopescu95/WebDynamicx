@@ -22,6 +22,16 @@ export const metadata = {
     openGraph: {
       title: "Cele mai bune practici pentru crearea site-urilor web interactive cu Web App Dynamicx",
       description: "Descoperă cum un site web te poate ajuta să atragi clienți la nivel global.",
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/creare-site-web`,
+      type: "article",
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/blog/creare-site-web/creare site web principal.png`,
+          width: 1200,
+          height: 630,
+          alt: "Creare site web",
+        },
+      ],
     },
     manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   
@@ -31,11 +41,33 @@ export const metadata = {
     },
   };
 const DynamicBlogDetails = () => {
-
-  
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://webappdynamicx.ro";
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: "Cele mai bune practici pentru crearea site-urilor web interactive cu Web App Dynamicx",
+    image: [`${siteUrl}/images/blog/creare-site-web/creare site web principal.png`],
+    author: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/images/logo/logo_01.png`,
+      },
+    },
+    mainEntityOfPage: `${siteUrl}/blog/creare-site-web`,
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -86,12 +118,10 @@ const DynamicBlogDetails = () => {
                 <Image
                 width={800}
                 height={410}
-              
                 src={"/images/blog/creare-site-web/creare site web principal.png"}
                 alt={"Creare site web"}
                 className="lazy-img image-meta w-100"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
-
+                priority
               />
    
 
@@ -124,12 +154,11 @@ const DynamicBlogDetails = () => {
 <p>Utilizarea animațiilor și tranzițiilor face ca interacțiunile să fie mai fluide și plăcute, reducând percepția timpului de așteptare. În același timp, optimizarea timpului de încărcare – prin comprimarea imaginilor și reducerea dimensiunii fișierelor – este esențială pentru o experiență pozitivă.</p>
 <p>Feedback-ul utilizatorilor joacă, de asemenea, un rol important. Adaptarea site-ului pe baza observațiilor privind comportamentul utilizatorilor, cum ar fi simplificarea formularelor, contribuie la crearea unei interacțiuni eficiente și plăcute.</p>
 <Image
-                width={800} // Lățimea inițială
-                height={410} // Înălțimea inițială
+                width={800}
+                height={410}
                 src={"/images/blog/creare-site-web/creare site web 2.png"}
                 alt={"Tehnici de optimizare pentru interactivitate"}
                 className="lazy-img image-meta"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
               />
 <h2>Integrarea funcționalităților avansate într-un site web interactiv</h2>
 <p>Funcționalitățile avansate, cum ar fi chat-urile live și asistenții virtuali, permit obținerea rapidă a răspunsurilor la întrebările utilizatorilor și îmbunătățesc experiența generală. Aceste instrumente oferă, de asemenea, date esențiale privind preferințele publicului.</p>
@@ -142,12 +171,11 @@ const DynamicBlogDetails = () => {
 <p>Actualizarea constantă a conținutului este un alt factor esențial. Adăugarea regulată de articole, tutoriale și studii de caz care abordează subiecte din sfera <strong>Creare site web</strong> atrage atât noi vizitatori, cât și motoarele de căutare, care apreciază site-urile cu conținut proaspăt și relevant. Această strategie ajută la menținerea unui trafic organic stabil și la creșterea autorității domeniului.</p>
 <p>În final, monitorizarea performanței SEO prin instrumente analitice dedicate permite identificarea ariilor de îmbunătățire. Pe baza datelor obținute, se pot ajusta strategiile de conținut și se pot implementa tehnici suplimentare, cum ar fi optimizarea vitezei de încărcare a paginilor, pentru a asigura o experiență optimă pentru utilizatori și un ranking superior pentru expresia "Creare site web".</p>
 <Image
-                width={800} // Lățimea inițială
-                height={410} // Înălțimea inițială
+                width={800}
+                height={410}
                 src={"/images/blog/creare-site-web/optimizare seo.png"}
                 alt={"Tehnici de optimizare pentru interactivitate"}
                 className="lazy-img image-meta"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
               />
 <h2>Analiza competitivă și adaptarea strategiilor SEO</h2>
 <p>Un aspect esențial în procesul de <strong>Creare site web</strong> este analiza detaliată a competitorilor. Monitorizarea constantă a strategiilor SEO ale concurenței te poate ajuta să identifici oportunități de optimizare a conținutului și să ajustezi tacticile pentru a te diferenția în rezultatele căutărilor. Acest demers presupune evaluarea cuvintelor cheie utilizate, analiza structurii site-urilor rivale și identificarea punctelor forte care pot fi îmbunătățite în strategia ta.</p>
@@ -160,12 +188,11 @@ const DynamicBlogDetails = () => {
 <p>Multe platforme de învățare online oferă, de asemenea, cursuri specializate în experiența utilizatorului (UX) și interactivitate, ajutându-te să creezi site-uri care răspund perfect nevoilor publicului.</p>
 <p>Comunitățile online dedicate dezvoltatorilor sunt o resursă excelentă pentru feedback, idei și soluții tehnice, accelerând procesul de învățare și perfecționare.</p>
 <Image
-                width={800} // Lățimea inițială
-                height={410} // Înălțimea inițială
+                width={800}
+                height={410}
                 src={"/images/blog/creare-site-web/creare site web 3.png"}
                 alt={"Tehnici de optimizare pentru interactivitate"}
                 className="lazy-img image-meta"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
               />
 <h2>Servicii de creare și întreținere a site-urilor web interactive</h2>
 <p>Pentru cei care nu dispun de timpul sau resursele necesare pentru a construi un site interactiv de la zero, există servicii specializate care oferă soluții complete – de la design și dezvoltare până la întreținere și optimizare SEO. Colaborarea cu o agenție de dezvoltare web poate asigura un rezultat profesional și acces la cele mai noi tehnologii.</p>

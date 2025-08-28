@@ -20,6 +20,16 @@ export const metadata = {
     openGraph: {
       title: "Crește-ți vizibilitatea globală cu un magazin online custom",
       description: "Descoperă cum un magazin online custom te poate ajuta să atragi clienți la nivel global.",
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/magazin-online-custom`,
+      type: "article",
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/beneficii-magazin-online.png`,
+          width: 1200,
+          height: 630,
+          alt: "Magazin online custom",
+        },
+      ],
     },
     manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   
@@ -29,11 +39,33 @@ export const metadata = {
     },
   };
 const DynamicBlogDetails = () => {
-
-  
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://webappdynamicx.ro";
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: "Cum te ajută un magazin online custom să atragi clienți la nivel global",
+    image: [`${siteUrl}/images/beneficii-magazin-online.png`],
+    author: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/images/logo/logo_01.png`,
+      },
+    },
+    mainEntityOfPage: `${siteUrl}/blog/magazin-online-custom`,
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -84,12 +116,10 @@ const DynamicBlogDetails = () => {
                 <Image
                 width={800}
                 height={410}
-              
                 src={"/images/beneficii-magazin-online.png"}
                 alt={"Magazin online Articol"}
                 className="lazy-img image-meta w-100"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
-
+                priority
               />
    
 
@@ -118,12 +148,9 @@ const DynamicBlogDetails = () => {
                 <Image
                 width={800}
                 height={410}
-              
                 src={"/images/seo-magazin-online.png"}
                 alt={"Seo Magazin Online"}
                 className="lazy-img image-meta w-100"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
-
               />
     
 <p>Optimizarea magazinului online pentru vizibilitate pe plan global este o strategie esențială în contextul contemporan al comerțului electronic. În primul rând, este important să înțelegem că un magazin online custom poate juca un rol crucial în atragerea clienților din întreaga lume. O astfel de platformă nu doar că personalizarează experiența de cumpărare, dar și facilitează implementarea unor funcții specifice care pot îmbunătăți SEO-ul.</p>
@@ -138,12 +165,11 @@ const DynamicBlogDetails = () => {
 
                 
                 <Image
-                width={800} // Lățimea inițială
-                height={410} // Înălțimea inițială
+                width={800}
+                height={410}
                 src={"/images/logistica-magazin-online.png"}
                 alt={"Logistica Magazin Online"}
                 className="lazy-img image-meta"
-                layout="intrinsic" // Păstrează dimensiunea originală pe desktop
               />
            
 <p>Gestionarea eficientă a logisticii și livrărilor către clienți din întreaga lume reprezintă o provocare semnificativă pentru orice afacere care își dorește să se extindă pe piețele internaționale. O strategie bine gândită în acest sens nu doar că optimizează costurile, dar și îmbunătățește experiența clientului.</p>

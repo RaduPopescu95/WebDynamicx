@@ -13,7 +13,18 @@ export const metadata = {
   openGraph: {
     title: "Web App Dynamicx | Blog",
     description: "Ultimele știri despre dezvoltarea aplicațiilor mobile și realizarea site-urilor web.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog`,
+    type: "website",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/blog/ad-bg.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Blog Web App Dynamicx",
+      },
+    ],
   },
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/blog` },
   manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/manifest.json`,
   robots: {
     index: true,

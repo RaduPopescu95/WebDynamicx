@@ -4,6 +4,7 @@ import DefaultFooter from "@/components/footer/DefaultFooter";
 import Faq from "@/components/home-page/home-2/Faq";
 
 import Link from "next/link";
+import Image from "next/image";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 import Script from "next/script";
@@ -13,6 +14,16 @@ export const metadata = {
   openGraph: {
     title: "Dezvoltare site web || Web App Dynamicx",
     description: "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-site-web`,
+    type: "article",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/media/siteweb.svg`,
+        width: 1200,
+        height: 630,
+        alt: "Dezvoltare site web",
+      },
+    ],
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-site-web`,
@@ -27,11 +38,18 @@ export const metadata = {
 
 
 const PortfolioV1 = () => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://webappdynamicx.ro";
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `Dezvoltare site web || Web App Dynamicx`,
-    // image: product.image,
+    "@type": "Service",
+    name: "Dezvoltare site web",
+    provider: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+      url: siteUrl,
+    },
+    areaServed: "RO",
+    url: `${siteUrl}/servicii/dezvoltare-site-web`,
     description:
       "Agenție de dezvoltare site web din Târgoviște. Creăm site-uri web, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   };
@@ -78,16 +96,8 @@ const PortfolioV1 = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shap"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_175.svg"
-          alt="shap"
-          className="lazy-img shapes shape-three"
-        />
+        <Image src="/images/shape/shape_172.svg" alt="" className="lazy-img shapes shape-two" width={200} height={200} />
+        <Image src="/images/shape/shape_175.svg" alt="" className="lazy-img shapes shape-three" width={200} height={200} />
       </div>
       {/* 
 			=============================================
@@ -110,11 +120,7 @@ const PortfolioV1 = () => {
                   vizitatorii în clienți, oferindu-le o experiență de navigare
                   excepțională.
                 </p>
-                <img
-                  src="/images/media/siteweb.svg"
-                  alt="dezvoltare site web"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/siteweb.svg" alt="dezvoltare site web" className="main-img-meta" width={800} height={410} />
                 <h2 className="main-title tx-dark mb-30">
                   Dezvoltam si livrăm website-uri „la cheie”, optimizate pentru
                   a stimula vânzările.

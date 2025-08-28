@@ -1,6 +1,7 @@
 
 
 import Link from "next/link";
+import Image from "next/image";
 
 import Contact from "@/components/home-page/home-11/Contact";
 import Counter from "@/components/home-page/home-11/Counter";
@@ -18,12 +19,24 @@ import Footer from "@/components/home-page/home-11/Footer";
 import ChatButton from "@/components/chat/chatUI";
 import ChatComponent from "@/components/chat/chatUI";
 import PortfolioGallery5 from "@/components/portfolio/PortfolioGallery5";
+import LatestProjects from "@/components/portfolio/LatestProjects";
+import OtherProjectsTitle from "@/components/portfolio/OtherProjectsTitle";
 export const metadata = {
   title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
   description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău.",
   openGraph: {
     title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
     description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online. Oferim soluții optimizate SEO pentru succesul tău.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    type: "website",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/blog/creare-site-web/optimizare seo.png`,
+        width: 1200,
+        height: 630,
+        alt: "Web App Dynamicx",
+      },
+    ],
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
@@ -32,6 +45,12 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dezvoltare Aplicații Mobile | Creare Site Web | Web App Dynamicx",
+    description: "Dezvoltare aplicații mobile și web, specializată în crearea de site-uri web, aplicații mobile și magazine online.",
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/images/blog/creare-site-web/optimizare seo.png`],
   },
   other: {
     // Adăugăm aici meta-tag-ul pentru verificarea domeniului de la Facebook
@@ -85,10 +104,13 @@ const MainRoot = () => {
             data-aos="fade-up"
           >
             <div className="d-lg-block">
-              <img
+              <Image
                 src="/images/assets/ils_02.svg"
-                alt="shape"
+                alt=""
                 className="lazy-img m-auto"
+                width={600}
+                height={300}
+                priority
               />
             </div>
           </div>
@@ -97,34 +119,14 @@ const MainRoot = () => {
         {/* /.container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
-          src="/images/shape/shape_83.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
+        <Image src="/images/shape/shape_83.svg" alt="" className="lazy-img shapes shape-two" width={200} height={200} />
         <div className="shapes shape-three" />
-        <img
-          src="/images/shape/shape_84.svg"
-          alt="shape"
-          className="lazy-img shapes shape-four"
-        />
-        <img
-          src="/images/shape/shape_85.svg"
-          alt="shape"
-          className="lazy-img shapes shape-five"
-        />
+        <Image src="/images/shape/shape_84.svg" alt="" className="lazy-img shapes shape-four" width={200} height={200} />
+        <Image src="/images/shape/shape_85.svg" alt="" className="lazy-img shapes shape-five" width={200} height={200} />
         <div className="shapes shape-six rounded-circle" />
         <div className="shapes shape-seven rounded-circle" />
-        <img
-          src="/images/shape/shape_84.svg"
-          alt="shape"
-          className="lazy-img shapes shape-eight"
-        />
-        <img
-          src="/images/shape/shape_83.svg"
-          alt="shape"
-          className="lazy-img shapes shape-nine"
-        />
+        <Image src="/images/shape/shape_84.svg" alt="" className="lazy-img shapes shape-eight" width={200} height={200} />
+        <Image src="/images/shape/shape_83.svg" alt="" className="lazy-img shapes shape-nine" width={200} height={200} />
       </div>
       {/* /.hero-banner-six */}
 
@@ -209,16 +211,8 @@ const MainRoot = () => {
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
         <div className="shapes shape-three rounded-circle" />
-        <img
-          src="/images/shape/shape_88.svg"
-          alt="shape"
-          className="lazy-img shapes shape-four"
-        />
-        <img
-          src="/images/shape/shape_89.svg"
-          alt="shape"
-          className="lazy-img shapes shape-five"
-        />
+        <Image src="/images/shape/shape_88.svg" alt="" className="lazy-img shapes shape-four" width={200} height={200} />
+        <Image src="/images/shape/shape_89.svg" alt="" className="lazy-img shapes shape-five" width={200} height={200} />
       </div>
       {/* /.fancy-feature-twentyOne */}
 
@@ -268,6 +262,8 @@ const MainRoot = () => {
             </div>
           </div>
 
+          <LatestProjects />
+          <OtherProjectsTitle />
           <PortfolioGallery5 />
         </div>
 
@@ -316,16 +312,8 @@ const MainRoot = () => {
         <div className="shapes shape-four rounded-circle" />
         <div className="shapes shape-five rounded-circle" />
         <div className="shapes shape-six rounded-circle" />
-        <img
-          src="/images/shape/shape_92.svg"
-          alt="shape"
-          className="lazy-img shapes shape-seven"
-        />
-        <img
-          src="/images/shape/shape_93.svg"
-          alt="shape"
-          className="lazy-img shapes shape-eight"
-        />
+        <Image src="/images/shape/shape_92.svg" alt="" className="lazy-img shapes shape-seven" width={200} height={200} />
+        <Image src="/images/shape/shape_93.svg" alt="" className="lazy-img shapes shape-eight" width={200} height={200} />
       </div>
       {/* /.fancy-feature-twentyTwo */}
 
@@ -400,12 +388,7 @@ const MainRoot = () => {
               <div className="col-lg-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img
-                      src="/images/logo/logo_01.png"
-                      alt="Web App Dynamicx"
-                      width={125}
-                      height={70}
-                    />
+                    <Image src="/images/logo/logo_01.png" alt="Web App Dynamicx" width={125} height={70} priority />
                   </Link>
                 </div>
               </div>

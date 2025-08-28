@@ -4,6 +4,7 @@ import DefaultFooter from "@/components/footer/DefaultFooter";
 import Faq from "@/components/home-page/home-2/Faq";
 
 import Link from "next/link";
+import Image from "next/image";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 export const metadata = {
@@ -12,6 +13,16 @@ export const metadata = {
   openGraph: {
     title: "Realizare magazin online || Web App Dynamicx",
     description: "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/creare-magazin-online`,
+    type: "article",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/media/magazinonline.svg`,
+        width: 1200,
+        height: 630,
+        alt: "Creare magazin online",
+      },
+    ],
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/creare-magazin-online`,
@@ -24,11 +35,18 @@ export const metadata = {
 };
 
 const PortfolioV1 = () => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://webappdynamicx.ro";
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `Realizare magazin online || Web App Dynamicx`,
-    // image: product.image,
+    "@type": "Service",
+    name: "Creare magazin online",
+    provider: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+      url: siteUrl,
+    },
+    areaServed: "RO",
+    url: `${siteUrl}/servicii/creare-magazin-online`,
     description:
       "Agenție de dezvoltare web și aplicații mobile din Târgoviște. Creăm magazine online de calitate, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   };
@@ -65,16 +83,8 @@ const PortfolioV1 = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shap"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_175.svg"
-          alt="shape"
-          className="lazy-img shapes shape-three"
-        />
+        <Image src="/images/shape/shape_172.svg" alt="" className="lazy-img shapes shape-two" width={200} height={200} />
+        <Image src="/images/shape/shape_175.svg" alt="" className="lazy-img shapes shape-three" width={200} height={200} />
       </div>
       {/* 
 			=============================================
@@ -96,11 +106,7 @@ const PortfolioV1 = () => {
                   și ușor de administrat, optimizat pentru a atinge performanțe
                   maxime.
                 </p>
-                <img
-                  src="/images/media/magazinonline.svg"
-                  alt="creare magazin online"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/magazinonline.svg" alt="creare magazin online" className="main-img-meta" width={800} height={410} />
                 <h2 className="main-title tx-dark mb-30">
                   Dezvoltam si livrăm magazine online „la cheie”, optimizate
                   pentru a stimula vânzările.

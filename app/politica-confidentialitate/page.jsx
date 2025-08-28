@@ -6,6 +6,15 @@ import Faq from "@/components/home-page/home-2/Faq";
 import Link from "next/link";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
+export const metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/politica-confidentialitate`,
+  },
+};
 
 const PortfolioV1 = () => {
   return (

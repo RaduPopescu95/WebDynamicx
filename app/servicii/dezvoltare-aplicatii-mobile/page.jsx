@@ -4,6 +4,7 @@ import DefaultFooter from "@/components/footer/DefaultFooter";
 import Faq from "@/components/home-page/home-2/Faq";
 
 import Link from "next/link";
+import Image from "next/image";
 import ProgressBar from "@/components/service-details/ProgressBar";
 import Social from "@/components/service-details/Social";
 import Script from "next/script";
@@ -13,6 +14,16 @@ export const metadata = {
   openGraph: {
     title: "Dezvoltare aplicatii mobile || Web App Dynamicx",
     description: "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-aplicatii-mobile`,
+    type: "article",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/media/costaplicatiimobile.svg`,
+        width: 1200,
+        height: 630,
+        alt: "Dezvoltare aplicatii mobile",
+      },
+    ],
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/servicii/dezvoltare-aplicatii-mobile`,
@@ -24,11 +35,18 @@ export const metadata = {
   },
 };
 const PortfolioV1 = () => {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://webappdynamicx.ro";
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `Dezvoltare aplicatii mobile || Web App Dynamicx`,
-    // image: product.image,
+    "@type": "Service",
+    name: "Dezvoltare aplicatii mobile",
+    provider: {
+      "@type": "Organization",
+      name: "Web App Dynamicx",
+      url: siteUrl,
+    },
+    areaServed: "RO",
+    url: `${siteUrl}/servicii/dezvoltare-aplicatii-mobile`,
     description:
       "Agenție de dezvoltare aplicații mobile din Târgoviște. Creăm aplicatii mobile Android si ios/iphone, cu un cod sursă curat și rapid. Soluții optimizate SEO și personalizate pentru afacerea ta.",
   };
@@ -73,16 +91,8 @@ const PortfolioV1 = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shap"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_175.svg"
-          alt="shap"
-          className="lazy-img shapes shape-three"
-        />
+        <Image src="/images/shape/shape_172.svg" alt="" className="lazy-img shapes shape-two" width={200} height={200} />
+        <Image src="/images/shape/shape_175.svg" alt="" className="lazy-img shapes shape-three" width={200} height={200} />
       </div>
       {/* 
 			=============================================
@@ -173,11 +183,7 @@ const PortfolioV1 = () => {
                   mobile pentru diverse dispozitive, incluzând telefoane,
                   tablete sau brățări de fitness.
                 </p>
-                <img
-                  src="/images/media/costaplicatiimobile.svg"
-                  alt="dezvoltare aplicatii mobile"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/costaplicatiimobile.svg" alt="dezvoltare aplicatii mobile" className="main-img-meta" width={800} height={410} />
                 <p>
                   A avea o aplicație mobilă dedicată afacerii tale este un
                   aspect esențial pe care nu ar trebui să îl neglijezi, având în
@@ -298,11 +304,7 @@ const PortfolioV1 = () => {
                 <h3 className="tx-dark mt-20 mb-20">
                 Aplicații de Food Ordering
                 </h3>
-                <img
-                  src="/images/media/foodorder.svg"
-                  alt="Aplicații de Food Ordering"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/foodorder.svg" alt="Aplicații de Food Ordering" className="main-img-meta" width={800} height={410} />
                 <p>
                 Industria alimentară a fost una dintre primele care a profitat de avantajele aplicațiilor mobile. Cu o aplicație personalizată pentru comandarea mâncării, poți oferi clienților tăi o experiență simplificată și intuitivă, fie că este vorba de comenzi la domiciliu sau preluări de la restaurant. Integrarea funcțiilor avansate, cum ar fi urmărirea în timp real a livrării, opțiuni de plată securizate și recomandări bazate pe preferințele utilizatorilor, va crește gradul de satisfacție și loialitate al clienților tăi. Echipa noastră de dezvoltare este pregătită să implementeze soluții personalizate pentru a facilita gestionarea comenzilor, optimizarea proceselor și creșterea veniturilor afacerii tale.
 
@@ -313,11 +315,7 @@ const PortfolioV1 = () => {
                 <h3 className="tx-dark mt-20 mb-20">
                 Aplicații de Booking
                 </h3>
-                <img
-                  src="/images/media/saloonboking.svg"
-                  alt="Aplicații de Booking"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/saloonboking.svg" alt="Aplicații de Booking" className="main-img-meta" width={800} height={410} />
                 <p>
                 Aplicațiile de rezervare (booking) au revoluționat modul în care utilizatorii își planifică călătoriile, ieșirile în oraș sau programările la diverse servicii. Fie că ai nevoie de o aplicație pentru rezervări hoteliere, închiriere de mașini sau programări la salonul de înfrumusețare, noi putem dezvolta o soluție completă care să îți automatizeze afacerea și să îmbunătățească interacțiunea cu clienții. Cu funcționalități precum rezervări în timp real, notificări push pentru confirmarea programărilor și integrare cu diverse sisteme de plată, aplicațiile noastre de booking ajută la optimizarea proceselor și la reducerea costurilor operaționale.
 
@@ -326,11 +324,7 @@ const PortfolioV1 = () => {
                        <h3 className="tx-dark mt-20 mb-20">
                        Aplicații de E-commerce
                 </h3>
-                <img
-                  src="/images/media/ecommerce.svg"
-                  alt="Aplicații de E-commerce"
-                  className="main-img-meta"
-                />
+                <Image src="/images/media/ecommerce.svg" alt="Aplicații de E-commerce" className="main-img-meta" width={800} height={410} />
                 <p>
                 E-commerce-ul este în continuă creștere, iar o aplicație mobilă dedicată îți poate oferi un avantaj competitiv major pe această piață dinamică. Cu ajutorul unei aplicații mobile de e-commerce, îți poți prezenta produsele într-un mod atractiv, oferi reduceri personalizate și comunica în mod eficient cu clienții. Funcționalitățile avansate, precum căutarea intuitivă, coșul de cumpărături optimizat și suportul pentru multiple metode de plată, sunt esențiale pentru succesul oricărei aplicații de acest tip. Echipa noastră se concentrează pe crearea unor aplicații care nu doar să atragă clienți, ci și să crească rata de conversie și să stimuleze vânzările.
                 </p>
